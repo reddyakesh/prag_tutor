@@ -1,0 +1,636 @@
+{
+  "course": "Operating Systems",
+  "version": "PragTutor OS prerequisite graph v1",
+  "units": {
+    "unit1": {
+      "title": "Operating Systems Fundamentals",
+      "topics": {
+        "computer_system_and_software": {
+          "prerequisites": []
+        },
+        "operating_system": {
+          "prerequisites": [
+            "computer_system_and_software"
+          ]
+        },
+        "os_goals_and_objectives": {
+          "prerequisites": [
+            "operating_system"
+          ]
+        },
+        "os_views": {
+          "prerequisites": [
+            "operating_system"
+          ]
+        },
+        "os_services": {
+          "prerequisites": [
+            "operating_system"
+          ]
+        },
+        "resource_management": {
+          "prerequisites": [
+            "os_services"
+          ]
+        },
+        "protection_and_security": {
+          "prerequisites": [
+            "os_services"
+          ]
+        },
+        "system_calls": {
+          "prerequisites": [
+            "operating_system",
+            "os_services"
+          ]
+        },
+        "timer_and_interrupts": {
+          "prerequisites": [
+            "operating_system"
+          ]
+        },
+        "os_structures": {
+          "prerequisites": [
+            "operating_system",
+            "system_calls"
+          ]
+        },
+        "simple_structure": {
+          "prerequisites": [
+            "os_structures"
+          ]
+        },
+        "layered_structure": {
+          "prerequisites": [
+            "os_structures"
+          ]
+        },
+        "microkernel_structure": {
+          "prerequisites": [
+            "os_structures",
+            "system_calls"
+          ]
+        },
+        "modular_structure": {
+          "prerequisites": [
+            "os_structures"
+          ]
+        },
+        "hybrid_structure": {
+          "prerequisites": [
+            "os_structures",
+            "microkernel_structure",
+            "modular_structure"
+          ]
+        },
+        "linux_basics_and_commands": {
+          "prerequisites": [
+            "operating_system",
+            "system_calls"
+          ]
+        }
+      }
+    },
+    "unit2": {
+      "title": "Process Management, CPU Scheduling and Threads",
+      "topics": {
+        "process": {
+          "prerequisites": [
+            "operating_system"
+          ]
+        },
+        "process_memory_layout": {
+          "prerequisites": [
+            "process"
+          ]
+        },
+        "process_states": {
+          "prerequisites": [
+            "process"
+          ]
+        },
+        "process_state_transitions": {
+          "prerequisites": [
+            "process_states"
+          ]
+        },
+        "process_control_block": {
+          "prerequisites": [
+            "process",
+            "process_states"
+          ]
+        },
+        "process_creation": {
+          "prerequisites": [
+            "process",
+            "process_control_block"
+          ]
+        },
+        "process_termination": {
+          "prerequisites": [
+            "process",
+            "process_control_block"
+          ]
+        },
+        "context_switch": {
+          "prerequisites": [
+            "process_states",
+            "process_control_block"
+          ]
+        },
+        "cpu_scheduling": {
+          "prerequisites": [
+            "process",
+            "process_states"
+          ]
+        },
+        "preemptive_and_nonpreemptive_scheduling": {
+          "prerequisites": [
+            "cpu_scheduling"
+          ]
+        },
+        "cpu_scheduling_criteria": {
+          "prerequisites": [
+            "cpu_scheduling"
+          ]
+        },
+        "fcfs": {
+          "prerequisites": [
+            "cpu_scheduling"
+          ]
+        },
+        "sjf": {
+          "prerequisites": [
+            "cpu_scheduling",
+            "fcfs"
+          ]
+        },
+        "srt": {
+          "prerequisites": [
+            "sjf",
+            "preemptive_and_nonpreemptive_scheduling"
+          ]
+        },
+        "priority_scheduling": {
+          "prerequisites": [
+            "cpu_scheduling"
+          ]
+        },
+        "round_robin": {
+          "prerequisites": [
+            "cpu_scheduling",
+            "preemptive_and_nonpreemptive_scheduling"
+          ]
+        },
+        "thread": {
+          "prerequisites": [
+            "process"
+          ]
+        },
+        "multithreading": {
+          "prerequisites": [
+            "thread"
+          ]
+        },
+        "user_level_threads": {
+          "prerequisites": [
+            "thread"
+          ]
+        },
+        "kernel_level_threads": {
+          "prerequisites": [
+            "thread"
+          ]
+        },
+        "thread_cancellation_and_management": {
+          "prerequisites": [
+            "multithreading"
+          ]
+        }
+      }
+    },
+    "unit3": {
+      "title": "Interprocess Communication, Synchronization and Deadlocks",
+      "topics": {
+        "interprocess_communication": {
+          "prerequisites": [
+            "process"
+          ]
+        },
+        "independent_and_cooperating_processes": {
+          "prerequisites": [
+            "process",
+            "interprocess_communication"
+          ]
+        },
+        "message_passing": {
+          "prerequisites": [
+            "interprocess_communication"
+          ]
+        },
+        "shared_memory": {
+          "prerequisites": [
+            "interprocess_communication"
+          ]
+        },
+        "pipes": {
+          "prerequisites": [
+            "interprocess_communication",
+            "message_passing"
+          ]
+        },
+        "named_pipes": {
+          "prerequisites": [
+            "pipes"
+          ]
+        },
+        "process_synchronization": {
+          "prerequisites": [
+            "interprocess_communication",
+            "process"
+          ]
+        },
+        "critical_section": {
+          "prerequisites": [
+            "process_synchronization"
+          ]
+        },
+        "mutex": {
+          "prerequisites": [
+            "critical_section"
+          ]
+        },
+        "semaphore": {
+          "prerequisites": [
+            "critical_section",
+            "mutex"
+          ]
+        },
+        "producer_consumer": {
+          "prerequisites": [
+            "semaphore",
+            "critical_section"
+          ]
+        },
+        "readers_writers": {
+          "prerequisites": [
+            "semaphore",
+            "critical_section"
+          ]
+        },
+        "dining_philosophers": {
+          "prerequisites": [
+            "semaphore",
+            "critical_section"
+          ]
+        },
+        "resource_allocation": {
+          "prerequisites": [
+            "process"
+          ]
+        },
+        "deadlock": {
+          "prerequisites": [
+            "process",
+            "resource_allocation"
+          ]
+        },
+        "deadlock_characterization": {
+          "description": "Deadlock characterization explains the necessary conditions for deadlock, including mutual exclusion, hold and wait, no preemption, and circular wait.",
+          "parent_topic": "deadlock",
+          "prerequisites": [
+            "deadlock"
+          ]
+        },
+        "resource_allocation_graph": {
+          "prerequisites": [
+            "deadlock",
+            "resource_allocation"
+          ]
+        },
+        "deadlock_prevention": {
+          "description": "Deadlock prevention techniques prevent deadlock by ensuring that at least one necessary deadlock condition cannot occur.",
+          "parent_topic": "deadlock",
+          "prerequisites": [
+            "deadlock_characterization"
+          ]
+        },
+        "deadlock_avoidance": {
+          "description": "Deadlock avoidance allows resource allocation while ensuring that the system remains in a safe state.",
+          "parent_topic": "deadlock",
+          "prerequisites": [
+            "deadlock_characterization",
+            "resource_allocation"
+          ]
+        },
+        "safe_state": {
+          "prerequisites": [
+            "deadlock_avoidance"
+          ]
+        },
+        "unsafe_state": {
+          "prerequisites": [
+            "deadlock_avoidance"
+          ]
+        },
+        "safe_sequence": {
+          "prerequisites": [
+            "safe_state",
+            "resource_allocation"
+          ]
+        },
+        "bankers_algorithm": {
+          "prerequisites": [
+            "safe_state",
+            "safe_sequence",
+            "resource_allocation"
+          ]
+        },
+        "deadlock_detection": {
+          "prerequisites": [
+            "deadlock",
+            "resource_allocation_graph"
+          ]
+        },
+        "deadlock_recovery": {
+          "prerequisites": [
+            "deadlock_detection"
+          ]
+        },
+        "resource_preemption": {
+          "prerequisites": [
+            "deadlock_recovery"
+          ]
+        }
+      }
+    },
+    "unit4": {
+      "title": "Memory Management",
+      "topics": {
+        "main_memory": {
+          "prerequisites": [
+            "process"
+          ]
+        },
+        "memory_protection": {
+          "prerequisites": [
+            "main_memory"
+          ]
+        },
+        "base_and_limit_registers": {
+          "prerequisites": [
+            "memory_protection"
+          ]
+        },
+        "address_binding": {
+          "prerequisites": [
+            "main_memory",
+            "base_and_limit_registers"
+          ]
+        },
+        "swapping": {
+          "prerequisites": [
+            "main_memory",
+            "process"
+          ]
+        },
+        "contiguous_memory_allocation": {
+          "prerequisites": [
+            "main_memory",
+            "address_binding"
+          ]
+        },
+        "fixed_partition": {
+          "prerequisites": [
+            "contiguous_memory_allocation"
+          ]
+        },
+        "variable_partition": {
+          "prerequisites": [
+            "contiguous_memory_allocation"
+          ]
+        },
+        "internal_fragmentation": {
+          "prerequisites": [
+            "fixed_partition"
+          ]
+        },
+        "external_fragmentation": {
+          "prerequisites": [
+            "variable_partition"
+          ]
+        },
+        "compaction": {
+          "prerequisites": [
+            "external_fragmentation"
+          ]
+        },
+        "paging": {
+          "prerequisites": [
+            "main_memory",
+            "external_fragmentation"
+          ]
+        },
+        "page_and_frame": {
+          "prerequisites": [
+            "paging"
+          ]
+        },
+        "page_table": {
+          "prerequisites": [
+            "paging",
+            "page_and_frame"
+          ]
+        },
+        "address_translation": {
+          "prerequisites": [
+            "page_table"
+          ]
+        },
+        "tlb": {
+          "prerequisites": [
+            "page_table",
+            "address_translation"
+          ]
+        },
+        "segmentation": {
+          "prerequisites": [
+            "main_memory",
+            "address_binding"
+          ]
+        },
+        "segment_table": {
+          "prerequisites": [
+            "segmentation"
+          ]
+        },
+        "virtual_memory": {
+          "prerequisites": [
+            "paging",
+            "swapping"
+          ]
+        },
+        "demand_paging": {
+          "prerequisites": [
+            "virtual_memory",
+            "page_table"
+          ]
+        },
+        "page_fault": {
+          "prerequisites": [
+            "demand_paging"
+          ]
+        },
+        "page_replacement": {
+          "description": "Page replacement algorithms select a page to remove from memory when a page fault occurs and a free frame is unavailable.",
+          "parent_topic": null,
+          "prerequisites": [
+            "page_fault"
+          ]
+        },
+        "fifo_page_replacement": {
+          "description": "FIFO page replacement replaces the page that has been in memory for the longest time.",
+          "parent_topic": "page_replacement",
+          "prerequisites": [
+            "page_replacement"
+          ]
+        },
+        "optimal_page_replacement": {
+          "description": "Optimal page replacement replaces the page that will not be used for the longest period in the future.",
+          "parent_topic": "page_replacement",
+          "prerequisites": [
+            "page_replacement"
+          ]
+        },
+        "lru_page_replacement": {
+          "description": "LRU page replacement replaces the page that has not been used for the longest period of time.",
+          "parent_topic": "page_replacement",
+          "prerequisites": [
+            "page_replacement"
+          ]
+        }
+      }
+    },
+    "unit5": {
+      "title": "File System Interface and Operations",
+      "topics": {
+        "file_system": {
+          "prerequisites": [
+            "operating_system"
+          ]
+        },
+        "file_definition_and_types": {
+          "prerequisites": [
+            "file_system"
+          ]
+        },
+        "file_attributes": {
+          "prerequisites": [
+            "file_definition_and_types"
+          ]
+        },
+        "file_operations": {
+          "prerequisites": [
+            "file_attributes"
+          ]
+        },
+        "file_access_methods": {
+          "prerequisites": [
+            "file_operations"
+          ]
+        },
+        "sequential_access": {
+          "prerequisites": [
+            "file_access_methods"
+          ]
+        },
+        "direct_access": {
+          "prerequisites": [
+            "file_access_methods"
+          ]
+        },
+        "indexed_access": {
+          "prerequisites": [
+            "file_access_methods"
+          ]
+        },
+        "directory_structure": {
+          "prerequisites": [
+            "file_system",
+            "file_attributes"
+          ]
+        },
+        "single_level_directory": {
+          "prerequisites": [
+            "directory_structure"
+          ]
+        },
+        "two_level_directory": {
+          "prerequisites": [
+            "directory_structure"
+          ]
+        },
+        "tree_structured_directory": {
+          "prerequisites": [
+            "directory_structure"
+          ]
+        },
+        "acyclic_graph_directory": {
+          "prerequisites": [
+            "tree_structured_directory"
+          ]
+        },
+        "file_protection": {
+          "prerequisites": [
+            "file_attributes",
+            "directory_structure"
+          ]
+        },
+        "file_system_structure": {
+          "prerequisites": [
+            "file_system"
+          ]
+        },
+        "free_space_management": {
+          "prerequisites": [
+            "file_system",
+            "file_allocation"
+          ]
+        },
+        "file_allocation": {
+          "prerequisites": [
+            "file_system",
+            "file_access_methods"
+          ]
+        },
+        "contiguous_file_allocation": {
+          "prerequisites": [
+            "file_allocation"
+          ]
+        },
+        "linked_file_allocation": {
+          "prerequisites": [
+            "file_allocation"
+          ]
+        },
+        "indexed_file_allocation": {
+          "prerequisites": [
+            "file_allocation"
+          ]
+        },
+        "file_management_system_calls": {
+          "prerequisites": [
+            "file_operations",
+            "system_calls"
+          ]
+        },
+        "directory_system_calls": {
+          "prerequisites": [
+            "directory_structure",
+            "system_calls"
+          ]
+        }
+      }
+    }
+  }
+}

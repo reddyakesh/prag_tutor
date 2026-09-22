@@ -1,0 +1,29 @@
+{
+  "operating_systems": [
+    {
+      "filename": "reddy.pdf",
+      "size_bytes": 4094506,
+      "uploaded_at": "2026-09-22 14:25"
+    },
+    {
+      "filename": "reddy2.pdf",
+      "size_bytes": 10250862,
+      "uploaded_at": "2026-09-22 14:25"
+    },
+    {
+      "filename": "reddy3.pdf",
+      "size_bytes": 6579225,
+      "uploaded_at": "2026-09-22 14:25"
+    },
+    {
+      "filename": "reddy4.pdf",
+      "size_bytes": 1987115,
+      "uploaded_at": "2026-09-22 14:25"
+    },
+    {
+      "filename": "reddy5.pdf",
+      "size_bytes": 3352603,
+      "uploaded_at": "2026-09-22 14:25"
+    }
+  ]
+}

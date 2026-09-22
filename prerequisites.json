@@ -1,0 +1,772 @@
+{
+  "topics": {
+    "process": {
+      "unit": 1,
+      "prerequisites": [],
+      "next_topics": [
+        "resource"
+      ]
+    },
+    "resource": {
+      "unit": 3,
+      "prerequisites": [
+        "process"
+      ],
+      "next_topics": [
+        "resource allocation"
+      ]
+    },
+    "resource allocation": {
+      "unit": 3,
+      "prerequisites": [
+        "process",
+        "resource"
+      ],
+      "next_topics": [
+        "deadlock characterization"
+      ]
+    },
+    "deadlock characterization": {
+      "unit": 3,
+      "prerequisites": [
+        "process",
+        "resource allocation"
+      ],
+      "next_topics": [
+        "deadlock"
+      ]
+    },
+    "deadlock": {
+      "unit": 3,
+      "prerequisites": [
+        "process",
+        "resource allocation"
+      ],
+      "next_topics": [
+        "resource allocation graph",
+        "deadlock prevention",
+        "deadlock avoidance",
+        "deadlock detection"
+      ]
+    },
+    "resource allocation graph": {
+      "unit": 3,
+      "prerequisites": [
+        "process",
+        "resource allocation",
+        "deadlock"
+      ],
+      "next_topics": [
+        "deadlock detection"
+      ]
+    },
+    "deadlock prevention": {
+      "unit": 3,
+      "prerequisites": [
+        "deadlock",
+        "resource allocation"
+      ],
+      "next_topics": [
+        "deadlock avoidance"
+      ]
+    },
+    "deadlock avoidance": {
+      "unit": 3,
+      "prerequisites": [
+        "deadlock",
+        "resource allocation"
+      ],
+      "next_topics": [
+        "safe state"
+      ]
+    },
+    "safe state": {
+      "unit": 3,
+      "prerequisites": [
+        "deadlock avoidance"
+      ],
+      "next_topics": [
+        "banker's algorithm"
+      ]
+    },
+    "banker's algorithm": {
+      "unit": 3,
+      "prerequisites": [
+        "deadlock avoidance",
+        "safe state",
+        "resource allocation"
+      ],
+      "next_topics": []
+    },
+    "deadlock detection": {
+      "unit": 3,
+      "prerequisites": [
+        "deadlock",
+        "resource allocation graph"
+      ],
+      "next_topics": [
+        "deadlock recovery"
+      ]
+    },
+    "deadlock recovery": {
+      "unit": 3,
+      "prerequisites": [
+        "deadlock detection"
+      ],
+      "next_topics": []
+    },
+    "prerequisites": {
+      "unit": 1,
+      "prerequisites": [
+        {
+          "topic": "Basic Computer Fundamentals",
+          "description": "Understanding of computers, input/output devices, memory, and how computers communicate with external devices."
+        },
+        {
+          "topic": "Data and Information",
+          "description": "Understanding of data, information, text, numbers, images, audio, and video, and how information can be represented digitally."
+        },
+        {
+          "topic": "Binary and Bits",
+          "description": "Understanding of bits (0 and 1), bytes, binary numbers, and basic binary representation of data."
+        },
+        {
+          "topic": "Basic Data Communication",
+          "description": "Understanding the basic idea of sending data from a sender to a receiver through a transmission medium."
+        },
+        {
+          "topic": "Communication Devices",
+          "description": "Basic familiarity with computers, printers, routers, switches, hubs, bridges, gateways, and other network-connected devices."
+        },
+        {
+          "topic": "Transmission Media",
+          "description": "Basic awareness of wired and wireless communication media such as twisted-pair cable, coaxial cable, fiber-optic cable, and radio waves."
+        },
+        {
+          "topic": "Network Basics",
+          "description": "Understanding of nodes, links, connections, and the basic purpose of a computer network."
+        },
+        {
+          "topic": "Network Topology Basics",
+          "description": "Basic familiarity with bus, ring, star, mesh, and hybrid network topologies."
+        },
+        {
+          "topic": "LAN, MAN and WAN",
+          "description": "Basic understanding of Local Area Network, Metropolitan Area Network, and Wide Area Network and their geographic coverage."
+        },
+        {
+          "topic": "Communication Direction",
+          "description": "Understanding of simplex, half-duplex, and full-duplex communication."
+        },
+        {
+          "topic": "Protocols",
+          "description": "Understanding that communication between network devices follows a defined set of rules or protocols."
+        },
+        {
+          "topic": "OSI/TCP-IP Layer Awareness",
+          "description": "Basic understanding that network communication is divided into layers, especially the physical, data link, network, transport, and application layers."
+        },
+        {
+          "topic": "Frames and Packets",
+          "description": "Basic understanding of how data is encapsulated into frames and packets during network communication."
+        },
+        {
+          "topic": "Sender and Receiver Concepts",
+          "description": "Understanding the roles of sender, receiver, transmission channel, acknowledgments, and data transfer."
+        },
+        {
+          "topic": "Basic Error Concepts",
+          "description": "Understanding that data can be lost, corrupted, duplicated, or received incorrectly during transmission."
+        },
+        {
+          "topic": "Basic Timing Concepts",
+          "description": "Understanding delay, transmission time, acknowledgment, timeout, and the basic idea of waiting for a response."
+        },
+        {
+          "topic": "Basic Mathematical Concepts",
+          "description": "Comfort with simple arithmetic, powers of 2, modulo arithmetic, and numerical ranges."
+        },
+        {
+          "topic": "Sequence Numbers",
+          "description": "Basic understanding of numbering data frames so that the sender and receiver can identify frames and their order."
+        },
+        {
+          "topic": "Acknowledgment (ACK)",
+          "description": "Understanding that a receiver can send an acknowledgment to indicate successful receipt of data."
+        },
+        {
+          "topic": "Buffering",
+          "description": "Basic understanding of buffers and why a receiver may temporarily store incoming data before processing it."
+        }
+      ],
+      "next_topics": []
+    },
+    "source_basis": {
+      "unit": 1,
+      "prerequisites": [
+        "CN_UNIT_1_NOTES.pdf",
+        "CN UNIT-2 NOTES.docx"
+      ],
+      "next_topics": []
+    },
+    "data_communication": {
+      "unit": 1,
+      "prerequisites": [],
+      "next_topics": []
+    },
+    "data_representation": {
+      "unit": 1,
+      "prerequisites": [
+        "data_communication"
+      ],
+      "next_topics": []
+    },
+    "bits_and_bit_patterns": {
+      "unit": 1,
+      "prerequisites": [
+        "data_representation"
+      ],
+      "next_topics": []
+    },
+    "sender_and_receiver": {
+      "unit": 1,
+      "prerequisites": [
+        "data_communication"
+      ],
+      "next_topics": []
+    },
+    "transmission_medium": {
+      "unit": 1,
+      "prerequisites": [
+        "data_communication"
+      ],
+      "next_topics": []
+    },
+    "protocols": {
+      "unit": 1,
+      "prerequisites": [
+        "data_communication"
+      ],
+      "next_topics": []
+    },
+    "networks": {
+      "unit": 1,
+      "prerequisites": [
+        "data_communication"
+      ],
+      "next_topics": []
+    },
+    "nodes_and_links": {
+      "unit": 1,
+      "prerequisites": [
+        "networks"
+      ],
+      "next_topics": []
+    },
+    "point_to_point_connection": {
+      "unit": 1,
+      "prerequisites": [
+        "nodes_and_links"
+      ],
+      "next_topics": []
+    },
+    "multipoint_connection": {
+      "unit": 1,
+      "prerequisites": [
+        "nodes_and_links"
+      ],
+      "next_topics": []
+    },
+    "network_topologies": {
+      "unit": 1,
+      "prerequisites": [
+        "nodes_and_links",
+        "point_to_point_connection",
+        "multipoint_connection"
+      ],
+      "next_topics": []
+    },
+    "bus_topology": {
+      "unit": 1,
+      "prerequisites": [
+        "network_topologies"
+      ],
+      "next_topics": []
+    },
+    "ring_topology": {
+      "unit": 1,
+      "prerequisites": [
+        "network_topologies"
+      ],
+      "next_topics": []
+    },
+    "star_topology": {
+      "unit": 1,
+      "prerequisites": [
+        "network_topologies"
+      ],
+      "next_topics": []
+    },
+    "mesh_topology": {
+      "unit": 1,
+      "prerequisites": [
+        "network_topologies"
+      ],
+      "next_topics": []
+    },
+    "lan": {
+      "unit": 1,
+      "prerequisites": [
+        "networks"
+      ],
+      "next_topics": []
+    },
+    "man": {
+      "unit": 1,
+      "prerequisites": [
+        "networks"
+      ],
+      "next_topics": []
+    },
+    "wan": {
+      "unit": 1,
+      "prerequisites": [
+        "networks"
+      ],
+      "next_topics": []
+    },
+    "protocols_and_standards": {
+      "unit": 1,
+      "prerequisites": [
+        "protocols"
+      ],
+      "next_topics": []
+    },
+    "connecting_devices": {
+      "unit": 1,
+      "prerequisites": [
+        "networks",
+        "protocols"
+      ],
+      "next_topics": []
+    },
+    "repeater": {
+      "unit": 1,
+      "prerequisites": [
+        "connecting_devices",
+        "physical_layer"
+      ],
+      "next_topics": []
+    },
+    "hub": {
+      "unit": 1,
+      "prerequisites": [
+        "connecting_devices",
+        "star_topology",
+        "physical_layer"
+      ],
+      "next_topics": []
+    },
+    "bridge": {
+      "unit": 1,
+      "prerequisites": [
+        "connecting_devices",
+        "data_link_layer",
+        "physical_addressing"
+      ],
+      "next_topics": []
+    },
+    "switch": {
+      "unit": 1,
+      "prerequisites": [
+        "connecting_devices",
+        "data_link_layer",
+        "physical_addressing"
+      ],
+      "next_topics": []
+    },
+    "router": {
+      "unit": 1,
+      "prerequisites": [
+        "connecting_devices",
+        "network_layer",
+        "logical_addressing"
+      ],
+      "next_topics": []
+    },
+    "gateway": {
+      "unit": 1,
+      "prerequisites": [
+        "connecting_devices",
+        "protocols",
+        "network_layers"
+      ],
+      "next_topics": []
+    },
+    "osi_model": {
+      "unit": 1,
+      "prerequisites": [
+        "networks",
+        "protocols"
+      ],
+      "next_topics": []
+    },
+    "physical_layer": {
+      "unit": 1,
+      "prerequisites": [
+        "osi_model",
+        "data_representation",
+        "transmission_medium"
+      ],
+      "next_topics": []
+    },
+    "data_link_layer": {
+      "unit": 1,
+      "prerequisites": [
+        "osi_model",
+        "physical_layer"
+      ],
+      "next_topics": []
+    },
+    "network_layer": {
+      "unit": 1,
+      "prerequisites": [
+        "osi_model",
+        "data_link_layer"
+      ],
+      "next_topics": []
+    },
+    "transport_layer": {
+      "unit": 1,
+      "prerequisites": [
+        "osi_model",
+        "network_layer"
+      ],
+      "next_topics": []
+    },
+    "application_layer": {
+      "unit": 1,
+      "prerequisites": [
+        "osi_model",
+        "transport_layer"
+      ],
+      "next_topics": []
+    },
+    "tcp_ip_protocol_suite": {
+      "unit": 1,
+      "prerequisites": [
+        "protocols",
+        "osi_model"
+      ],
+      "next_topics": []
+    },
+    "physical_addressing": {
+      "unit": 1,
+      "prerequisites": [
+        "data_link_layer"
+      ],
+      "next_topics": []
+    },
+    "logical_addressing": {
+      "unit": 1,
+      "prerequisites": [
+        "network_layer",
+        "physical_addressing"
+      ],
+      "next_topics": []
+    },
+    "port_addressing": {
+      "unit": 1,
+      "prerequisites": [
+        "transport_layer",
+        "logical_addressing"
+      ],
+      "next_topics": []
+    },
+    "transmission_modes": {
+      "unit": 1,
+      "prerequisites": [
+        "data_representation",
+        "transmission_medium"
+      ],
+      "next_topics": []
+    },
+    "parallel_transmission": {
+      "unit": 1,
+      "prerequisites": [
+        "transmission_modes"
+      ],
+      "next_topics": []
+    },
+    "serial_transmission": {
+      "unit": 1,
+      "prerequisites": [
+        "transmission_modes"
+      ],
+      "next_topics": []
+    },
+    "asynchronous_transmission": {
+      "unit": 1,
+      "prerequisites": [
+        "serial_transmission"
+      ],
+      "next_topics": []
+    },
+    "synchronous_transmission": {
+      "unit": 1,
+      "prerequisites": [
+        "serial_transmission"
+      ],
+      "next_topics": []
+    },
+    "modulation_and_demodulation": {
+      "unit": 1,
+      "prerequisites": [
+        "data_representation",
+        "transmission_medium"
+      ],
+      "next_topics": []
+    },
+    "multiplexing": {
+      "unit": 1,
+      "prerequisites": [
+        "transmission_medium"
+      ],
+      "next_topics": []
+    },
+    "fdm": {
+      "unit": 1,
+      "prerequisites": [
+        "multiplexing"
+      ],
+      "next_topics": []
+    },
+    "wdm": {
+      "unit": 1,
+      "prerequisites": [
+        "multiplexing"
+      ],
+      "next_topics": []
+    },
+    "tdm": {
+      "unit": 1,
+      "prerequisites": [
+        "multiplexing"
+      ],
+      "next_topics": []
+    },
+    "framing": {
+      "unit": 1,
+      "prerequisites": [
+        "data_link_layer",
+        "physical_layer"
+      ],
+      "next_topics": []
+    },
+    "fixed_size_framing": {
+      "unit": 1,
+      "prerequisites": [
+        "framing"
+      ],
+      "next_topics": []
+    },
+    "variable_size_framing": {
+      "unit": 1,
+      "prerequisites": [
+        "framing"
+      ],
+      "next_topics": []
+    },
+    "character_stuffing": {
+      "unit": 1,
+      "prerequisites": [
+        "variable_size_framing"
+      ],
+      "next_topics": []
+    },
+    "bit_stuffing": {
+      "unit": 1,
+      "prerequisites": [
+        "variable_size_framing",
+        "bits_and_bit_patterns"
+      ],
+      "next_topics": []
+    },
+    "single_bit_error": {
+      "unit": 1,
+      "prerequisites": [
+        "bits_and_bit_patterns",
+        "data_communication"
+      ],
+      "next_topics": []
+    },
+    "burst_error": {
+      "unit": 1,
+      "prerequisites": [
+        "bits_and_bit_patterns",
+        "data_communication"
+      ],
+      "next_topics": []
+    },
+    "error_detection": {
+      "unit": 1,
+      "prerequisites": [
+        "single_bit_error",
+        "burst_error",
+        "framing"
+      ],
+      "next_topics": []
+    },
+    "crc": {
+      "unit": 1,
+      "prerequisites": [
+        "error_detection",
+        "bits_and_bit_patterns"
+      ],
+      "next_topics": []
+    },
+    "flow_control": {
+      "unit": 1,
+      "prerequisites": [
+        "data_link_layer",
+        "framing",
+        "sender_and_receiver"
+      ],
+      "next_topics": []
+    },
+    "receiver_buffer": {
+      "unit": 1,
+      "prerequisites": [
+        "flow_control"
+      ],
+      "next_topics": []
+    },
+    "acknowledgment": {
+      "unit": 1,
+      "prerequisites": [
+        "sender_and_receiver",
+        "framing"
+      ],
+      "next_topics": []
+    },
+    "error_control": {
+      "unit": 1,
+      "prerequisites": [
+        "data_link_layer",
+        "error_detection",
+        "sender_and_receiver"
+      ],
+      "next_topics": []
+    },
+    "retransmission": {
+      "unit": 1,
+      "prerequisites": [
+        "error_control",
+        "acknowledgment"
+      ],
+      "next_topics": []
+    },
+    "noiseless_channel": {
+      "unit": 1,
+      "prerequisites": [
+        "framing",
+        "flow_control",
+        "sender_and_receiver"
+      ],
+      "next_topics": []
+    },
+    "simplest_protocol": {
+      "unit": 1,
+      "prerequisites": [
+        "noiseless_channel"
+      ],
+      "next_topics": []
+    },
+    "stop_and_wait_protocol": {
+      "unit": 1,
+      "prerequisites": [
+        "noiseless_channel",
+        "flow_control",
+        "acknowledgment"
+      ],
+      "next_topics": []
+    },
+    "noisy_channel": {
+      "unit": 1,
+      "prerequisites": [
+        "error_control",
+        "error_detection"
+      ],
+      "next_topics": []
+    },
+    "arq": {
+      "unit": 1,
+      "prerequisites": [
+        "noisy_channel",
+        "acknowledgment",
+        "error_control"
+      ],
+      "next_topics": []
+    },
+    "sequence_numbers": {
+      "unit": 1,
+      "prerequisites": [
+        "arq",
+        "framing"
+      ],
+      "next_topics": []
+    },
+    "timer_and_timeout": {
+      "unit": 1,
+      "prerequisites": [
+        "arq",
+        "acknowledgment"
+      ],
+      "next_topics": []
+    },
+    "stop_and_wait_arq": {
+      "unit": 1,
+      "prerequisites": [
+        "stop_and_wait_protocol",
+        "arq",
+        "sequence_numbers",
+        "timer_and_timeout"
+      ],
+      "next_topics": []
+    },
+    "sliding_window": {
+      "unit": 1,
+      "prerequisites": [
+        "flow_control",
+        "sequence_numbers",
+        "acknowledgment"
+      ],
+      "next_topics": []
+    },
+    "go_back_n_arq": {
+      "unit": 1,
+      "prerequisites": [
+        "sliding_window",
+        "stop_and_wait_arq"
+      ],
+      "next_topics": []
+    },
+    "selective_repeat_arq": {
+      "unit": 1,
+      "prerequisites": [
+        "sliding_window",
+        "stop_and_wait_arq"
+      ],
+      "next_topics": []
+    },
+    "piggybacking": {
+      "unit": 1,
+      "prerequisites": [
+        "acknowledgment",
+        "flow_control",
+        "bidirectional_communication"
+      ],
+      "next_topics": []
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "operating_systems": {
+    "subject_id": "operating_systems",
+    "subject_name": "Operating Systems",
+    "status": "ready",
+    "kb_status": "READY",
+    "pdf_uploaded": true,
+    "prerequisites_available": true,
+    "vector_chunks": 291,
+    "pdf_count": 5,
+    "kb_version": "1.0",
+    "last_prepared": "2026-09-22 14:30:26"
+  },
+  "dbms": {
+    "subject_id": "dbms",
+    "subject_name": "Database Management Systems",
+    "status": "not_available",
+    "kb_status": "NOT_AVAILABLE",
+    "pdf_uploaded": false,
+    "prerequisites_available": false,
+    "vector_chunks": 0,
+    "pdf_count": 0,
+    "kb_version": "1.0",
+    "last_prepared": "2026-09-20 13:52:30"
+  },
+  "computer_networks": {
+    "subject_id": "computer_networks",
+    "subject_name": "Computer Networks",
+    "status": "not_available",
+    "kb_status": "NOT_AVAILABLE",
+    "pdf_uploaded": false,
+    "prerequisites_available": false,
+    "vector_chunks": 0,
+    "pdf_count": 0,
+    "kb_version": "1.0",
+    "last_prepared": "2026-09-22 14:14:09"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "users": {
+    "john@example.com": {
+      "id": "TCH001",
+      "name": "John",
+      "email": "john@example.com",
+      "password": "password123",
+      "role": "teacher",
+      "department": "Computer Science",
+      "subjects": [
+        "computer_networks"
+      ],
+      "assigned_subjects": [
+        "computer_networks"
+      ],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-19"
+    },
+    "p@gmail.com": {
+      "id": "STU002",
+      "name": "priyanka",
+      "email": "p@gmail.com",
+      "password": "123456",
+      "role": "student",
+      "department": null,
+      "subjects": [],
+      "assigned_subjects": [],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-19"
+    },
+    "priyanka@gmail.com": {
+      "id": "TCH003",
+      "name": "priyanka",
+      "email": "priyanka@gmail.com",
+      "password": "123456",
+      "role": "teacher",
+      "department": "os",
+      "subjects": [
+        "operating_systems"
+      ],
+      "assigned_subjects": [
+        "operating_systems"
+      ],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-19"
+    },
+    "v@gmail.com": {
+      "id": "TCH004",
+      "name": "varsha",
+      "email": "v@gmail.com",
+      "password": "123456",
+      "role": "teacher",
+      "department": "cn",
+      "subjects": [
+        "computer_networks",
+        "operating_systems"
+      ],
+      "assigned_subjects": [
+        "computer_networks",
+        "operating_systems"
+      ],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-20"
+    },
+    "reddy@gmail.com": {
+      "id": "STU005",
+      "name": "reddy",
+      "email": "reddy@gmail.com",
+      "password": "123456",
+      "role": "student",
+      "department": null,
+      "subjects": [],
+      "assigned_subjects": [],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-20"
+    },
+    "gittaboina1@gmail.com": {
+      "id": "STU006",
+      "name": "varun",
+      "email": "gittaboina1@gmail.com",
+      "password": "123456",
+      "role": "student",
+      "department": null,
+      "subjects": [],
+      "assigned_subjects": [],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-21"
+    }
+  },
+  "teachers": [
+    {
+      "id": "TCH001",
+      "name": "John",
+      "email": "john@example.com",
+      "password": "password123",
+      "role": "teacher",
+      "department": "Computer Science",
+      "subjects": [
+        "computer_networks"
+      ],
+      "assigned_subjects": [
+        "computer_networks"
+      ],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-19"
+    },
+    {
+      "id": "TCH003",
+      "name": "priyanka",
+      "email": "priyanka@gmail.com",
+      "password": "123456",
+      "role": "teacher",
+      "department": "os",
+      "subjects": [
+        "operating_systems"
+      ],
+      "assigned_subjects": [
+        "operating_systems"
+      ],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-19"
+    },
+    {
+      "id": "TCH004",
+      "name": "varsha",
+      "email": "v@gmail.com",
+      "password": "123456",
+      "role": "teacher",
+      "department": "cn",
+      "subjects": [
+        "computer_networks",
+        "operating_systems"
+      ],
+      "assigned_subjects": [
+        "computer_networks",
+        "operating_systems"
+      ],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-20"
+    }
+  ],
+  "students": [
+    {
+      "id": "STU002",
+      "name": "priyanka",
+      "email": "p@gmail.com",
+      "password": "123456",
+      "role": "student",
+      "department": null,
+      "subjects": [],
+      "assigned_subjects": [],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-19"
+    },
+    {
+      "id": "STU005",
+      "name": "reddy",
+      "email": "reddy@gmail.com",
+      "password": "123456",
+      "role": "student",
+      "department": null,
+      "subjects": [],
+      "assigned_subjects": [],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-20"
+    },
+    {
+      "id": "STU006",
+      "name": "varun",
+      "email": "gittaboina1@gmail.com",
+      "password": "123456",
+      "role": "student",
+      "department": null,
+      "subjects": [],
+      "assigned_subjects": [],
+      "access_granted": true,
+      "status": "active",
+      "joined_date": "2026-09-21"
+    }
+  ]
+}

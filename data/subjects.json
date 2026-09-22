@@ -1,0 +1,44 @@
+{
+  "subjects": [
+    {
+      "id": "operating_systems",
+      "name": "Operating Systems",
+      "code": "CS301",
+      "description": "Processes, CPU Scheduling, Synchronization, Deadlocks, Memory Management, File Systems.",
+      "topics": ["Processes", "CPU Scheduling", "Synchronization", "Deadlocks", "Memory Management", "File Systems"],
+      "icon": "Cpu"
+    },
+    {
+      "id": "computer_networks",
+      "name": "Computer Networks",
+      "code": "CS302",
+      "description": "OSI Reference Model, TCP/IP Suite, Routing Algorithms, IP Addressing, Transport Layer, Network Security.",
+      "topics": ["OSI Model", "TCP/IP Protocol", "Routing Algorithms", "IP Addressing", "DNS & DHCP", "Network Security"],
+      "icon": "Network"
+    },
+    {
+      "id": "data_structures",
+      "name": "Data Structures",
+      "code": "CS201",
+      "description": "Arrays, Linked Lists, Stacks, Queues, Binary Trees, Graphs, Sorting & Searching Algorithms.",
+      "topics": ["Arrays & Linked Lists", "Stacks & Queues", "Trees & BST", "Graph Algorithms", "Sorting & Searching", "Dynamic Programming"],
+      "icon": "Layers"
+    },
+    {
+      "id": "dbms",
+      "name": "DBMS",
+      "code": "CS303",
+      "description": "Relational Database Management Systems, ER Diagrams, SQL Queries, Normalization, Transactions & ACID Properties.",
+      "topics": ["Relational Model", "ER Modeling", "SQL Queries", "Normalization (1NF-5NF)", "ACID Properties", "Indexing & B-Trees"],
+      "icon": "Database"
+    },
+    {
+      "id": "software_engineering",
+      "name": "Software Engineering",
+      "code": "CS401",
+      "description": "SDLC Models, Agile Methodologies, Software Architecture, System Design, Testing & Quality Assurance.",
+      "topics": ["Agile & Scrum", "Requirements Engineering", "System Architecture", "UML Diagrams", "Software Testing", "CI/CD & DevOps"],
+      "icon": "Code"
+    }
+  ]
+}

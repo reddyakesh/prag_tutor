@@ -1,0 +1,10 @@
+{
+  "name": "reddy-tutor-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LPI Tutor Root Project Runner",
+  "scripts": {
+    "start": "python3 start.py",
+    "dev": "python3 start.py"
+  }
+}

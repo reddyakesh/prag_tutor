@@ -1,0 +1,4417 @@
+{
+    "operating system": {
+        "occurrences": 200,
+        "locations": [
+            {
+                "chunk_index": 0,
+                "unit": "Unit 1",
+                "page": 1,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 1,
+                "unit": "Unit 1",
+                "page": 2,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 2,
+                "unit": "Unit 1",
+                "page": 3,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 3,
+                "unit": "Unit 1",
+                "page": 4,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 4,
+                "unit": "Unit 1",
+                "page": 5,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 5,
+                "unit": "Unit 1",
+                "page": 6,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 6,
+                "unit": "Unit 1",
+                "page": 7,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 7,
+                "unit": "Unit 1",
+                "page": 8,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 8,
+                "unit": "Unit 1",
+                "page": 9,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 9,
+                "unit": "Unit 1",
+                "page": 10,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 10,
+                "unit": "Unit 1",
+                "page": 11,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 11,
+                "unit": "Unit 1",
+                "page": 12,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 12,
+                "unit": "Unit 1",
+                "page": 13,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 13,
+                "unit": "Unit 1",
+                "page": 14,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 14,
+                "unit": "Unit 1",
+                "page": 15,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 15,
+                "unit": "Unit 1",
+                "page": 16,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 16,
+                "unit": "Unit 1",
+                "page": 17,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 17,
+                "unit": "Unit 1",
+                "page": 18,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 18,
+                "unit": "Unit 1",
+                "page": 19,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 19,
+                "unit": "Unit 1",
+                "page": 20,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 20,
+                "unit": "Unit 1",
+                "page": 21,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 21,
+                "unit": "Unit 1",
+                "page": 22,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 22,
+                "unit": "Unit 1",
+                "page": 23,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 23,
+                "unit": "Unit 1",
+                "page": 24,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 24,
+                "unit": "Unit 1",
+                "page": 25,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 25,
+                "unit": "Unit 1",
+                "page": 26,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 26,
+                "unit": "Unit 1",
+                "page": 27,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 27,
+                "unit": "Unit 1",
+                "page": 28,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 28,
+                "unit": "Unit 1",
+                "page": 29,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 29,
+                "unit": "Unit 1",
+                "page": 30,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 30,
+                "unit": "Unit 1",
+                "page": 31,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 31,
+                "unit": "Unit 1",
+                "page": 32,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 32,
+                "unit": "Unit 1",
+                "page": 33,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 33,
+                "unit": "Unit 1",
+                "page": 34,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 34,
+                "unit": "Unit 1",
+                "page": 35,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 35,
+                "unit": "Unit 1",
+                "page": 36,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 36,
+                "unit": "Unit 2",
+                "page": 1,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 37,
+                "unit": "Unit 2",
+                "page": 2,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 38,
+                "unit": "Unit 2",
+                "page": 3,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 39,
+                "unit": "Unit 2",
+                "page": 4,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 40,
+                "unit": "Unit 2",
+                "page": 5,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 41,
+                "unit": "Unit 2",
+                "page": 6,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 42,
+                "unit": "Unit 2",
+                "page": 7,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 43,
+                "unit": "Unit 2",
+                "page": 8,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 44,
+                "unit": "Unit 2",
+                "page": 9,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 45,
+                "unit": "Unit 2",
+                "page": 10,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 46,
+                "unit": "Unit 2",
+                "page": 11,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 47,
+                "unit": "Unit 2",
+                "page": 12,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 48,
+                "unit": "Unit 2",
+                "page": 13,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 49,
+                "unit": "Unit 2",
+                "page": 14,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 50,
+                "unit": "Unit 2",
+                "page": 15,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 51,
+                "unit": "Unit 2",
+                "page": 16,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 52,
+                "unit": "Unit 2",
+                "page": 17,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 53,
+                "unit": "Unit 2",
+                "page": 18,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 54,
+                "unit": "Unit 2",
+                "page": 19,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 55,
+                "unit": "Unit 2",
+                "page": 20,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 56,
+                "unit": "Unit 2",
+                "page": 21,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 57,
+                "unit": "Unit 2",
+                "page": 22,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 58,
+                "unit": "Unit 2",
+                "page": 23,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 59,
+                "unit": "Unit 2",
+                "page": 24,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 60,
+                "unit": "Unit 2",
+                "page": 25,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 61,
+                "unit": "Unit 2",
+                "page": 26,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 62,
+                "unit": "Unit 2",
+                "page": 27,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 63,
+                "unit": "Unit 2",
+                "page": 28,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 64,
+                "unit": "Unit 2",
+                "page": 29,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 65,
+                "unit": "Unit 2",
+                "page": 30,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 66,
+                "unit": "Unit 2",
+                "page": 31,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 67,
+                "unit": "Unit 2",
+                "page": 32,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 68,
+                "unit": "Unit 2",
+                "page": 33,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 69,
+                "unit": "Unit 2",
+                "page": 34,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 70,
+                "unit": "Unit 2",
+                "page": 35,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 71,
+                "unit": "Unit 2",
+                "page": 36,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 72,
+                "unit": "Unit 2",
+                "page": 37,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 73,
+                "unit": "Unit 2",
+                "page": 38,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 74,
+                "unit": "Unit 2",
+                "page": 39,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 75,
+                "unit": "Unit 2",
+                "page": 40,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 76,
+                "unit": "Unit 2",
+                "page": 41,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 77,
+                "unit": "Unit 2",
+                "page": 42,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 78,
+                "unit": "Unit 2",
+                "page": 43,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 79,
+                "unit": "Unit 2",
+                "page": 44,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 80,
+                "unit": "Unit 2",
+                "page": 45,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 81,
+                "unit": "Unit 2",
+                "page": 46,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 82,
+                "unit": "Unit 2",
+                "page": 47,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 83,
+                "unit": "Unit 2",
+                "page": 48,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 84,
+                "unit": "Unit 2",
+                "page": 49,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 85,
+                "unit": "Unit 2",
+                "page": 50,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 86,
+                "unit": "Unit 2",
+                "page": 51,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 87,
+                "unit": "Unit 2",
+                "page": 52,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 88,
+                "unit": "Unit 2",
+                "page": 53,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 89,
+                "unit": "Unit 2",
+                "page": 54,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 90,
+                "unit": "Unit 2",
+                "page": 55,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 91,
+                "unit": "Unit 2",
+                "page": 56,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 92,
+                "unit": "Unit 2",
+                "page": 57,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 93,
+                "unit": "Unit 2",
+                "page": 58,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 94,
+                "unit": "Unit 2",
+                "page": 59,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 95,
+                "unit": "Unit 2",
+                "page": 60,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 96,
+                "unit": "Unit 2",
+                "page": 61,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 97,
+                "unit": "Unit 2",
+                "page": 62,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 98,
+                "unit": "Unit 2",
+                "page": 63,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 99,
+                "unit": "Unit 2",
+                "page": 64,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 100,
+                "unit": "Unit 2",
+                "page": 65,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 101,
+                "unit": "Unit 2",
+                "page": 66,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 102,
+                "unit": "Unit 2",
+                "page": 67,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 103,
+                "unit": "Unit 2",
+                "page": 68,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 104,
+                "unit": "Unit 2",
+                "page": 69,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 105,
+                "unit": "Unit 2",
+                "page": 70,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 106,
+                "unit": "Unit 2",
+                "page": 71,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 107,
+                "unit": "Unit 2",
+                "page": 72,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 108,
+                "unit": "Unit 2",
+                "page": 73,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 109,
+                "unit": "Unit 2",
+                "page": 74,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 110,
+                "unit": "Unit 2",
+                "page": 75,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 111,
+                "unit": "Unit 2",
+                "page": 76,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 112,
+                "unit": "Unit 2",
+                "page": 77,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 113,
+                "unit": "Unit 2",
+                "page": 78,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 114,
+                "unit": "Unit 2",
+                "page": 79,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 115,
+                "unit": "Unit 2",
+                "page": 80,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 116,
+                "unit": "Unit 2",
+                "page": 81,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 117,
+                "unit": "Unit 2",
+                "page": 82,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 118,
+                "unit": "Unit 2",
+                "page": 83,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 119,
+                "unit": "Unit 2",
+                "page": 84,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 120,
+                "unit": "Unit 2",
+                "page": 85,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 121,
+                "unit": "Unit 2",
+                "page": 86,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 122,
+                "unit": "Unit 2",
+                "page": 87,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 123,
+                "unit": "Unit 3",
+                "page": 1,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 124,
+                "unit": "Unit 3",
+                "page": 2,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 125,
+                "unit": "Unit 3",
+                "page": 3,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 129,
+                "unit": "Unit 3",
+                "page": 7,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 130,
+                "unit": "Unit 3",
+                "page": 8,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 131,
+                "unit": "Unit 3",
+                "page": 9,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 132,
+                "unit": "Unit 3",
+                "page": 10,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 133,
+                "unit": "Unit 3",
+                "page": 11,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 134,
+                "unit": "Unit 3",
+                "page": 12,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 141,
+                "unit": "Unit 3",
+                "page": 19,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 146,
+                "unit": "Unit 3",
+                "page": 24,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 150,
+                "unit": "Unit 3",
+                "page": 28,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 151,
+                "unit": "Unit 3",
+                "page": 29,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 152,
+                "unit": "Unit 3",
+                "page": 30,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 153,
+                "unit": "Unit 3",
+                "page": 31,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 154,
+                "unit": "Unit 3",
+                "page": 32,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 161,
+                "unit": "Unit 3",
+                "page": 39,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 162,
+                "unit": "Unit 3",
+                "page": 40,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 163,
+                "unit": "Unit 4",
+                "page": 1,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 165,
+                "unit": "Unit 4",
+                "page": 3,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 166,
+                "unit": "Unit 4",
+                "page": 4,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 167,
+                "unit": "Unit 4",
+                "page": 5,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 168,
+                "unit": "Unit 4",
+                "page": 6,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 170,
+                "unit": "Unit 4",
+                "page": 8,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 172,
+                "unit": "Unit 4",
+                "page": 10,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 173,
+                "unit": "Unit 4",
+                "page": 11,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 174,
+                "unit": "Unit 4",
+                "page": 12,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 175,
+                "unit": "Unit 4",
+                "page": 13,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 177,
+                "unit": "Unit 4",
+                "page": 15,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 178,
+                "unit": "Unit 4",
+                "page": 16,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 180,
+                "unit": "Unit 4",
+                "page": 18,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 181,
+                "unit": "Unit 4",
+                "page": 19,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 184,
+                "unit": "Unit 4",
+                "page": 22,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 185,
+                "unit": "Unit 4",
+                "page": 23,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 186,
+                "unit": "Unit 4",
+                "page": 24,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 188,
+                "unit": "Unit 4",
+                "page": 26,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 191,
+                "unit": "Unit 4",
+                "page": 29,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 192,
+                "unit": "Unit 4",
+                "page": 30,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 193,
+                "unit": "Unit 4",
+                "page": 31,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 194,
+                "unit": "Unit 4",
+                "page": 32,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 196,
+                "unit": "Unit 4",
+                "page": 34,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 197,
+                "unit": "Unit 4",
+                "page": 35,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 198,
+                "unit": "Unit 4",
+                "page": 36,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 199,
+                "unit": "Unit 4",
+                "page": 37,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 200,
+                "unit": "Unit 4",
+                "page": 38,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 202,
+                "unit": "Unit 4",
+                "page": 40,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 207,
+                "unit": "Unit 5",
+                "page": 1,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 208,
+                "unit": "Unit 5",
+                "page": 2,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 209,
+                "unit": "Unit 5",
+                "page": 3,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 211,
+                "unit": "Unit 5",
+                "page": 5,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 212,
+                "unit": "Unit 5",
+                "page": 6,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 213,
+                "unit": "Unit 5",
+                "page": 7,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 214,
+                "unit": "Unit 5",
+                "page": 8,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 215,
+                "unit": "Unit 5",
+                "page": 9,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 216,
+                "unit": "Unit 5",
+                "page": 10,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 217,
+                "unit": "Unit 5",
+                "page": 11,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 218,
+                "unit": "Unit 5",
+                "page": 12,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 219,
+                "unit": "Unit 5",
+                "page": 13,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 220,
+                "unit": "Unit 5",
+                "page": 14,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 221,
+                "unit": "Unit 5",
+                "page": 15,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 222,
+                "unit": "Unit 5",
+                "page": 16,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 223,
+                "unit": "Unit 5",
+                "page": 17,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 224,
+                "unit": "Unit 5",
+                "page": 18,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 225,
+                "unit": "Unit 5",
+                "page": 19,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 227,
+                "unit": "Unit 5",
+                "page": 21,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 228,
+                "unit": "Unit 5",
+                "page": 22,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 229,
+                "unit": "Unit 5",
+                "page": 23,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 230,
+                "unit": "Unit 5",
+                "page": 24,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 231,
+                "unit": "Unit 5",
+                "page": 25,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 232,
+                "unit": "Unit 5",
+                "page": 26,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 233,
+                "unit": "Unit 5",
+                "page": 27,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 234,
+                "unit": "Unit 5",
+                "page": 28,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 235,
+                "unit": "Unit 5",
+                "page": 29,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 236,
+                "unit": "Unit 5",
+                "page": 30,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 237,
+                "unit": "Unit 5",
+                "page": 31,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 238,
+                "unit": "Unit 5",
+                "page": 32,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 239,
+                "unit": "Unit 5",
+                "page": 33,
+                "source": "os_unit5.pdf"
+            }
+        ]
+    },
+    "process": {
+        "occurrences": 170,
+        "locations": [
+            {
+                "chunk_index": 0,
+                "unit": "Unit 1",
+                "page": 1,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 1,
+                "unit": "Unit 1",
+                "page": 2,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 2,
+                "unit": "Unit 1",
+                "page": 3,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 4,
+                "unit": "Unit 1",
+                "page": 5,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 6,
+                "unit": "Unit 1",
+                "page": 7,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 7,
+                "unit": "Unit 1",
+                "page": 8,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 11,
+                "unit": "Unit 1",
+                "page": 12,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 13,
+                "unit": "Unit 1",
+                "page": 14,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 14,
+                "unit": "Unit 1",
+                "page": 15,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 15,
+                "unit": "Unit 1",
+                "page": 16,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 16,
+                "unit": "Unit 1",
+                "page": 17,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 19,
+                "unit": "Unit 1",
+                "page": 20,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 20,
+                "unit": "Unit 1",
+                "page": 21,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 24,
+                "unit": "Unit 1",
+                "page": 25,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 25,
+                "unit": "Unit 1",
+                "page": 26,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 28,
+                "unit": "Unit 1",
+                "page": 29,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 34,
+                "unit": "Unit 1",
+                "page": 35,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 36,
+                "unit": "Unit 2",
+                "page": 1,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 37,
+                "unit": "Unit 2",
+                "page": 2,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 38,
+                "unit": "Unit 2",
+                "page": 3,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 39,
+                "unit": "Unit 2",
+                "page": 4,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 40,
+                "unit": "Unit 2",
+                "page": 5,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 41,
+                "unit": "Unit 2",
+                "page": 6,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 42,
+                "unit": "Unit 2",
+                "page": 7,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 43,
+                "unit": "Unit 2",
+                "page": 8,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 44,
+                "unit": "Unit 2",
+                "page": 9,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 45,
+                "unit": "Unit 2",
+                "page": 10,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 46,
+                "unit": "Unit 2",
+                "page": 11,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 47,
+                "unit": "Unit 2",
+                "page": 12,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 48,
+                "unit": "Unit 2",
+                "page": 13,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 49,
+                "unit": "Unit 2",
+                "page": 14,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 50,
+                "unit": "Unit 2",
+                "page": 15,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 51,
+                "unit": "Unit 2",
+                "page": 16,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 52,
+                "unit": "Unit 2",
+                "page": 17,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 53,
+                "unit": "Unit 2",
+                "page": 18,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 54,
+                "unit": "Unit 2",
+                "page": 19,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 55,
+                "unit": "Unit 2",
+                "page": 20,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 56,
+                "unit": "Unit 2",
+                "page": 21,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 57,
+                "unit": "Unit 2",
+                "page": 22,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 58,
+                "unit": "Unit 2",
+                "page": 23,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 59,
+                "unit": "Unit 2",
+                "page": 24,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 60,
+                "unit": "Unit 2",
+                "page": 25,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 61,
+                "unit": "Unit 2",
+                "page": 26,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 62,
+                "unit": "Unit 2",
+                "page": 27,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 63,
+                "unit": "Unit 2",
+                "page": 28,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 64,
+                "unit": "Unit 2",
+                "page": 29,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 65,
+                "unit": "Unit 2",
+                "page": 30,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 66,
+                "unit": "Unit 2",
+                "page": 31,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 67,
+                "unit": "Unit 2",
+                "page": 32,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 68,
+                "unit": "Unit 2",
+                "page": 33,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 69,
+                "unit": "Unit 2",
+                "page": 34,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 70,
+                "unit": "Unit 2",
+                "page": 35,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 71,
+                "unit": "Unit 2",
+                "page": 36,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 72,
+                "unit": "Unit 2",
+                "page": 37,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 73,
+                "unit": "Unit 2",
+                "page": 38,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 74,
+                "unit": "Unit 2",
+                "page": 39,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 75,
+                "unit": "Unit 2",
+                "page": 40,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 76,
+                "unit": "Unit 2",
+                "page": 41,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 77,
+                "unit": "Unit 2",
+                "page": 42,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 78,
+                "unit": "Unit 2",
+                "page": 43,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 79,
+                "unit": "Unit 2",
+                "page": 44,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 80,
+                "unit": "Unit 2",
+                "page": 45,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 81,
+                "unit": "Unit 2",
+                "page": 46,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 82,
+                "unit": "Unit 2",
+                "page": 47,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 83,
+                "unit": "Unit 2",
+                "page": 48,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 84,
+                "unit": "Unit 2",
+                "page": 49,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 85,
+                "unit": "Unit 2",
+                "page": 50,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 86,
+                "unit": "Unit 2",
+                "page": 51,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 87,
+                "unit": "Unit 2",
+                "page": 52,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 88,
+                "unit": "Unit 2",
+                "page": 53,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 89,
+                "unit": "Unit 2",
+                "page": 54,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 90,
+                "unit": "Unit 2",
+                "page": 55,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 91,
+                "unit": "Unit 2",
+                "page": 56,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 92,
+                "unit": "Unit 2",
+                "page": 57,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 93,
+                "unit": "Unit 2",
+                "page": 58,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 94,
+                "unit": "Unit 2",
+                "page": 59,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 95,
+                "unit": "Unit 2",
+                "page": 60,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 96,
+                "unit": "Unit 2",
+                "page": 61,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 97,
+                "unit": "Unit 2",
+                "page": 62,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 98,
+                "unit": "Unit 2",
+                "page": 63,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 99,
+                "unit": "Unit 2",
+                "page": 64,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 100,
+                "unit": "Unit 2",
+                "page": 65,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 101,
+                "unit": "Unit 2",
+                "page": 66,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 102,
+                "unit": "Unit 2",
+                "page": 67,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 103,
+                "unit": "Unit 2",
+                "page": 68,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 104,
+                "unit": "Unit 2",
+                "page": 69,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 105,
+                "unit": "Unit 2",
+                "page": 70,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 106,
+                "unit": "Unit 2",
+                "page": 71,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 107,
+                "unit": "Unit 2",
+                "page": 72,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 108,
+                "unit": "Unit 2",
+                "page": 73,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 109,
+                "unit": "Unit 2",
+                "page": 74,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 110,
+                "unit": "Unit 2",
+                "page": 75,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 111,
+                "unit": "Unit 2",
+                "page": 76,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 112,
+                "unit": "Unit 2",
+                "page": 77,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 113,
+                "unit": "Unit 2",
+                "page": 78,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 114,
+                "unit": "Unit 2",
+                "page": 79,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 115,
+                "unit": "Unit 2",
+                "page": 80,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 116,
+                "unit": "Unit 2",
+                "page": 81,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 117,
+                "unit": "Unit 2",
+                "page": 82,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 120,
+                "unit": "Unit 2",
+                "page": 85,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 121,
+                "unit": "Unit 2",
+                "page": 86,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 122,
+                "unit": "Unit 2",
+                "page": 87,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 123,
+                "unit": "Unit 3",
+                "page": 1,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 124,
+                "unit": "Unit 3",
+                "page": 2,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 125,
+                "unit": "Unit 3",
+                "page": 3,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 126,
+                "unit": "Unit 3",
+                "page": 4,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 127,
+                "unit": "Unit 3",
+                "page": 5,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 128,
+                "unit": "Unit 3",
+                "page": 6,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 129,
+                "unit": "Unit 3",
+                "page": 7,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 130,
+                "unit": "Unit 3",
+                "page": 8,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 131,
+                "unit": "Unit 3",
+                "page": 9,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 132,
+                "unit": "Unit 3",
+                "page": 10,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 133,
+                "unit": "Unit 3",
+                "page": 11,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 135,
+                "unit": "Unit 3",
+                "page": 13,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 137,
+                "unit": "Unit 3",
+                "page": 15,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 140,
+                "unit": "Unit 3",
+                "page": 18,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 142,
+                "unit": "Unit 3",
+                "page": 20,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 143,
+                "unit": "Unit 3",
+                "page": 21,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 145,
+                "unit": "Unit 3",
+                "page": 23,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 146,
+                "unit": "Unit 3",
+                "page": 24,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 147,
+                "unit": "Unit 3",
+                "page": 25,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 148,
+                "unit": "Unit 3",
+                "page": 26,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 149,
+                "unit": "Unit 3",
+                "page": 27,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 150,
+                "unit": "Unit 3",
+                "page": 28,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 151,
+                "unit": "Unit 3",
+                "page": 29,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 152,
+                "unit": "Unit 3",
+                "page": 30,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 153,
+                "unit": "Unit 3",
+                "page": 31,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 154,
+                "unit": "Unit 3",
+                "page": 32,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 155,
+                "unit": "Unit 3",
+                "page": 33,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 156,
+                "unit": "Unit 3",
+                "page": 34,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 157,
+                "unit": "Unit 3",
+                "page": 35,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 158,
+                "unit": "Unit 3",
+                "page": 36,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 159,
+                "unit": "Unit 3",
+                "page": 37,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 160,
+                "unit": "Unit 3",
+                "page": 38,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 161,
+                "unit": "Unit 3",
+                "page": 39,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 162,
+                "unit": "Unit 3",
+                "page": 40,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 163,
+                "unit": "Unit 4",
+                "page": 1,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 164,
+                "unit": "Unit 4",
+                "page": 2,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 165,
+                "unit": "Unit 4",
+                "page": 3,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 166,
+                "unit": "Unit 4",
+                "page": 4,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 167,
+                "unit": "Unit 4",
+                "page": 5,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 172,
+                "unit": "Unit 4",
+                "page": 10,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 173,
+                "unit": "Unit 4",
+                "page": 11,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 174,
+                "unit": "Unit 4",
+                "page": 12,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 175,
+                "unit": "Unit 4",
+                "page": 13,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 176,
+                "unit": "Unit 4",
+                "page": 14,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 177,
+                "unit": "Unit 4",
+                "page": 15,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 178,
+                "unit": "Unit 4",
+                "page": 16,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 179,
+                "unit": "Unit 4",
+                "page": 17,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 180,
+                "unit": "Unit 4",
+                "page": 18,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 181,
+                "unit": "Unit 4",
+                "page": 19,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 182,
+                "unit": "Unit 4",
+                "page": 20,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 184,
+                "unit": "Unit 4",
+                "page": 22,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 185,
+                "unit": "Unit 4",
+                "page": 23,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 186,
+                "unit": "Unit 4",
+                "page": 24,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 187,
+                "unit": "Unit 4",
+                "page": 25,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 191,
+                "unit": "Unit 4",
+                "page": 29,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 193,
+                "unit": "Unit 4",
+                "page": 31,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 194,
+                "unit": "Unit 4",
+                "page": 32,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 195,
+                "unit": "Unit 4",
+                "page": 33,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 199,
+                "unit": "Unit 4",
+                "page": 37,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 201,
+                "unit": "Unit 4",
+                "page": 39,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 202,
+                "unit": "Unit 4",
+                "page": 40,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 203,
+                "unit": "Unit 4",
+                "page": 41,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 206,
+                "unit": "Unit 4",
+                "page": 44,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 209,
+                "unit": "Unit 5",
+                "page": 3,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 210,
+                "unit": "Unit 5",
+                "page": 4,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 217,
+                "unit": "Unit 5",
+                "page": 11,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 231,
+                "unit": "Unit 5",
+                "page": 25,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 239,
+                "unit": "Unit 5",
+                "page": 33,
+                "source": "os_unit5.pdf"
+            }
+        ]
+    },
+    "process states": {
+        "occurrences": 3,
+        "locations": [
+            {
+                "chunk_index": 37,
+                "unit": "Unit 2",
+                "page": 2,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 39,
+                "unit": "Unit 2",
+                "page": 4,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 40,
+                "unit": "Unit 2",
+                "page": 5,
+                "source": "os_unit2.pdf"
+            }
+        ]
+    },
+    "pcb": {
+        "occurrences": 7,
+        "locations": [
+            {
+                "chunk_index": 38,
+                "unit": "Unit 2",
+                "page": 3,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 39,
+                "unit": "Unit 2",
+                "page": 4,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 40,
+                "unit": "Unit 2",
+                "page": 5,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 41,
+                "unit": "Unit 2",
+                "page": 6,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 46,
+                "unit": "Unit 2",
+                "page": 11,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 108,
+                "unit": "Unit 2",
+                "page": 73,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 194,
+                "unit": "Unit 4",
+                "page": 32,
+                "source": "os_unit4.pdf"
+            }
+        ]
+    },
+    "process creation": {
+        "occurrences": 8,
+        "locations": [
+            {
+                "chunk_index": 41,
+                "unit": "Unit 2",
+                "page": 6,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 43,
+                "unit": "Unit 2",
+                "page": 8,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 44,
+                "unit": "Unit 2",
+                "page": 9,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 45,
+                "unit": "Unit 2",
+                "page": 10,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 46,
+                "unit": "Unit 2",
+                "page": 11,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 47,
+                "unit": "Unit 2",
+                "page": 12,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 49,
+                "unit": "Unit 2",
+                "page": 14,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 61,
+                "unit": "Unit 2",
+                "page": 26,
+                "source": "os_unit2.pdf"
+            }
+        ]
+    },
+    "process termination": {
+        "occurrences": 6,
+        "locations": [
+            {
+                "chunk_index": 41,
+                "unit": "Unit 2",
+                "page": 6,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 44,
+                "unit": "Unit 2",
+                "page": 9,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 45,
+                "unit": "Unit 2",
+                "page": 10,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 46,
+                "unit": "Unit 2",
+                "page": 11,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 61,
+                "unit": "Unit 2",
+                "page": 26,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 161,
+                "unit": "Unit 3",
+                "page": 39,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "cpu scheduling": {
+        "occurrences": 14,
+        "locations": [
+            {
+                "chunk_index": 0,
+                "unit": "Unit 1",
+                "page": 1,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 7,
+                "unit": "Unit 1",
+                "page": 8,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 14,
+                "unit": "Unit 1",
+                "page": 15,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 39,
+                "unit": "Unit 2",
+                "page": 4,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 62,
+                "unit": "Unit 2",
+                "page": 27,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 63,
+                "unit": "Unit 2",
+                "page": 28,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 64,
+                "unit": "Unit 2",
+                "page": 29,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 65,
+                "unit": "Unit 2",
+                "page": 30,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 66,
+                "unit": "Unit 2",
+                "page": 31,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 67,
+                "unit": "Unit 2",
+                "page": 32,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 73,
+                "unit": "Unit 2",
+                "page": 38,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 74,
+                "unit": "Unit 2",
+                "page": 39,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 107,
+                "unit": "Unit 2",
+                "page": 72,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 108,
+                "unit": "Unit 2",
+                "page": 73,
+                "source": "os_unit2.pdf"
+            }
+        ]
+    },
+    "fcfs": {
+        "occurrences": 7,
+        "locations": [
+            {
+                "chunk_index": 65,
+                "unit": "Unit 2",
+                "page": 30,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 66,
+                "unit": "Unit 2",
+                "page": 31,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 67,
+                "unit": "Unit 2",
+                "page": 32,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 68,
+                "unit": "Unit 2",
+                "page": 33,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 69,
+                "unit": "Unit 2",
+                "page": 34,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 78,
+                "unit": "Unit 2",
+                "page": 43,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 84,
+                "unit": "Unit 2",
+                "page": 49,
+                "source": "os_unit2.pdf"
+            }
+        ]
+    },
+    "sjf": {
+        "occurrences": 6,
+        "locations": [
+            {
+                "chunk_index": 7,
+                "unit": "Unit 1",
+                "page": 8,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 65,
+                "unit": "Unit 2",
+                "page": 30,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 69,
+                "unit": "Unit 2",
+                "page": 34,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 71,
+                "unit": "Unit 2",
+                "page": 36,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 72,
+                "unit": "Unit 2",
+                "page": 37,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 73,
+                "unit": "Unit 2",
+                "page": 38,
+                "source": "os_unit2.pdf"
+            }
+        ]
+    },
+    "priority scheduling": {
+        "occurrences": 8,
+        "locations": [
+            {
+                "chunk_index": 7,
+                "unit": "Unit 1",
+                "page": 8,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 64,
+                "unit": "Unit 2",
+                "page": 29,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 65,
+                "unit": "Unit 2",
+                "page": 30,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 73,
+                "unit": "Unit 2",
+                "page": 38,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 74,
+                "unit": "Unit 2",
+                "page": 39,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 76,
+                "unit": "Unit 2",
+                "page": 41,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 77,
+                "unit": "Unit 2",
+                "page": 42,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 78,
+                "unit": "Unit 2",
+                "page": 43,
+                "source": "os_unit2.pdf"
+            }
+        ]
+    },
+    "round robin": {
+        "occurrences": 5,
+        "locations": [
+            {
+                "chunk_index": 7,
+                "unit": "Unit 1",
+                "page": 8,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 65,
+                "unit": "Unit 2",
+                "page": 30,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 78,
+                "unit": "Unit 2",
+                "page": 43,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 79,
+                "unit": "Unit 2",
+                "page": 44,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 84,
+                "unit": "Unit 2",
+                "page": 49,
+                "source": "os_unit2.pdf"
+            }
+        ]
+    },
+    "thread": {
+        "occurrences": 12,
+        "locations": [
+            {
+                "chunk_index": 2,
+                "unit": "Unit 1",
+                "page": 3,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 85,
+                "unit": "Unit 2",
+                "page": 50,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 86,
+                "unit": "Unit 2",
+                "page": 51,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 87,
+                "unit": "Unit 2",
+                "page": 52,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 88,
+                "unit": "Unit 2",
+                "page": 53,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 89,
+                "unit": "Unit 2",
+                "page": 54,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 90,
+                "unit": "Unit 2",
+                "page": 55,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 91,
+                "unit": "Unit 2",
+                "page": 56,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 92,
+                "unit": "Unit 2",
+                "page": 57,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 93,
+                "unit": "Unit 2",
+                "page": 58,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 94,
+                "unit": "Unit 2",
+                "page": 59,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 96,
+                "unit": "Unit 2",
+                "page": 61,
+                "source": "os_unit2.pdf"
+            }
+        ]
+    },
+    "synchronization": {
+        "occurrences": 15,
+        "locations": [
+            {
+                "chunk_index": 94,
+                "unit": "Unit 2",
+                "page": 59,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 97,
+                "unit": "Unit 2",
+                "page": 62,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 98,
+                "unit": "Unit 2",
+                "page": 63,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 99,
+                "unit": "Unit 2",
+                "page": 64,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 101,
+                "unit": "Unit 2",
+                "page": 66,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 102,
+                "unit": "Unit 2",
+                "page": 67,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 103,
+                "unit": "Unit 2",
+                "page": 68,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 106,
+                "unit": "Unit 2",
+                "page": 71,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 109,
+                "unit": "Unit 2",
+                "page": 74,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 113,
+                "unit": "Unit 2",
+                "page": 78,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 114,
+                "unit": "Unit 2",
+                "page": 79,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 115,
+                "unit": "Unit 2",
+                "page": 80,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 116,
+                "unit": "Unit 2",
+                "page": 81,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 127,
+                "unit": "Unit 3",
+                "page": 5,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 135,
+                "unit": "Unit 3",
+                "page": 13,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "critical section": {
+        "occurrences": 17,
+        "locations": [
+            {
+                "chunk_index": 97,
+                "unit": "Unit 2",
+                "page": 62,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 98,
+                "unit": "Unit 2",
+                "page": 63,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 99,
+                "unit": "Unit 2",
+                "page": 64,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 100,
+                "unit": "Unit 2",
+                "page": 65,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 101,
+                "unit": "Unit 2",
+                "page": 66,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 102,
+                "unit": "Unit 2",
+                "page": 67,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 103,
+                "unit": "Unit 2",
+                "page": 68,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 104,
+                "unit": "Unit 2",
+                "page": 69,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 105,
+                "unit": "Unit 2",
+                "page": 70,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 107,
+                "unit": "Unit 2",
+                "page": 72,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 109,
+                "unit": "Unit 2",
+                "page": 74,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 110,
+                "unit": "Unit 2",
+                "page": 75,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 113,
+                "unit": "Unit 2",
+                "page": 78,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 114,
+                "unit": "Unit 2",
+                "page": 79,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 115,
+                "unit": "Unit 2",
+                "page": 80,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 136,
+                "unit": "Unit 3",
+                "page": 14,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 137,
+                "unit": "Unit 3",
+                "page": 15,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "mutex": {
+        "occurrences": 12,
+        "locations": [
+            {
+                "chunk_index": 97,
+                "unit": "Unit 2",
+                "page": 62,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 99,
+                "unit": "Unit 2",
+                "page": 64,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 104,
+                "unit": "Unit 2",
+                "page": 69,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 105,
+                "unit": "Unit 2",
+                "page": 70,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 110,
+                "unit": "Unit 2",
+                "page": 75,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 111,
+                "unit": "Unit 2",
+                "page": 76,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 113,
+                "unit": "Unit 2",
+                "page": 78,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 114,
+                "unit": "Unit 2",
+                "page": 79,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 120,
+                "unit": "Unit 2",
+                "page": 85,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 145,
+                "unit": "Unit 3",
+                "page": 23,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 146,
+                "unit": "Unit 3",
+                "page": 24,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 151,
+                "unit": "Unit 3",
+                "page": 29,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "semaphore": {
+        "occurrences": 24,
+        "locations": [
+            {
+                "chunk_index": 97,
+                "unit": "Unit 2",
+                "page": 62,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 99,
+                "unit": "Unit 2",
+                "page": 64,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 103,
+                "unit": "Unit 2",
+                "page": 68,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 104,
+                "unit": "Unit 2",
+                "page": 69,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 105,
+                "unit": "Unit 2",
+                "page": 70,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 106,
+                "unit": "Unit 2",
+                "page": 71,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 107,
+                "unit": "Unit 2",
+                "page": 72,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 108,
+                "unit": "Unit 2",
+                "page": 73,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 109,
+                "unit": "Unit 2",
+                "page": 74,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 110,
+                "unit": "Unit 2",
+                "page": 75,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 111,
+                "unit": "Unit 2",
+                "page": 76,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 112,
+                "unit": "Unit 2",
+                "page": 77,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 113,
+                "unit": "Unit 2",
+                "page": 78,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 114,
+                "unit": "Unit 2",
+                "page": 79,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 115,
+                "unit": "Unit 2",
+                "page": 80,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 120,
+                "unit": "Unit 2",
+                "page": 85,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 131,
+                "unit": "Unit 3",
+                "page": 9,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 135,
+                "unit": "Unit 3",
+                "page": 13,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 136,
+                "unit": "Unit 3",
+                "page": 14,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 137,
+                "unit": "Unit 3",
+                "page": 15,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 143,
+                "unit": "Unit 3",
+                "page": 21,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 144,
+                "unit": "Unit 3",
+                "page": 22,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 145,
+                "unit": "Unit 3",
+                "page": 23,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 146,
+                "unit": "Unit 3",
+                "page": 24,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "producer consumer": {
+        "occurrences": 4,
+        "locations": [
+            {
+                "chunk_index": 94,
+                "unit": "Unit 2",
+                "page": 59,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 96,
+                "unit": "Unit 2",
+                "page": 61,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 97,
+                "unit": "Unit 2",
+                "page": 62,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 128,
+                "unit": "Unit 3",
+                "page": 6,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "dining philosophers": {
+        "occurrences": 3,
+        "locations": [
+            {
+                "chunk_index": 109,
+                "unit": "Unit 2",
+                "page": 74,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 112,
+                "unit": "Unit 2",
+                "page": 77,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 117,
+                "unit": "Unit 2",
+                "page": 82,
+                "source": "os_unit2.pdf"
+            }
+        ]
+    },
+    "resource allocation": {
+        "occurrences": 11,
+        "locations": [
+            {
+                "chunk_index": 4,
+                "unit": "Unit 1",
+                "page": 5,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 43,
+                "unit": "Unit 2",
+                "page": 8,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 89,
+                "unit": "Unit 2",
+                "page": 54,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 94,
+                "unit": "Unit 2",
+                "page": 59,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 147,
+                "unit": "Unit 3",
+                "page": 25,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 148,
+                "unit": "Unit 3",
+                "page": 26,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 149,
+                "unit": "Unit 3",
+                "page": 27,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 150,
+                "unit": "Unit 3",
+                "page": 28,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 154,
+                "unit": "Unit 3",
+                "page": 32,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 158,
+                "unit": "Unit 3",
+                "page": 36,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 159,
+                "unit": "Unit 3",
+                "page": 37,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "resource allocation graph": {
+        "occurrences": 7,
+        "locations": [
+            {
+                "chunk_index": 147,
+                "unit": "Unit 3",
+                "page": 25,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 148,
+                "unit": "Unit 3",
+                "page": 26,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 149,
+                "unit": "Unit 3",
+                "page": 27,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 150,
+                "unit": "Unit 3",
+                "page": 28,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 154,
+                "unit": "Unit 3",
+                "page": 32,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 158,
+                "unit": "Unit 3",
+                "page": 36,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 159,
+                "unit": "Unit 3",
+                "page": 37,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "deadlock characterization": {
+        "occurrences": 1,
+        "locations": [
+            {
+                "chunk_index": 146,
+                "unit": "Unit 3",
+                "page": 24,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "deadlock": {
+        "occurrences": 19,
+        "locations": [
+            {
+                "chunk_index": 63,
+                "unit": "Unit 2",
+                "page": 28,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 64,
+                "unit": "Unit 2",
+                "page": 29,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 112,
+                "unit": "Unit 2",
+                "page": 77,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 113,
+                "unit": "Unit 2",
+                "page": 78,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 114,
+                "unit": "Unit 2",
+                "page": 79,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 117,
+                "unit": "Unit 2",
+                "page": 82,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 145,
+                "unit": "Unit 3",
+                "page": 23,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 146,
+                "unit": "Unit 3",
+                "page": 24,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 147,
+                "unit": "Unit 3",
+                "page": 25,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 148,
+                "unit": "Unit 3",
+                "page": 26,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 149,
+                "unit": "Unit 3",
+                "page": 27,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 150,
+                "unit": "Unit 3",
+                "page": 28,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 151,
+                "unit": "Unit 3",
+                "page": 29,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 153,
+                "unit": "Unit 3",
+                "page": 31,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 158,
+                "unit": "Unit 3",
+                "page": 36,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 159,
+                "unit": "Unit 3",
+                "page": 37,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 160,
+                "unit": "Unit 3",
+                "page": 38,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 161,
+                "unit": "Unit 3",
+                "page": 39,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 162,
+                "unit": "Unit 3",
+                "page": 40,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "deadlock prevention": {
+        "occurrences": 4,
+        "locations": [
+            {
+                "chunk_index": 150,
+                "unit": "Unit 3",
+                "page": 28,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 151,
+                "unit": "Unit 3",
+                "page": 29,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 153,
+                "unit": "Unit 3",
+                "page": 31,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 158,
+                "unit": "Unit 3",
+                "page": 36,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "deadlock avoidance": {
+        "occurrences": 2,
+        "locations": [
+            {
+                "chunk_index": 150,
+                "unit": "Unit 3",
+                "page": 28,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 153,
+                "unit": "Unit 3",
+                "page": 31,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "safe state": {
+        "occurrences": 7,
+        "locations": [
+            {
+                "chunk_index": 150,
+                "unit": "Unit 3",
+                "page": 28,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 153,
+                "unit": "Unit 3",
+                "page": 31,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 154,
+                "unit": "Unit 3",
+                "page": 32,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 155,
+                "unit": "Unit 3",
+                "page": 33,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 156,
+                "unit": "Unit 3",
+                "page": 34,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 161,
+                "unit": "Unit 3",
+                "page": 39,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 162,
+                "unit": "Unit 3",
+                "page": 40,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "unsafe state": {
+        "occurrences": 4,
+        "locations": [
+            {
+                "chunk_index": 150,
+                "unit": "Unit 3",
+                "page": 28,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 153,
+                "unit": "Unit 3",
+                "page": 31,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 154,
+                "unit": "Unit 3",
+                "page": 32,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 156,
+                "unit": "Unit 3",
+                "page": 34,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "safe sequence": {
+        "occurrences": 3,
+        "locations": [
+            {
+                "chunk_index": 153,
+                "unit": "Unit 3",
+                "page": 31,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 155,
+                "unit": "Unit 3",
+                "page": 33,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 157,
+                "unit": "Unit 3",
+                "page": 35,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "banker's algorithm": {
+        "occurrences": 3,
+        "locations": [
+            {
+                "chunk_index": 156,
+                "unit": "Unit 3",
+                "page": 34,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 157,
+                "unit": "Unit 3",
+                "page": 35,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 159,
+                "unit": "Unit 3",
+                "page": 37,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "deadlock detection": {
+        "occurrences": 3,
+        "locations": [
+            {
+                "chunk_index": 150,
+                "unit": "Unit 3",
+                "page": 28,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 158,
+                "unit": "Unit 3",
+                "page": 36,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 159,
+                "unit": "Unit 3",
+                "page": 37,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "deadlock recovery": {
+        "occurrences": 1,
+        "locations": [
+            {
+                "chunk_index": 161,
+                "unit": "Unit 3",
+                "page": 39,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "resource preemption": {
+        "occurrences": 1,
+        "locations": [
+            {
+                "chunk_index": 162,
+                "unit": "Unit 3",
+                "page": 40,
+                "source": "os_unit3.pdf"
+            }
+        ]
+    },
+    "memory management": {
+        "occurrences": 14,
+        "locations": [
+            {
+                "chunk_index": 0,
+                "unit": "Unit 1",
+                "page": 1,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 7,
+                "unit": "Unit 1",
+                "page": 8,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 12,
+                "unit": "Unit 1",
+                "page": 13,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 13,
+                "unit": "Unit 1",
+                "page": 14,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 14,
+                "unit": "Unit 1",
+                "page": 15,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 17,
+                "unit": "Unit 1",
+                "page": 18,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 39,
+                "unit": "Unit 2",
+                "page": 4,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 163,
+                "unit": "Unit 4",
+                "page": 1,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 168,
+                "unit": "Unit 4",
+                "page": 6,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 169,
+                "unit": "Unit 4",
+                "page": 7,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 175,
+                "unit": "Unit 4",
+                "page": 13,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 187,
+                "unit": "Unit 4",
+                "page": 25,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 189,
+                "unit": "Unit 4",
+                "page": 27,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 191,
+                "unit": "Unit 4",
+                "page": 29,
+                "source": "os_unit4.pdf"
+            }
+        ]
+    },
+    "contiguous memory allocation": {
+        "occurrences": 3,
+        "locations": [
+            {
+                "chunk_index": 175,
+                "unit": "Unit 4",
+                "page": 13,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 176,
+                "unit": "Unit 4",
+                "page": 14,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 181,
+                "unit": "Unit 4",
+                "page": 19,
+                "source": "os_unit4.pdf"
+            }
+        ]
+    },
+    "fixed partition": {
+        "occurrences": 3,
+        "locations": [
+            {
+                "chunk_index": 176,
+                "unit": "Unit 4",
+                "page": 14,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 177,
+                "unit": "Unit 4",
+                "page": 15,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 180,
+                "unit": "Unit 4",
+                "page": 18,
+                "source": "os_unit4.pdf"
+            }
+        ]
+    },
+    "paging": {
+        "occurrences": 12,
+        "locations": [
+            {
+                "chunk_index": 7,
+                "unit": "Unit 1",
+                "page": 8,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 168,
+                "unit": "Unit 4",
+                "page": 6,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 181,
+                "unit": "Unit 4",
+                "page": 19,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 183,
+                "unit": "Unit 4",
+                "page": 21,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 184,
+                "unit": "Unit 4",
+                "page": 22,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 185,
+                "unit": "Unit 4",
+                "page": 23,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 186,
+                "unit": "Unit 4",
+                "page": 24,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 187,
+                "unit": "Unit 4",
+                "page": 25,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 191,
+                "unit": "Unit 4",
+                "page": 29,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 192,
+                "unit": "Unit 4",
+                "page": 30,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 193,
+                "unit": "Unit 4",
+                "page": 31,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 194,
+                "unit": "Unit 4",
+                "page": 32,
+                "source": "os_unit4.pdf"
+            }
+        ]
+    },
+    "page table": {
+        "occurrences": 11,
+        "locations": [
+            {
+                "chunk_index": 39,
+                "unit": "Unit 2",
+                "page": 4,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 182,
+                "unit": "Unit 4",
+                "page": 20,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 183,
+                "unit": "Unit 4",
+                "page": 21,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 184,
+                "unit": "Unit 4",
+                "page": 22,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 185,
+                "unit": "Unit 4",
+                "page": 23,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 186,
+                "unit": "Unit 4",
+                "page": 24,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 187,
+                "unit": "Unit 4",
+                "page": 25,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 192,
+                "unit": "Unit 4",
+                "page": 30,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 193,
+                "unit": "Unit 4",
+                "page": 31,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 194,
+                "unit": "Unit 4",
+                "page": 32,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 195,
+                "unit": "Unit 4",
+                "page": 33,
+                "source": "os_unit4.pdf"
+            }
+        ]
+    },
+    "segmentation": {
+        "occurrences": 6,
+        "locations": [
+            {
+                "chunk_index": 7,
+                "unit": "Unit 1",
+                "page": 8,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 181,
+                "unit": "Unit 4",
+                "page": 19,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 187,
+                "unit": "Unit 4",
+                "page": 25,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 188,
+                "unit": "Unit 4",
+                "page": 26,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 190,
+                "unit": "Unit 4",
+                "page": 28,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 191,
+                "unit": "Unit 4",
+                "page": 29,
+                "source": "os_unit4.pdf"
+            }
+        ]
+    },
+    "virtual memory": {
+        "occurrences": 5,
+        "locations": [
+            {
+                "chunk_index": 42,
+                "unit": "Unit 2",
+                "page": 7,
+                "source": "os_unit2.pdf"
+            },
+            {
+                "chunk_index": 168,
+                "unit": "Unit 4",
+                "page": 6,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 175,
+                "unit": "Unit 4",
+                "page": 13,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 191,
+                "unit": "Unit 4",
+                "page": 29,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 192,
+                "unit": "Unit 4",
+                "page": 30,
+                "source": "os_unit4.pdf"
+            }
+        ]
+    },
+    "page replacement": {
+        "occurrences": 5,
+        "locations": [
+            {
+                "chunk_index": 185,
+                "unit": "Unit 4",
+                "page": 23,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 195,
+                "unit": "Unit 4",
+                "page": 33,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 196,
+                "unit": "Unit 4",
+                "page": 34,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 197,
+                "unit": "Unit 4",
+                "page": 35,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 198,
+                "unit": "Unit 4",
+                "page": 36,
+                "source": "os_unit4.pdf"
+            }
+        ]
+    },
+    "lru page replacement": {
+        "occurrences": 1,
+        "locations": [
+            {
+                "chunk_index": 198,
+                "unit": "Unit 4",
+                "page": 36,
+                "source": "os_unit4.pdf"
+            }
+        ]
+    },
+    "file system": {
+        "occurrences": 19,
+        "locations": [
+            {
+                "chunk_index": 6,
+                "unit": "Unit 1",
+                "page": 7,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 13,
+                "unit": "Unit 1",
+                "page": 14,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 16,
+                "unit": "Unit 1",
+                "page": 17,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 18,
+                "unit": "Unit 1",
+                "page": 19,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 129,
+                "unit": "Unit 3",
+                "page": 7,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 146,
+                "unit": "Unit 3",
+                "page": 24,
+                "source": "os_unit3.pdf"
+            },
+            {
+                "chunk_index": 182,
+                "unit": "Unit 4",
+                "page": 20,
+                "source": "os_unit4.pdf"
+            },
+            {
+                "chunk_index": 207,
+                "unit": "Unit 5",
+                "page": 1,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 211,
+                "unit": "Unit 5",
+                "page": 5,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 212,
+                "unit": "Unit 5",
+                "page": 6,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 213,
+                "unit": "Unit 5",
+                "page": 7,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 214,
+                "unit": "Unit 5",
+                "page": 8,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 215,
+                "unit": "Unit 5",
+                "page": 9,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 222,
+                "unit": "Unit 5",
+                "page": 16,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 224,
+                "unit": "Unit 5",
+                "page": 18,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 225,
+                "unit": "Unit 5",
+                "page": 19,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 226,
+                "unit": "Unit 5",
+                "page": 20,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 230,
+                "unit": "Unit 5",
+                "page": 24,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 231,
+                "unit": "Unit 5",
+                "page": 25,
+                "source": "os_unit5.pdf"
+            }
+        ]
+    },
+    "file allocation": {
+        "occurrences": 2,
+        "locations": [
+            {
+                "chunk_index": 221,
+                "unit": "Unit 5",
+                "page": 15,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 224,
+                "unit": "Unit 5",
+                "page": 18,
+                "source": "os_unit5.pdf"
+            }
+        ]
+    },
+    "directory": {
+        "occurrences": 32,
+        "locations": [
+            {
+                "chunk_index": 6,
+                "unit": "Unit 1",
+                "page": 7,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 19,
+                "unit": "Unit 1",
+                "page": 20,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 20,
+                "unit": "Unit 1",
+                "page": 21,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 26,
+                "unit": "Unit 1",
+                "page": 27,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 27,
+                "unit": "Unit 1",
+                "page": 28,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 28,
+                "unit": "Unit 1",
+                "page": 29,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 29,
+                "unit": "Unit 1",
+                "page": 30,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 30,
+                "unit": "Unit 1",
+                "page": 31,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 31,
+                "unit": "Unit 1",
+                "page": 32,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 32,
+                "unit": "Unit 1",
+                "page": 33,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 33,
+                "unit": "Unit 1",
+                "page": 34,
+                "source": "os_unit1.pdf"
+            },
+            {
+                "chunk_index": 208,
+                "unit": "Unit 5",
+                "page": 2,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 209,
+                "unit": "Unit 5",
+                "page": 3,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 212,
+                "unit": "Unit 5",
+                "page": 6,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 213,
+                "unit": "Unit 5",
+                "page": 7,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 214,
+                "unit": "Unit 5",
+                "page": 8,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 215,
+                "unit": "Unit 5",
+                "page": 9,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 216,
+                "unit": "Unit 5",
+                "page": 10,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 217,
+                "unit": "Unit 5",
+                "page": 11,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 218,
+                "unit": "Unit 5",
+                "page": 12,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 219,
+                "unit": "Unit 5",
+                "page": 13,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 220,
+                "unit": "Unit 5",
+                "page": 14,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 221,
+                "unit": "Unit 5",
+                "page": 15,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 223,
+                "unit": "Unit 5",
+                "page": 17,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 224,
+                "unit": "Unit 5",
+                "page": 18,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 227,
+                "unit": "Unit 5",
+                "page": 21,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 230,
+                "unit": "Unit 5",
+                "page": 24,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 231,
+                "unit": "Unit 5",
+                "page": 25,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 234,
+                "unit": "Unit 5",
+                "page": 28,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 235,
+                "unit": "Unit 5",
+                "page": 29,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 238,
+                "unit": "Unit 5",
+                "page": 32,
+                "source": "os_unit5.pdf"
+            },
+            {
+                "chunk_index": 239,
+                "unit": "Unit 5",
+                "page": 33,
+                "source": "os_unit5.pdf"
+            }
+        ]
+    }
+}
