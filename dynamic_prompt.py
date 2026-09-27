@@ -257,6 +257,14 @@ TEACHING INSTRUCTIONS
 13. The final response should feel like a personalized
     tutor explanation, not a database result.
 
+14. If explaining a process, state machine, algorithm, architecture,
+    or sequence would benefit from a visual representation, append an
+    educational Mermaid flowchart at the very end of your response inside a
+    ```mermaid code block (e.g. flowchart TD or flowchart LR). Ensure all node
+    labels containing special characters are enclosed in double quotes.
+    Note: Retrieved PDF course figures take primary precedence; generated
+    diagrams are supplemental.
+
 
 ============================================================
 FINAL RESPONSE

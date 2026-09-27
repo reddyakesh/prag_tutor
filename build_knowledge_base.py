@@ -5,6 +5,7 @@ import glob
 import json
 import chromadb
 from sentence_transformers import SentenceTransformer
+from visual_processor import extract_pdf_visuals, save_visual_metadata, clear_subject_visuals
 
 # ============================================================
 # CONFIGURATION
@@ -16,17 +17,20 @@ CHROMA_PATH = os.path.join(ROOT_DIR, "chroma_db")
 MANIFEST_FILE = os.path.join(DATA_FOLDER, "pdf_manifest.json")
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
-CHUNK_SIZE = 500
+CHUNK_SIZE = 500                                                                                 
 CHUNK_OVERLAP = 75
 
 # Lazy-loaded embedding model to avoid reload overhead
-_embedding_model = None
+_embedding_model = None                       
 
 def get_embedding_model():
     global _embedding_model
     if _embedding_model is None:
         print("Loading SentenceTransformer model...")
-        _embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME)
+        try:
+            _embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME, local_files_only=True)
+        except Exception:
+            _embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME)
     return _embedding_model
 
 def clean_text(text):
@@ -196,8 +200,12 @@ def prepare_knowledge_base(subject_id: str = "operating_systems", status_callbac
     if not target_files:
         raise ValueError(f"No uploaded PDF documents found for subject '{subject_id}'. Please upload PDFs first.")
 
-    update_status(f"Extracting text from {len(target_files)} PDF file(s)...", 30)
+    # Clear existing visual assets for a clean rebuild
+    clear_subject_visuals(subject_id)
+
+    update_status(f"Extracting text & visual elements from {len(target_files)} PDF file(s)...", 30)
     all_chunks = []
+    all_visuals = []
 
     for idx, pdf_path in enumerate(target_files, start=1):
         filename = os.path.basename(pdf_path)
@@ -206,10 +214,20 @@ def prepare_knowledge_base(subject_id: str = "operating_systems", status_callbac
         chunks = create_chunks(pages, unit_name, filename)
         all_chunks.extend(chunks)
 
+        # Extract visual figures & diagrams
+        try:
+            visuals = extract_pdf_visuals(pdf_path, subject_id)
+            all_visuals.extend(visuals)
+        except Exception as v_err:
+            print(f"Visual extraction note on {filename}: {v_err}")
+
+    # Persist extracted visual metadata for this subject
+    save_visual_metadata(subject_id, all_visuals)
+
     if not all_chunks:
         raise ValueError("Could not extract any valid text chunks from uploaded PDF files.")
 
-    update_status(f"Generated {len(all_chunks)} text chunks. Loading embedding model...", 60)
+    update_status(f"Generated {len(all_chunks)} text chunks and {len(all_visuals)} figures. Loading embedding model...", 60)
     model = get_embedding_model()
 
     update_status("Computing vector embeddings (all-MiniLM-L6-v2)...", 75)
@@ -254,12 +272,38 @@ def prepare_knowledge_base(subject_id: str = "operating_systems", status_callbac
         os_col = client.create_collection(name="os_knowledge_base")
         os_col.add(ids=ids, documents=texts, embeddings=embeddings, metadatas=metadatas)
 
-    update_status("ChromaDB Collection Indexed & Ready!", 100)
+    # Update kb_status.json
+    try:
+        status_file = os.path.join(DATA_FOLDER, "kb_status.json")
+        kb_data = {}
+        if os.path.exists(status_file):
+            with open(status_file, "r", encoding="utf-8") as f:
+                kb_data = json.load(f)
+        import time
+        kb_data[subject_id] = {
+            "subject_id": subject_id,
+            "subject_name": subject_id.replace("_", " ").title(),
+            "status": "ready",
+            "kb_status": "READY",
+            "pdf_uploaded": True,
+            "prerequisites_available": os.path.exists(os.path.join(DATA_FOLDER, f"prerequisites_{subject_id}.json")),
+            "vector_chunks": len(all_chunks),
+            "pdf_count": len(target_files),
+            "kb_version": "1.0",
+            "last_prepared": time.strftime("%Y-%m-%d %H:%M:%S")
+        }
+        with open(status_file, "w", encoding="utf-8") as f:
+            json.dump(kb_data, f, indent=2)
+    except Exception as stat_err:
+        print(f"Status update note: {stat_err}")
+
+    update_status("ChromaDB Collection & Visual Media Indexed!", 100)
     return {
         "status": "ready",
         "collection_name": col_name,
         "pdf_count": len(target_files),
-        "vector_chunks": len(all_chunks)
+        "vector_chunks": len(all_chunks),
+        "extracted_images": len(all_visuals)
     }
 
 def main():

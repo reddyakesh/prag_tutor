@@ -9,7 +9,7 @@
     "vector_chunks": 291,
     "pdf_count": 5,
     "kb_version": "1.0",
-    "last_prepared": "2026-09-22 14:30:26"
+    "last_prepared": "2026-09-23 00:06:55"
   },
   "dbms": {
     "subject_id": "dbms",
@@ -26,13 +26,13 @@
   "computer_networks": {
     "subject_id": "computer_networks",
     "subject_name": "Computer Networks",
-    "status": "not_available",
-    "kb_status": "NOT_AVAILABLE",
-    "pdf_uploaded": false,
-    "prerequisites_available": false,
-    "vector_chunks": 0,
-    "pdf_count": 0,
+    "status": "ready",
+    "kb_status": "READY",
+    "pdf_uploaded": true,
+    "prerequisites_available": true,
+    "vector_chunks": 188,
+    "pdf_count": 4,
     "kb_version": "1.0",
-    "last_prepared": "2026-09-22 14:14:09"
+    "last_prepared": "2026-09-26 15:02:38"
   }
 }

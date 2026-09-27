@@ -22,9 +22,10 @@ TOP_K = 5
 
 print("Loading embedding model...")
 
-embedding_model = SentenceTransformer(
-    EMBEDDING_MODEL
-)
+try:
+    embedding_model = SentenceTransformer(EMBEDDING_MODEL, local_files_only=True)
+except Exception:
+    embedding_model = SentenceTransformer(EMBEDDING_MODEL)
 
 print("Embedding model loaded.")
 
@@ -140,6 +141,125 @@ def retrieve(
         retrieved_results.append(result)
 
     return retrieved_results
+
+
+# ============================================================
+# RETRIEVE RELEVANT VISUAL IMAGES
+# ============================================================
+
+from sklearn.metrics.pairwise import cosine_similarity
+from visual_processor import load_visual_metadata
+
+SUBJECT_ID_MAP = {
+    "os": "operating_systems",
+    "operating systems": "operating_systems",
+    "operating_systems": "operating_systems",
+    "cn": "computer_networks",
+    "computer networks": "computer_networks",
+    "computer_networks": "computer_networks",
+    "ds": "data_structures",
+    "data structures": "data_structures",
+    "data_structures": "data_structures",
+    "dbms": "dbms",
+    "se": "software_engineering",
+    "software_engineering": "software_engineering"
+}
+
+def normalize_subject_id(subject_id):
+    if not subject_id:
+        return "operating_systems"
+    clean = str(subject_id).lower().strip().replace("-", "_")
+    return SUBJECT_ID_MAP.get(clean, clean)
+
+def retrieve_relevant_images(
+    query,
+    subject=None,
+    target_topic=None,
+    top_k=3
+):
+    """
+    Retrieves the most relevant visual images/diagrams from the subject's visual metadata repository.
+    """
+    norm_sub = normalize_subject_id(subject)
+    visual_meta = load_visual_metadata(norm_sub)
+    if not visual_meta:
+        return []
+
+    if isinstance(query, dict):
+        search_text = query.get("combined_text") or query.get("raw_query") or ""
+    else:
+        search_text = str(query or "")
+
+    search_norm = search_text.lower()
+    topic_norm = (target_topic or "").lower().replace("_", " ")
+
+    # Compute query embedding for semantic visual matching
+    q_emb = embedding_model.encode([search_text or topic_norm], convert_to_numpy=True, normalize_embeddings=True)
+
+    img_texts = [f"Caption: {item.get('caption', '')}. Context: {item.get('page_context', '')[:200]}" for item in visual_meta]
+    img_embs = embedding_model.encode(img_texts, convert_to_numpy=True, normalize_embeddings=True)
+
+    similarities = cosine_similarity(q_emb, img_embs)[0]
+
+    scored_items = []
+    for idx, item in enumerate(visual_meta):
+        score = float(similarities[idx])
+
+        # Topic keyword bonus
+        rel_topics = [t.lower().replace("_", " ") for t in item.get("related_topics", [])]
+        if topic_norm and any(topic_norm in t or t in topic_norm for t in rel_topics):
+            score += 0.35
+
+        # Query keyword bonus
+        caption_lower = item.get("caption", "").lower()
+        if search_norm and any(w in caption_lower for w in search_norm.split() if len(w) > 3):
+            score += 0.20
+
+        scored_items.append((score, item))
+
+    scored_items.sort(key=lambda x: x[0], reverse=True)
+
+    results = []
+    seen_paths = set()
+    for score, item in scored_items:
+        if score < 0.20:
+            continue
+        if item["path"] in seen_paths:
+            continue
+        seen_paths.add(item["path"])
+
+        results.append({
+            "image_id": item.get("image_id"),
+            "url": item.get("url"),
+            "path": item.get("path"),
+            "unit": item.get("unit"),
+            "page": item.get("page"),
+            "source": item.get("source"),
+            "caption": item.get("caption"),
+            "related_topic": target_topic or (item.get("related_topics", ["general"])[0] if item.get("related_topics") else "general"),
+            "relevance_score": round(score, 4)
+        })
+
+        if len(results) >= top_k:
+            break
+
+    return results
+
+def retrieve_multimodal(
+    query,
+    top_k=TOP_K,
+    subject=None,
+    target_topic=None
+):
+    """
+    Returns both relevant text RAG chunks and extracted PDF images.
+    """
+    text_results = retrieve(query=query, top_k=top_k, subject=subject)
+    image_results = retrieve_relevant_images(query=query, subject=subject, target_topic=target_topic, top_k=3)
+    return {
+        "text_results": text_results,
+        "image_results": image_results
+    }
 
 
 

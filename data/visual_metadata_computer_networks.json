@@ -1,0 +1,3447 @@
+[
+  {
+    "image_id": "computer_networks_unit1_p2_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 2,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_2_img_1.png",
+    "url": "/media/computer_networks/unit1/page_2_img_1.png",
+    "width": 602,
+    "height": 169,
+    "caption": "Person speaking french cannot be understood by a person who speaks only japanese",
+    "page_context": "person speaking French cannot be understood by a person who speaks  only Japanese.      Fig 1: Components of Data Communication.    Direction of Data flow:  Communication between two devices can be simplex, half-duplex, or full- duplex.  Simplex: The communication is unidirectional, as on a one-way street.  Only one of the two devices on a link can transmit; the other can only receive.   Keyboards",
+    "related_topics": [
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p3_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 3,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_3_img_1.png",
+    "url": "/media/computer_networks/unit1/page_3_img_1.png",
+    "width": 434,
+    "height": 330,
+    "caption": "Signals going in one direction share the capacity of the link with signals going in the...",
+    "page_context": "Signals going in one direction share the capacity of the link with signals going  in the other direction as shown in Fig 2.c.  One common example of full-duplex communication is the telephone network.",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p5_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 5,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_5_img_1.png",
+    "url": "/media/computer_networks/unit1/page_5_img_1.png",
+    "width": 1112,
+    "height": 465,
+    "caption": "Local area networks \u2022 a local area network (lan) provides short-distance transmission o...",
+    "page_context": "Local Area Networks  \u2022 A Local Area Network (LAN) provides short-distance transmission of data  over small geographic areas that may comprise a single office, building, or  campus.  \u2022 Size: LAN size is limited to a few kilometers.  \u2022 Speed: Early LANs had data rates in the 4 to 16 megabits per second (Mbps)  range but now speeds are increased to 100 or 1000Mbps.  \u2022 LANs are designed to allow resou",
+    "related_topics": [
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p6_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 6,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_6_img_1.png",
+    "url": "/media/computer_networks/unit1/page_6_img_1.png",
+    "width": 960,
+    "height": 600,
+    "caption": "Wide area network a wide area network (wan) provides long -distance transmission of dat...",
+    "page_context": "Wide Area Network  A Wide Area Network (WAN) provides long -distance transmission of data,  image, audio, and video information over large geographic areas that may  comprise a country, a continent, or even the whole world.        Type of Connection  Two devices must be connected in some way to the same link at the same time  for occurring of communication. There are two possible types of connecti",
+    "related_topics": [
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p6_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 6,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_6_img_2.png",
+    "url": "/media/computer_networks/unit1/page_6_img_2.png",
+    "width": 436,
+    "height": 253,
+    "caption": "Wide area network a wide area network (wan) provides long -distance transmission of dat...",
+    "page_context": "Wide Area Network  A Wide Area Network (WAN) provides long -distance transmission of data,  image, audio, and video information over large geographic areas that may  comprise a country, a continent, or even the whole world.        Type of Connection  Two devices must be connected in some way to the same link at the same time  for occurring of communication. There are two possible types of connecti",
+    "related_topics": [
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p6_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 6,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_6_img_3.png",
+    "url": "/media/computer_networks/unit1/page_6_img_3.png",
+    "width": 960,
+    "height": 600,
+    "caption": "Wide area network a wide area network (wan) provides long -distance transmission of dat...",
+    "page_context": "Wide Area Network  A Wide Area Network (WAN) provides long -distance transmission of data,  image, audio, and video information over large geographic areas that may  comprise a country, a continent, or even the whole world.        Type of Connection  Two devices must be connected in some way to the same link at the same time  for occurring of communication. There are two possible types of connecti",
+    "related_topics": [
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p6_img4",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 6,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_6_img_4.png",
+    "url": "/media/computer_networks/unit1/page_6_img_4.png",
+    "width": 504,
+    "height": 310,
+    "caption": "Wide area network a wide area network (wan) provides long -distance transmission of dat...",
+    "page_context": "Wide Area Network  A Wide Area Network (WAN) provides long -distance transmission of data,  image, audio, and video information over large geographic areas that may  comprise a country, a continent, or even the whole world.        Type of Connection  Two devices must be connected in some way to the same link at the same time  for occurring of communication. There are two possible types of connecti",
+    "related_topics": [
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p7_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 7,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_7_img_1.png",
+    "url": "/media/computer_networks/unit1/page_7_img_1.png",
+    "width": 511,
+    "height": 295,
+    "caption": "Multipoint connection point-to-point connection \u2022 a point-to-point connection provides ...",
+    "page_context": "2. Multipoint Connection  Point-to-Point Connection  \u2022 A Point-to-Point connection provides a dedicated link between two devices.  \u2022 The entire capacity of the link is reserved for transmission between those two devices.  \u2022 Point-to-Point connections use an actual length of wire or cable to connect  the two ends and microwave or satellite links.  \u2022 Example: When you change television channels by i",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p8_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 8,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_8_img_1.png",
+    "url": "/media/computer_networks/unit1/page_8_img_1.png",
+    "width": 358,
+    "height": 122,
+    "caption": "Network topologies the term physical topology refers to the way in which a network is c...",
+    "page_context": "NETWORK TOPOLOGIES  The term physical topology refers to the way in which a network is connected physically.  Two or more devices connect to a link. Two or more links form atopology.  There are four basic topologies are present:  1. Bus  2. Ring  3. Star  4. Mesh      Mesh Topology  \u2022 In a mesh topology, every device has a Dedicated Point-to-Point link to every other  device. (i.e.) for each node ",
+    "related_topics": [
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p8_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 8,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_8_img_2.png",
+    "url": "/media/computer_networks/unit1/page_8_img_2.png",
+    "width": 320,
+    "height": 237,
+    "caption": "Network topologies the term physical topology refers to the way in which a network is c...",
+    "page_context": "NETWORK TOPOLOGIES  The term physical topology refers to the way in which a network is connected physically.  Two or more devices connect to a link. Two or more links form atopology.  There are four basic topologies are present:  1. Bus  2. Ring  3. Star  4. Mesh      Mesh Topology  \u2022 In a mesh topology, every device has a Dedicated Point-to-Point link to every other  device. (i.e.) for each node ",
+    "related_topics": [
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p9_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 9,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_9_img_1.png",
+    "url": "/media/computer_networks/unit1/page_9_img_1.png",
+    "width": 583,
+    "height": 124,
+    "caption": "Figure 2. less cabling is required than mesh topology",
+    "page_context": "Connection of telephone regional offices in which each regional office needs to be connected  to every other regional office.  Star Topology  \u2022 In a star topology, each device has a dedicated point-to-point link only to a central controller  called a Hub or Switch. The devices are not directly linked to one another.  \u2022 A star topology does not allow direct traffic between devices. The controller a",
+    "related_topics": [
+      "process",
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p9_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 9,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_9_img_2.png",
+    "url": "/media/computer_networks/unit1/page_9_img_2.png",
+    "width": 330,
+    "height": 173,
+    "caption": "Figure 2. less cabling is required than mesh topology",
+    "page_context": "Connection of telephone regional offices in which each regional office needs to be connected  to every other regional office.  Star Topology  \u2022 In a star topology, each device has a dedicated point-to-point link only to a central controller  called a Hub or Switch. The devices are not directly linked to one another.  \u2022 A star topology does not allow direct traffic between devices. The controller a",
+    "related_topics": [
+      "process",
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p10_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 10,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_10_img_1.png",
+    "url": "/media/computer_networks/unit1/page_10_img_1.png",
+    "width": 693,
+    "height": 249,
+    "caption": "Figure. each device is linked to only its immediate neighbors (either physically or logically)",
+    "page_context": "2. Difficult Reconnection and Fault Isolation. It is difficult to add new devices.  3. There is a limit on the number of taps a bus can support and on the distance between  those taps.  4. More heat is generated if the number of taps is more. Heat degrades the quality of  signal.  Ring Topology  \u2022 In a ring topology, each device has a dedicated point-to-point connection with only the  two devices ",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p11_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 11,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_11_img_1.png",
+    "url": "/media/computer_networks/unit1/page_11_img_1.png",
+    "width": 1243,
+    "height": 743,
+    "caption": "Hybrid topology it is a combination of two or more topologies for example star topology...",
+    "page_context": "Hybrid Topology  It is a combination of two or more topologies for example star topology with  each branch connecting several stations in a bus topology",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p14_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 14,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_14_img_1.png",
+    "url": "/media/computer_networks/unit1/page_14_img_1.png",
+    "width": 549,
+    "height": 465,
+    "caption": "Iso/osi model: this model is based on a proposal developed by the international standar...",
+    "page_context": "ISO/OSI MODEL:  This model is based on a proposal developed by the International Standards Organization  (ISO) as a first step toward international standardization of the protocols used in the various  layers  The model is called the ISO OSI (Open Systems Interconnection) Reference Model because  it deals with connecting open systems\u2014that is, systems that are open for communication with  other sys",
+    "related_topics": [
+      "tree",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p15_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 15,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_15_img_1.png",
+    "url": "/media/computer_networks/unit1/page_15_img_1.png",
+    "width": 1559,
+    "height": 494,
+    "caption": "Note: \u2022 layers 1-4 relate to communications technology",
+    "page_context": "NOTE:  \u2022 Layers 1-4 relate to communications technology.  \u2022 Layers 5-7 relate to user applications.  Physical Layer  The Physical Layer is concerned with transmitting raw bits over a communication channel.  Physical Layer is responsible for:  \u2022 It defines the procedures and functions that physical devices and interfaces  have to perform for transmission to occur.  \u2022 It also defines the type of tra",
+    "related_topics": [
+      "tree",
+      "synchronization",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p16_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 16,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_16_img_1.png",
+    "url": "/media/computer_networks/unit1/page_16_img_1.png",
+    "width": 1521,
+    "height": 501,
+    "caption": "Uses a mechanism to recognize duplicate frames",
+    "page_context": "uses a mechanism to recognize duplicate frames. Error control is normally  achieved through a trailer added to the end of the frame.  \u2022 Access control - When two or more devices are connected to the same link,  data link layer protocols are necessary to determine which device has control  over the link at any given time.    Network Layer  The network layer is responsible for the delivery of indivi",
+    "related_topics": [
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:21"
+  },
+  {
+    "image_id": "computer_networks_unit1_p17_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 17,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_17_img_1.png",
+    "url": "/media/computer_networks/unit1/page_17_img_1.png",
+    "width": 1567,
+    "height": 522,
+    "caption": "Table segments, with each segment containing a sequence number",
+    "page_context": "Transport Layer  The transport layer is a true end-to-end layer; it carries from the source to the destination.  The transport layer is responsible for the delivery of a message from one process  to another. A process is an application program running on a host.  Responsibilities of the Transport Layer Include:  Port addressing (or) Service point addressing  \u2022 Source-to-Destination delivery means ",
+    "related_topics": [
+      "memory_management",
+      "sql",
+      "osi_model",
+      "process",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p18_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 18,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_18_img_1.png",
+    "url": "/media/computer_networks/unit1/page_18_img_1.png",
+    "width": 1570,
+    "height": 542,
+    "caption": "\u2022 error control at this layer is performed process-to-process rather than across a sing...",
+    "page_context": "\u2022 Error control at this layer is performed Process-to-Process rather than across a single link.  \u2022 Error control achieved through Retransmission.    Session Layer  The session layer allows users on different machines to establish sessions  between them. The session layer is the network dialog controller. It establishes,  maintains, and synchronizes the interaction among communicating systems.  Res",
+    "related_topics": [
+      "process",
+      "synchronization",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p18_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 18,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_18_img_2.png",
+    "url": "/media/computer_networks/unit1/page_18_img_2.png",
+    "width": 1626,
+    "height": 749,
+    "caption": "\u2022 error control at this layer is performed process-to-process rather than across a sing...",
+    "page_context": "\u2022 Error control at this layer is performed Process-to-Process rather than across a single link.  \u2022 Error control achieved through Retransmission.    Session Layer  The session layer allows users on different machines to establish sessions  between them. The session layer is the network dialog controller. It establishes,  maintains, and synchronizes the interaction among communicating systems.  Res",
+    "related_topics": [
+      "process",
+      "synchronization",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p19_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 19,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_19_img_1.png",
+    "url": "/media/computer_networks/unit1/page_19_img_1.png",
+    "width": 1521,
+    "height": 513,
+    "caption": "Presentation layer the presentation layer is concerned with the syntax and semantics of...",
+    "page_context": "Presentation Layer  The presentation layer is concerned with the syntax and semantics of the  information exchanged between two systems.  The presentation layer is responsible for Translation, Compression, and  Encryption. Translation  \u2022 The processes (running programs) in two systems are usually exchanging  information in the form of character strings, numbers etc. The information  must be change",
+    "related_topics": [
+      "process",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p20_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 20,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_20_img_1.png",
+    "url": "/media/computer_networks/unit1/page_20_img_1.png",
+    "width": 1527,
+    "height": 766,
+    "caption": "And it allows a user to log on to a remote host",
+    "page_context": "and it allows a user to log on to a remote host.  \u2022 File transfer, access, and management in a remote host.  \u2022 Mail services such as email forwarding and mail storage.  \u2022 Directory services are an application provides distributed database sources  and access for global information about various objects and services.",
+    "related_topics": [
+      "file_system"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p21_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 21,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_21_img_1.png",
+    "url": "/media/computer_networks/unit1/page_21_img_1.png",
+    "width": 673,
+    "height": 444,
+    "caption": "Tcp/ip protocol suite the tcp/ip protocol suite was developed prior to the osi model",
+    "page_context": "TCP/IP PROTOCOL SUITE  The TCP/IP protocol suite was developed prior to the OSI model.  The original TCP/IP protocol suite was defined as having four layers:  1. Host-To-Network Layer  2. Internet Layer  3. Transport Layer  4. Application Layer",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p25_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 25,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_25_img_1.png",
+    "url": "/media/computer_networks/unit1/page_25_img_1.png",
+    "width": 538,
+    "height": 129,
+    "caption": "Transmission modes transmission modes are two types: 1",
+    "page_context": "TRANSMISSION MODES  Transmission modes are two types:  1. Parallel Transmission  2. Serial Transmission    Parallel Transmission  Parallel Transmission is defined as sending n bits of data at a time instead of transmitting one  bit at a time.  The mechanism for parallel transmission is a conceptually simple one: Use n-wires to send  n-bits at one time.  Advantage: Speed of the transmission is incr",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p25_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 25,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_25_img_2.png",
+    "url": "/media/computer_networks/unit1/page_25_img_2.png",
+    "width": 464,
+    "height": 302,
+    "caption": "Transmission modes transmission modes are two types: 1",
+    "page_context": "TRANSMISSION MODES  Transmission modes are two types:  1. Parallel Transmission  2. Serial Transmission    Parallel Transmission  Parallel Transmission is defined as sending n bits of data at a time instead of transmitting one  bit at a time.  The mechanism for parallel transmission is a conceptually simple one: Use n-wires to send  n-bits at one time.  Advantage: Speed of the transmission is incr",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p25_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 25,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_25_img_3.png",
+    "url": "/media/computer_networks/unit1/page_25_img_3.png",
+    "width": 454,
+    "height": 266,
+    "caption": "Transmission modes transmission modes are two types: 1",
+    "page_context": "TRANSMISSION MODES  Transmission modes are two types:  1. Parallel Transmission  2. Serial Transmission    Parallel Transmission  Parallel Transmission is defined as sending n bits of data at a time instead of transmitting one  bit at a time.  The mechanism for parallel transmission is a conceptually simple one: Use n-wires to send  n-bits at one time.  Advantage: Speed of the transmission is incr",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p26_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 26,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_26_img_1.png",
+    "url": "/media/computer_networks/unit1/page_26_img_1.png",
+    "width": 697,
+    "height": 262,
+    "caption": "Asynchronous transmission \u2022 the timing of signal is not important in asynchronous trans...",
+    "page_context": "Asynchronous Transmission  \u2022 The timing of signal is not important in Asynchronous transmission. Information is  received and translated by agreed upon patterns.  \u2022 As long as those patterns are followed, the receiving device can retrieve the information  without regard to the order in which it is sent.  \u2022 Patterns are based on grouping the bit stream into bytes. Each group contains 8 bits is sent",
+    "related_topics": [
+      "synchronization"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p27_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 27,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_27_img_1.png",
+    "url": "/media/computer_networks/unit1/page_27_img_1.png",
+    "width": 696,
+    "height": 178,
+    "caption": "In synchronous transmission timing plays very crucial role",
+    "page_context": "In synchronous transmission Timing plays very crucial role. When the  information comes from sender, the receiving device accurately count the bits  and group them into 8 bits because we don\u2019t have any extra bits to identify  starting and ending of byte. This process is called Byte Synchronization.  Advantage: Speed of the transmission is increased as compared to Asynchronous  transmission because",
+    "related_topics": [
+      "process",
+      "sql",
+      "synchronization"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p28_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 28,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_28_img_1.png",
+    "url": "/media/computer_networks/unit1/page_28_img_1.png",
+    "width": 621,
+    "height": 152,
+    "caption": "1 multiplexing multiplexing is the set of techniques that allows the simultaneous trans...",
+    "page_context": "1    Multiplexing  Multiplexing is the set of techniques that allows the simultaneous transmission  of multiple signals across a single data link.  As data and telecommunications use increases the data traffic is also increases.  We can accommodate this increase by continuously adding the individual links  each time a new channel is needed, or we can install higher-bandwidth links and  use each to",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p28_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 28,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_28_img_2.png",
+    "url": "/media/computer_networks/unit1/page_28_img_2.png",
+    "width": 529,
+    "height": 153,
+    "caption": "1 multiplexing multiplexing is the set of techniques that allows the simultaneous trans...",
+    "page_context": "1    Multiplexing  Multiplexing is the set of techniques that allows the simultaneous transmission  of multiple signals across a single data link.  As data and telecommunications use increases the data traffic is also increases.  We can accommodate this increase by continuously adding the individual links  each time a new channel is needed, or we can install higher-bandwidth links and  use each to",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p29_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 29,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_29_img_1.png",
+    "url": "/media/computer_networks/unit1/page_29_img_1.png",
+    "width": 550,
+    "height": 142,
+    "caption": "2 that can be transported by the link",
+    "page_context": "2    that can be transported by the link.  \u2022 Carrier frequencies are separated by sufficient bandwidth to  accommodate the modulated signal.  \u2022 These bandwidth ranges are the channels through which the various signals travel.        Fig: Frequency Division Multiplexing    In the above figure, the transmission path is divided into three parts, each  representing a channel that carries one transmiss",
+    "related_topics": [
+      "process",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p29_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 29,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_29_img_2.png",
+    "url": "/media/computer_networks/unit1/page_29_img_2.png",
+    "width": 509,
+    "height": 144,
+    "caption": "2 that can be transported by the link",
+    "page_context": "2    that can be transported by the link.  \u2022 Carrier frequencies are separated by sufficient bandwidth to  accommodate the modulated signal.  \u2022 These bandwidth ranges are the channels through which the various signals travel.        Fig: Frequency Division Multiplexing    In the above figure, the transmission path is divided into three parts, each  representing a channel that carries one transmiss",
+    "related_topics": [
+      "process",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p29_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 29,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_29_img_3.png",
+    "url": "/media/computer_networks/unit1/page_29_img_3.png",
+    "width": 532,
+    "height": 119,
+    "caption": "2 that can be transported by the link",
+    "page_context": "2    that can be transported by the link.  \u2022 Carrier frequencies are separated by sufficient bandwidth to  accommodate the modulated signal.  \u2022 These bandwidth ranges are the channels through which the various signals travel.        Fig: Frequency Division Multiplexing    In the above figure, the transmission path is divided into three parts, each  representing a channel that carries one transmiss",
+    "related_topics": [
+      "process",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p30_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 30,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_30_img_1.png",
+    "url": "/media/computer_networks/unit1/page_30_img_1.png",
+    "width": 505,
+    "height": 192,
+    "caption": "3 \u2022 a demultiplexer can be made to divide wider band of frequencies by decomposing the ...",
+    "page_context": "3    \u2022 A demultiplexer can be made to divide wider band of frequencies by  decomposing the light beams into narrow band frequencies.  Advantages: High Speed and High frequency, uses narrow bands of light sources.  Disadvantages: Expensive than FDM.    Time-Division Multiplexing (TDM)  TDM is a digital multiplexing technique for combining several low-rate  channels into one high-rate channel. Digit",
+    "related_topics": [
+      "process",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p31_img19",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 31,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_31_img_19.png",
+    "url": "/media/computer_networks/unit1/page_31_img_19.png",
+    "width": 582,
+    "height": 117,
+    "caption": "Transmission media transmission media are actually located below the physical layer and...",
+    "page_context": "TRANSMISSION MEDIA  Transmission media are actually located below the physical layer and are directly controlled by  the physical layer.  A transmission medium can be broadly defined as anything that can carry information from a  source to a destination. In data communications the information is usually a signal.    Transmission media can be categorized into following ways:  \u2022 Guided or Wired Medi",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p32_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 32,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_32_img_1.png",
+    "url": "/media/computer_networks/unit1/page_32_img_1.png",
+    "width": 635,
+    "height": 90,
+    "caption": "The signal sent by the sender on one of the wires, interference (noise) and crosstalk m...",
+    "page_context": "The signal sent by the sender on one of the wires, interference (noise) and crosstalk mayaffect  both wires and create unwanted signals.    STP v/s UTP  Shielded Twisted Pair (STP) cable has a metal foil or braided mesh covering that encases  each pair of insulated conductors. A twisted -pair cable can pass a wide range of frequencies.  Although metal casing improves the quality of cable by preven",
+    "related_topics": [
+      "file_system"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p32_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 32,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_32_img_2.png",
+    "url": "/media/computer_networks/unit1/page_32_img_2.png",
+    "width": 685,
+    "height": 267,
+    "caption": "The signal sent by the sender on one of the wires, interference (noise) and crosstalk m...",
+    "page_context": "The signal sent by the sender on one of the wires, interference (noise) and crosstalk mayaffect  both wires and create unwanted signals.    STP v/s UTP  Shielded Twisted Pair (STP) cable has a metal foil or braided mesh covering that encases  each pair of insulated conductors. A twisted -pair cable can pass a wide range of frequencies.  Although metal casing improves the quality of cable by preven",
+    "related_topics": [
+      "file_system"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p32_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 32,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_32_img_3.png",
+    "url": "/media/computer_networks/unit1/page_32_img_3.png",
+    "width": 586,
+    "height": 179,
+    "caption": "The signal sent by the sender on one of the wires, interference (noise) and crosstalk m...",
+    "page_context": "The signal sent by the sender on one of the wires, interference (noise) and crosstalk mayaffect  both wires and create unwanted signals.    STP v/s UTP  Shielded Twisted Pair (STP) cable has a metal foil or braided mesh covering that encases  each pair of insulated conductors. A twisted -pair cable can pass a wide range of frequencies.  Although metal casing improves the quality of cable by preven",
+    "related_topics": [
+      "file_system"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p32_img4",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 32,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_32_img_4.png",
+    "url": "/media/computer_networks/unit1/page_32_img_4.png",
+    "width": 515,
+    "height": 223,
+    "caption": "The signal sent by the sender on one of the wires, interference (noise) and crosstalk m...",
+    "page_context": "The signal sent by the sender on one of the wires, interference (noise) and crosstalk mayaffect  both wires and create unwanted signals.    STP v/s UTP  Shielded Twisted Pair (STP) cable has a metal foil or braided mesh covering that encases  each pair of insulated conductors. A twisted -pair cable can pass a wide range of frequencies.  Although metal casing improves the quality of cable by preven",
+    "related_topics": [
+      "file_system"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p33_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 33,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_33_img_1.png",
+    "url": "/media/computer_networks/unit1/page_33_img_1.png",
+    "width": 381,
+    "height": 123,
+    "caption": "\u2022 coaxial cable has a central core conductor of copper wire enclosed in an insulating s...",
+    "page_context": "\u2022 Coaxial cable has a central core conductor of copper wire enclosed in an insulating sheath.  \u2022 Insulating sheath encased in an outer conductor of metal foil.  \u2022 The outer metallic wrapping serves both as a shield against noise and as the second  conductor, which completes the circuit.  \u2022 This outer conductor is also enclosed in an insulating sheath, and the whole cable is  protected by a plastic",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p33_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 33,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_33_img_2.png",
+    "url": "/media/computer_networks/unit1/page_33_img_2.png",
+    "width": 410,
+    "height": 245,
+    "caption": "\u2022 coaxial cable has a central core conductor of copper wire enclosed in an insulating s...",
+    "page_context": "\u2022 Coaxial cable has a central core conductor of copper wire enclosed in an insulating sheath.  \u2022 Insulating sheath encased in an outer conductor of metal foil.  \u2022 The outer metallic wrapping serves both as a shield against noise and as the second  conductor, which completes the circuit.  \u2022 This outer conductor is also enclosed in an insulating sheath, and the whole cable is  protected by a plastic",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p33_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 33,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_33_img_3.png",
+    "url": "/media/computer_networks/unit1/page_33_img_3.png",
+    "width": 614,
+    "height": 117,
+    "caption": "\u2022 coaxial cable has a central core conductor of copper wire enclosed in an insulating s...",
+    "page_context": "\u2022 Coaxial cable has a central core conductor of copper wire enclosed in an insulating sheath.  \u2022 Insulating sheath encased in an outer conductor of metal foil.  \u2022 The outer metallic wrapping serves both as a shield against noise and as the second  conductor, which completes the circuit.  \u2022 This outer conductor is also enclosed in an insulating sheath, and the whole cable is  protected by a plastic",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p34_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 34,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_34_img_1.png",
+    "url": "/media/computer_networks/unit1/page_34_img_1.png",
+    "width": 486,
+    "height": 212,
+    "caption": "Propagation modes multimode propagation in this mode multiple beams from a light source...",
+    "page_context": "Propagation Modes    Multimode Propagation  In this mode multiple beams from a light source move through the core in different paths.  Multimode Step-Index Fiber:  \u2022 The density of the core remains constant from the center to the edges.  \u2022 A beam of light moves through this constant density in a straight line until it reaches the  interface of the core and the cladding.  \u2022 At the interface, there ",
+    "related_topics": [
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p34_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 34,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_34_img_2.png",
+    "url": "/media/computer_networks/unit1/page_34_img_2.png",
+    "width": 567,
+    "height": 467,
+    "caption": "Propagation modes multimode propagation in this mode multiple beams from a light source...",
+    "page_context": "Propagation Modes    Multimode Propagation  In this mode multiple beams from a light source move through the core in different paths.  Multimode Step-Index Fiber:  \u2022 The density of the core remains constant from the center to the edges.  \u2022 A beam of light moves through this constant density in a straight line until it reaches the  interface of the core and the cladding.  \u2022 At the interface, there ",
+    "related_topics": [
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p36_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 36,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_36_img_1.png",
+    "url": "/media/computer_networks/unit1/page_36_img_1.png",
+    "width": 1417,
+    "height": 590,
+    "caption": "Unguided media(or) wireless communication unguided media transport electromagnetic wave...",
+    "page_context": "UNGUIDED MEDIA(or) WIRELESS COMMUNICATION  Unguided media transport Electromagnetic Waves without using a physical conductor. This  type of communication is often referred to as wireless communication. Electromagnetic  spectrum ranging from 3 kHz to 900 THz used for wireless communication.  Categories of Wireless Communication:  \u2022 Radio Waves ( 3kHz \u20131GHz)  \u2022 Microwaves ( 1GHz- 300 GHz)  \u2022 Infrare",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p36_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 36,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_36_img_2.png",
+    "url": "/media/computer_networks/unit1/page_36_img_2.png",
+    "width": 748,
+    "height": 186,
+    "caption": "Unguided media(or) wireless communication unguided media transport electromagnetic wave...",
+    "page_context": "UNGUIDED MEDIA(or) WIRELESS COMMUNICATION  Unguided media transport Electromagnetic Waves without using a physical conductor. This  type of communication is often referred to as wireless communication. Electromagnetic  spectrum ranging from 3 kHz to 900 THz used for wireless communication.  Categories of Wireless Communication:  \u2022 Radio Waves ( 3kHz \u20131GHz)  \u2022 Microwaves ( 1GHz- 300 GHz)  \u2022 Infrare",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:22"
+  },
+  {
+    "image_id": "computer_networks_unit1_p40_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 40,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_40_img_2.png",
+    "url": "/media/computer_networks/unit1/page_40_img_2.png",
+    "width": 544,
+    "height": 296,
+    "caption": "Figure shows the byte stuffing and unstuffing:",
+    "page_context": "Character Stuffing/Byte Stuffing  In a character stuffing, data to be carried are 8-bit characters from a coding  system such as ASCII. The Frame format in Character Stuffing is given below:    Character Stuffing uses: Header, Trailer and a Flag.  \u2022 Header carries the source and destination addresses and other control  information.  \u2022 Trailer carries error detection or error correction redundant b",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p41_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 41,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_41_img_1.png",
+    "url": "/media/computer_networks/unit1/page_41_img_1.png",
+    "width": 429,
+    "height": 299,
+    "caption": "Figure: \u2022 in bit stuffing, if a 0 and five consecutive1-bits are encountered, an extra0 is added",
+    "page_context": "Problems with Byte Stuffing  \u2022 If the text contains one or more escape characters followed by a flag, the  receiver removes the escape character, but keeps the flag, which is incorrectly  interpreted as the end of the frame.  Solution  \u2022 To solve this problem, the escape characters that are part of the text must also  be marked by another escape character.  Disadvantages of character/Byte stuffing",
+    "related_topics": [
+      "graph",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p43_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 43,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_43_img_1.png",
+    "url": "/media/computer_networks/unit1/page_43_img_1.png",
+    "width": 1096,
+    "height": 654,
+    "caption": "Error is a condition when the receiver\u2019s information does not match the sender\u2019s inform...",
+    "page_context": "Error is a condition when the receiver\u2019s information does not match the sender\u2019s  information. During transmission, digital signals suffer from noise that can  introduce errors in the binary bits traveling from sender to receiver. That means a 0  bit may change to 1 or a 1 bit may change to 0.    Error Detection:  To prevent such errors, error -detection codes are added as extra data to digital  m",
+    "related_topics": [
+      "process"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p44_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 44,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_44_img_1.png",
+    "url": "/media/computer_networks/unit1/page_44_img_1.png",
+    "width": 512,
+    "height": 181,
+    "caption": "The first step is to perform the bit addition of the given data bits at the sender side",
+    "page_context": "The first step is to perform the bit addition of the given data bits at the sender side.    Note: The extra carry bits are added to the summation result.  2. Perform the 1\u2019s Complement for the bit addition result, thus obtaining the  checksum value.    3. Integrate the checksum value and the original data bit and begin the data  transmission to the receiver.    4. The receiver side will begin the ",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p44_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 44,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_44_img_2.png",
+    "url": "/media/computer_networks/unit1/page_44_img_2.png",
+    "width": 512,
+    "height": 158,
+    "caption": "The first step is to perform the bit addition of the given data bits at the sender side",
+    "page_context": "The first step is to perform the bit addition of the given data bits at the sender side.    Note: The extra carry bits are added to the summation result.  2. Perform the 1\u2019s Complement for the bit addition result, thus obtaining the  checksum value.    3. Integrate the checksum value and the original data bit and begin the data  transmission to the receiver.    4. The receiver side will begin the ",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p45_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 45,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_45_img_1.png",
+    "url": "/media/computer_networks/unit1/page_45_img_1.png",
+    "width": 512,
+    "height": 198,
+    "caption": "If the complement result is 0, the data received is correct and without any error",
+    "page_context": "5. If the complement result is 0, the data received is correct and without any error.        1\u2019s Complement",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p45_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 45,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_45_img_2.png",
+    "url": "/media/computer_networks/unit1/page_45_img_2.png",
+    "width": 512,
+    "height": 189,
+    "caption": "If the complement result is 0, the data received is correct and without any error",
+    "page_context": "5. If the complement result is 0, the data received is correct and without any error.        1\u2019s Complement",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p46_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 46,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_46_img_1.png",
+    "url": "/media/computer_networks/unit1/page_46_img_1.png",
+    "width": 1136,
+    "height": 412,
+    "caption": "1 cyclic redundancy check (crc) \u2022 unlike the checksum scheme, which is based on additio...",
+    "page_context": "1    Cyclic Redundancy Check (CRC)  \u2022 Unlike the checksum scheme, which is based on addition, CRC is based on  binary division.  \u2022 In CRC, a sequence of redundant bits, called cyclic redundancy check bits,  are appended to the end of the data unit so that the resulting data unit  becomes exactly divisible by a second, predetermined binary number.  \u2022 At the destination, the incoming data unit is di",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p47_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 47,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_47_img_1.png",
+    "url": "/media/computer_networks/unit1/page_47_img_1.png",
+    "width": 676,
+    "height": 350,
+    "caption": "2 example: \u2022 let us take k=4 bits n=7 bits \u2022 appended dataword size = (n-k) = 3",
+    "page_context": "2    Example:  \u2022 Let us take k=4 bits n=7 bits  \u2022 Appended Dataword Size = (n-k) = 3.  \u2022 Divisor Size=(n-k+1)=4.      Example:",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p47_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 47,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_47_img_2.png",
+    "url": "/media/computer_networks/unit1/page_47_img_2.png",
+    "width": 432,
+    "height": 440,
+    "caption": "2 example: \u2022 let us take k=4 bits n=7 bits \u2022 appended dataword size = (n-k) = 3",
+    "page_context": "2    Example:  \u2022 Let us take k=4 bits n=7 bits  \u2022 Appended Dataword Size = (n-k) = 3.  \u2022 Divisor Size=(n-k+1)=4.      Example:",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p48_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 48,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_48_img_1.png",
+    "url": "/media/computer_networks/unit1/page_48_img_1.png",
+    "width": 680,
+    "height": 401,
+    "caption": "Course Visual Reference (Page 48)",
+    "page_context": "3        Example 2:",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p48_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 48,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_48_img_2.png",
+    "url": "/media/computer_networks/unit1/page_48_img_2.png",
+    "width": 764,
+    "height": 605,
+    "caption": "Course Visual Reference (Page 48)",
+    "page_context": "3        Example 2:",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p50_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 50,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_50_img_1.png",
+    "url": "/media/computer_networks/unit1/page_50_img_1.png",
+    "width": 623,
+    "height": 686,
+    "caption": "In general, each parity bit covers all bits where the bitwise and o f the parity positi...",
+    "page_context": "2    etc). e. In general, each parity bit covers all bits where the bitwise AND o f  the parity position and the bit position is non -zero.  5. Since we check for even parity set a parity bit to 1 if the total number of  ones in the positions it checks is odd.  6. Set a parity bit to 0 if the total number of ones in the positions it checks is  even.      Determining the position of redundant bits ",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p51_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 51,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_51_img_1.png",
+    "url": "/media/computer_networks/unit1/page_51_img_1.png",
+    "width": 595,
+    "height": 166,
+    "caption": "3 \u2022 the number of redundant bits = 4 \u2022 the total number of bits = 11 \u2022 the redundant bi...",
+    "page_context": "3    \u2022 The number of redundant bits = 4  \u2022 The total number of bits = 11  \u2022 The redundant bits are placed at positions corresponding to power of 2 -  1, 2, 4, and 8    \u2022 Suppose the data to be transmitted is 1011001, the bits will be placed as  follows:    Determining the Parity bits:  \u2022 R1 bit is calculated using parity check at all the bits positions whose  binary representation includes a 1 in ",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p51_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 51,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_51_img_2.png",
+    "url": "/media/computer_networks/unit1/page_51_img_2.png",
+    "width": 517,
+    "height": 108,
+    "caption": "3 \u2022 the number of redundant bits = 4 \u2022 the total number of bits = 11 \u2022 the redundant bi...",
+    "page_context": "3    \u2022 The number of redundant bits = 4  \u2022 The total number of bits = 11  \u2022 The redundant bits are placed at positions corresponding to power of 2 -  1, 2, 4, and 8    \u2022 Suppose the data to be transmitted is 1011001, the bits will be placed as  follows:    Determining the Parity bits:  \u2022 R1 bit is calculated using parity check at all the bits positions whose  binary representation includes a 1 in ",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p51_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 51,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_51_img_3.png",
+    "url": "/media/computer_networks/unit1/page_51_img_3.png",
+    "width": 558,
+    "height": 248,
+    "caption": "3 \u2022 the number of redundant bits = 4 \u2022 the total number of bits = 11 \u2022 the redundant bi...",
+    "page_context": "3    \u2022 The number of redundant bits = 4  \u2022 The total number of bits = 11  \u2022 The redundant bits are placed at positions corresponding to power of 2 -  1, 2, 4, and 8    \u2022 Suppose the data to be transmitted is 1011001, the bits will be placed as  follows:    Determining the Parity bits:  \u2022 R1 bit is calculated using parity check at all the bits positions whose  binary representation includes a 1 in ",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p52_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 52,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_52_img_1.png",
+    "url": "/media/computer_networks/unit1/page_52_img_1.png",
+    "width": 559,
+    "height": 219,
+    "caption": "4 \u2022 to find the redund ant bit r2, we check for even parity",
+    "page_context": "4      \u2022 To find the redund ant bit R2, we check for even parity. Since the total  number of 1\u2019s in all the bit positions corresponding to R2 is odd the value  of R2(parity bit\u2019s value)=1  \u2022 R4 bit is calculated using parity check at all the bits positions whose  binary representation incl udes a 1 in the third position from the least  significant bit. R4: bits 4, 5, 6, 7      1. To find the redun",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p52_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 52,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_52_img_2.png",
+    "url": "/media/computer_networks/unit1/page_52_img_2.png",
+    "width": 562,
+    "height": 238,
+    "caption": "4 \u2022 to find the redund ant bit r2, we check for even parity",
+    "page_context": "4      \u2022 To find the redund ant bit R2, we check for even parity. Since the total  number of 1\u2019s in all the bit positions corresponding to R2 is odd the value  of R2(parity bit\u2019s value)=1  \u2022 R4 bit is calculated using parity check at all the bits positions whose  binary representation incl udes a 1 in the third position from the least  significant bit. R4: bits 4, 5, 6, 7      1. To find the redun",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p53_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 53,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_53_img_1.png",
+    "url": "/media/computer_networks/unit1/page_53_img_1.png",
+    "width": 587,
+    "height": 239,
+    "caption": "5 \u2022 to find the redundant bit r8, we check for eve n parity",
+    "page_context": "5      \u2022 To find the redundant bit R8, we check for eve n parity. Since the total  number of 1\u2019s in all the bit positions corresponding to R8 is an even  number the value of R8(parity bit\u2019s value)=0. Thus, the data transferred  is:    Error detection and correction: Suppose in the above example the 6th bit is  changed from 0 to 1 during data transmission, then it gives new parity values in the  bi",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p53_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 53,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_53_img_2.png",
+    "url": "/media/computer_networks/unit1/page_53_img_2.png",
+    "width": 534,
+    "height": 92,
+    "caption": "5 \u2022 to find the redundant bit r8, we check for eve n parity",
+    "page_context": "5      \u2022 To find the redundant bit R8, we check for eve n parity. Since the total  number of 1\u2019s in all the bit positions corresponding to R8 is an even  number the value of R8(parity bit\u2019s value)=0. Thus, the data transferred  is:    Error detection and correction: Suppose in the above example the 6th bit is  changed from 0 to 1 during data transmission, then it gives new parity values in the  bi",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p54_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 54,
+    "source": "cn_1.pdf",
+    "path": "media/computer_networks/unit1/page_54_img_1.png",
+    "url": "/media/computer_networks/unit1/page_54_img_1.png",
+    "width": 627,
+    "height": 486,
+    "caption": "6 for all the parity bits we will check the number of 1\u2019s in their respective bit posit...",
+    "page_context": "6      For all the parity bits we will check the number of 1\u2019s in their respective bit  positions.  For R1: bits 1, 3, 5, 7, 9, 11. We can see that the number of 1\u2019s i n these bit positions  are 4 and that\u2019s even so we get a 0 for this.  For R2: bits 2,3,6,7,10,11 . We can see that the number of 1\u2019s in these bit positions  are 5 and that\u2019s odd so we get a 1 for this.  For R4: bits 4, 5, 6, 7 . We ",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:23"
+  },
+  {
+    "image_id": "computer_networks_unit1_p2_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 2,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_2_img_1.png",
+    "url": "/media/computer_networks/unit1/page_2_img_1.png",
+    "width": 545,
+    "height": 190,
+    "caption": "Classful addressing \u2022 initially ipv4 used the concept of classful addressing",
+    "page_context": "CLASSFUL ADDRESSING  \u2022 Initially IPv4 used the concept of Classful addressing.  \u2022 In classful addressing, the address space is divided into five classes: A, B, C, D, and  E.  \u2022 If the address is given in binary notation, the first few bits can immediately tell  us the class of the address.  \u2022 If the address is given in decimal-dotted notation, the first byte defines the class.    Classes and Block",
+    "related_topics": [
+      "transaction",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:25"
+  },
+  {
+    "image_id": "computer_networks_unit1_p3_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 3,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_3_img_1.png",
+    "url": "/media/computer_networks/unit1/page_3_img_1.png",
+    "width": 975,
+    "height": 459,
+    "caption": "Course Figure (Page 3, Figure 1)",
+    "page_context": "",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:25"
+  },
+  {
+    "image_id": "computer_networks_unit1_p5_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 5,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_5_img_1.png",
+    "url": "/media/computer_networks/unit1/page_5_img_1.png",
+    "width": 498,
+    "height": 141,
+    "caption": "The internet, it is granted a block of addresses",
+    "page_context": "the Internet, it is granted a block of addresses.\uf020 \uf0b7 The size of the block (the number of addresses) varies based on the nature and  size of the entity.\uf020 Example:  \uf0b7 For a large organization may be given thousands of addresses\uf020 \uf0b7 For a house two addresses are sufficient\uf020 \uf0b7 An Internet service provider may be given hundreds of thousands based on the  number of customers it may serve.\uf020 Restrictions ",
+    "related_topics": [
+      "transaction"
+    ],
+    "extracted_at": "2026-09-26 15:02:25"
+  },
+  {
+    "image_id": "computer_networks_unit1_p6_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 6,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_6_img_1.png",
+    "url": "/media/computer_networks/unit1/page_6_img_1.png",
+    "width": 694,
+    "height": 326,
+    "caption": "\uf0b7 network address is the first address in the block and defines the organization network",
+    "page_context": "\uf0b7 Network Address is the first address in the block and defines the organization  network. Usually the first address is used by routers to direct the message sent to  the organization from the outside.\uf020 Example: 205.16.37.39/28 or 11001101 00010000 00100101 00100111  \uf0b7 First address: 11001101 000100000100101 0010000 or 205.16.37.32\uf020 \uf0b7 Last address: 11001101 00010000 001001010010 1111 or205.16.37.4",
+    "related_topics": [
+      "transaction",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:25"
+  },
+  {
+    "image_id": "computer_networks_unit1_p6_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 6,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_6_img_2.png",
+    "url": "/media/computer_networks/unit1/page_6_img_2.png",
+    "width": 311,
+    "height": 88,
+    "caption": "\uf0b7 network address is the first address in the block and defines the organization network",
+    "page_context": "\uf0b7 Network Address is the first address in the block and defines the organization  network. Usually the first address is used by routers to direct the message sent to  the organization from the outside.\uf020 Example: 205.16.37.39/28 or 11001101 00010000 00100101 00100111  \uf0b7 First address: 11001101 000100000100101 0010000 or 205.16.37.32\uf020 \uf0b7 Last address: 11001101 00010000 001001010010 1111 or205.16.37.4",
+    "related_topics": [
+      "transaction",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:25"
+  },
+  {
+    "image_id": "computer_networks_unit1_p7_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 7,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_7_img_1.png",
+    "url": "/media/computer_networks/unit1/page_7_img_1.png",
+    "width": 659,
+    "height": 167,
+    "caption": "Network address translation (nat) \u2022 as the number of home users and small business user...",
+    "page_context": "Network Address Translation (NAT)  \u2022 As the number of home users and small business users are increasing day by day  it is not possible to give each and every user to one IPv4 address due to shortage  of IPv4 addresses.  \u2022 In order to overcome this problem the developers designed the concepts of private  IP address and Network Address Translation(NAT).  \u2022 NAT enables a user to have a large set of ",
+    "related_topics": [
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:25"
+  },
+  {
+    "image_id": "computer_networks_unit1_p7_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 7,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_7_img_2.png",
+    "url": "/media/computer_networks/unit1/page_7_img_2.png",
+    "width": 682,
+    "height": 177,
+    "caption": "Network address translation (nat) \u2022 as the number of home users and small business user...",
+    "page_context": "Network Address Translation (NAT)  \u2022 As the number of home users and small business users are increasing day by day  it is not possible to give each and every user to one IPv4 address due to shortage  of IPv4 addresses.  \u2022 In order to overcome this problem the developers designed the concepts of private  IP address and Network Address Translation(NAT).  \u2022 NAT enables a user to have a large set of ",
+    "related_topics": [
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:25"
+  },
+  {
+    "image_id": "computer_networks_unit1_p8_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 8,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_8_img_1.png",
+    "url": "/media/computer_networks/unit1/page_8_img_1.png",
+    "width": 609,
+    "height": 133,
+    "caption": "Table there are two types of translation tables: 1",
+    "page_context": "destination address in the packet (the NAT router global address) with the  appropriate private address.  Translation Table  There are two types of translation tables:  1. Two Column translation table (Using one IP address)  2. Five column translation table (Using IP addresses and Port Numbers)  Two Column Translation Table  \u2022 It contains two columns: Private Address and External Address.  \u2022 In th",
+    "related_topics": [
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:25"
+  },
+  {
+    "image_id": "computer_networks_unit1_p9_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 9,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_9_img_1.png",
+    "url": "/media/computer_networks/unit1/page_9_img_1.png",
+    "width": 1647,
+    "height": 314,
+    "caption": "Note: only leading zeros are omitted not trailing zeros",
+    "page_context": "Note: Only leading zeros are omitted not  trailing zeros. Example:  \u2022 In the above example: 0074 written as 74, 0000 written as 0.  \u2022 If there are consecutive sections consisting of zeros only. We can remove the  zeros altogether and replace them with a double semicolon.  Address Space  \u2022 IPv6 has 2128 addresses are available. It is a much larger address space than IPv4    Tunneling  \u2022 Tunneling i",
+    "related_topics": [
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:25"
+  },
+  {
+    "image_id": "computer_networks_unit1_p9_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 9,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_9_img_2.png",
+    "url": "/media/computer_networks/unit1/page_9_img_2.png",
+    "width": 442,
+    "height": 199,
+    "caption": "Note: only leading zeros are omitted not trailing zeros",
+    "page_context": "Note: Only leading zeros are omitted not  trailing zeros. Example:  \u2022 In the above example: 0074 written as 74, 0000 written as 0.  \u2022 If there are consecutive sections consisting of zeros only. We can remove the  zeros altogether and replace them with a double semicolon.  Address Space  \u2022 IPv6 has 2128 addresses are available. It is a much larger address space than IPv4    Tunneling  \u2022 Tunneling i",
+    "related_topics": [
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:25"
+  },
+  {
+    "image_id": "computer_networks_unit1_p10_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 10,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_10_img_1.png",
+    "url": "/media/computer_networks/unit1/page_10_img_1.png",
+    "width": 1373,
+    "height": 473,
+    "caption": "Ipv4 delivery mechanism \u2022 ipv4 delivery mechanism is used in tcp/ip protocols",
+    "page_context": "IPv4 Delivery Mechanism  \u2022 IPv4 delivery mechanism is used in TCP/IP protocols.  \u2022 IPv4 is an unreliable and connectionless datagram protocol.  \u2022 If reliability is important, IPv4 must be paired with a reliable protocol such as TCP.    Datagram  Packets in the IPv4 layer are called datagrams.  A datagram is a variable-length packet consisting of two parts:  1. Header  2. Data    The header is 20 t",
+    "related_topics": [
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p10_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 10,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_10_img_2.png",
+    "url": "/media/computer_networks/unit1/page_10_img_2.png",
+    "width": 688,
+    "height": 116,
+    "caption": "Ipv4 delivery mechanism \u2022 ipv4 delivery mechanism is used in tcp/ip protocols",
+    "page_context": "IPv4 Delivery Mechanism  \u2022 IPv4 delivery mechanism is used in TCP/IP protocols.  \u2022 IPv4 is an unreliable and connectionless datagram protocol.  \u2022 If reliability is important, IPv4 must be paired with a reliable protocol such as TCP.    Datagram  Packets in the IPv4 layer are called datagrams.  A datagram is a variable-length packet consisting of two parts:  1. Header  2. Data    The header is 20 t",
+    "related_topics": [
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p12_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 12,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_12_img_1.png",
+    "url": "/media/computer_networks/unit1/page_12_img_1.png",
+    "width": 1274,
+    "height": 301,
+    "caption": "\u2022 the maximum length of ipv4 datagram is 65,535bytes",
+    "page_context": "\u2022 The maximum length of IPV4 datagram is 65,535bytes.  \u2022 If the length of the datagram exceeds the MTU then the datagram must be fragmented to  make it possible to pass through the networks.  \u2022 When a datagram is fragmented, each fragment has its own header with only few fields  are changed. Remaining fields are copied by all fragments.    Fields Related to Fragmentation: Identification, Flag, Off",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p13_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 13,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_13_img_1.png",
+    "url": "/media/computer_networks/unit1/page_13_img_1.png",
+    "width": 573,
+    "height": 219,
+    "caption": "Figure shows a datagram with a data size of 4000 bytes fragmented into three fragments",
+    "page_context": "Fragmentation offset (13 bits)  It shows the relative position of this fragment with respect to the whole  datagram. It is the offset of the data in the original datagram measured  in units of 8 bytes.  Example: Consider the below figure shows a datagram with a data size of 4000  bytes fragmented into three fragments.  The bytes in the original datagram are numbered 0 to 3999.  Fragment Number Ran",
+    "related_topics": [
+      "process",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p16_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 16,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_16_img_1.png",
+    "url": "/media/computer_networks/unit1/page_16_img_1.png",
+    "width": 1152,
+    "height": 395,
+    "caption": "Fig: ipv6 datagram header and payload base header fields in ipv6 datagram are: \u2022 versio...",
+    "page_context": "Fig: IPv6 Datagram header and payload  Base Header  Fields in IPv6 datagram are:    \u2022 Version (4-bit)  This field defines the version number of the IP. For IPv6, the value is 6.  \u2022 Priority(4-bit)  The priority field defines the priority of the packet with respect to traffic congestion.  \u2022 Flow label (24-bit or 3Byte)  Flow label field that is designed to provide special handling for a particular ",
+    "related_topics": [
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p16_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 16,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_16_img_2.png",
+    "url": "/media/computer_networks/unit1/page_16_img_2.png",
+    "width": 561,
+    "height": 424,
+    "caption": "Fig: ipv6 datagram header and payload base header fields in ipv6 datagram are: \u2022 versio...",
+    "page_context": "Fig: IPv6 Datagram header and payload  Base Header  Fields in IPv6 datagram are:    \u2022 Version (4-bit)  This field defines the version number of the IP. For IPv6, the value is 6.  \u2022 Priority(4-bit)  The priority field defines the priority of the packet with respect to traffic congestion.  \u2022 Flow label (24-bit or 3Byte)  Flow label field that is designed to provide special handling for a particular ",
+    "related_topics": [
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p18_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 18,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_18_img_1.png",
+    "url": "/media/computer_networks/unit1/page_18_img_1.png",
+    "width": 1215,
+    "height": 623,
+    "caption": "Table. the table has an entry for each active flow label",
+    "page_context": "Non congestion-Controlled Traffic  \u2022 The source does not adapt itself to congestion. It is a type of traffic that expects minimum  delay. Priority numbers from 8 to 15 are assigned to Non congestion-controlled traffic.  \u2022 In this traffic Discarding of packets is not desirable and Retransmission in most cases is  impossible.  Examples: Real-time audio and video.  \u2022 Priority 15: It is given to data ",
+    "related_topics": [
+      "process",
+      "sql",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p20_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 20,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_20_img_1.png",
+    "url": "/media/computer_networks/unit1/page_20_img_1.png",
+    "width": 356,
+    "height": 298,
+    "caption": "Table that associates a logical address with a physical address",
+    "page_context": "ADDRESS MAPPING  The internet is made of a combination of physical networks connected by internetworking  devices such as routers. A packet starting from a source host may pass through several  different physical networks before finally reaching the destination host. The hosts and  routers are recognized at the network level by their logical (IP) addresses, while at the  physical level, they are r",
+    "related_topics": [
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p21_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 21,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_21_img_1.png",
+    "url": "/media/computer_networks/unit1/page_21_img_1.png",
+    "width": 456,
+    "height": 394,
+    "caption": "Figure 21.3 arp operation following steps are involved in logical to physical address mapping: a",
+    "page_context": "Figure 21.3 ARP operation  Following steps are involved in logical to physical address  mapping:  a. The host or the router sends an ARP query packet. The ARP query packet includes  the physical and IP addresses of the sender and the IP address of the receiver. As the  sender does not know the physical address of the receiver, the ARP query is  broadcast over the network (see Figure 21.3).    b. E",
+    "related_topics": [
+      "process",
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p22_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 22,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_22_img_1.png",
+    "url": "/media/computer_networks/unit1/page_22_img_1.png",
+    "width": 513,
+    "height": 368,
+    "caption": "Figure 21.4 shows the format of an arp packet",
+    "page_context": "Now system A can send all the packets it has for this destination by using the physical  address it received.    Cache Memory  Using ARP is inefficient if system A needs to broadcast an ARP request for each IP packet  it needs to send to system B. ARP can be useful if the ARP reply is cached (kept in cache  memory for a while) because a system normally sends several packets to the same  destinatio",
+    "related_topics": [
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p23_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 23,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_23_img_1.png",
+    "url": "/media/computer_networks/unit1/page_23_img_1.png",
+    "width": 650,
+    "height": 142,
+    "caption": "Figure 21.5 an arp packet is encapsulated in an ethernet frame",
+    "page_context": "The fields are as follows:  a. Hardware type. This is a 16-bit field defining the type of the network on  which ARP is running. Each LAN has been assigned an integer based on  its type. For example, Ethernet is given type 1. ARP can be used on any  physical network.  b. Protocol type. This is a 16-bit field defining the protocol. For example,  the value of this field for the IPv4 protocol is 08001",
+    "related_topics": [
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p24_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 24,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_24_img_1.png",
+    "url": "/media/computer_networks/unit1/page_24_img_1.png",
+    "width": 669,
+    "height": 312,
+    "caption": "Then we discuss the four cases in which a host or router needs to use arp",
+    "page_context": "involved. Then we discuss the four cases in which a host or router needs to use  ARP. These are the steps involved in an ARP process:    1. The sender knows the IP address of the target. We will see how the sender obtains  thisshortly.  2. IP asks ARP to create an ARP request message, filling in the sender  physical address, the sender IP address, and the target IP address. The target  physical ad",
+    "related_topics": [
+      "process",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p25_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 25,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_25_img_1.png",
+    "url": "/media/computer_networks/unit1/page_25_img_1.png",
+    "width": 352,
+    "height": 293,
+    "caption": "Figure 21.9",
+    "page_context": "ARP    However, the administrator may need to create a subnet without changing the  whole system to recognize subnetted addresses. One solution is to add a router  running a proxy ARP. In this case, the router acts on behalf of all the hosts  installed on the subnet. When it receives an ARP request with a target IP address  that matches the address of one of its host (141.23.56.21, 141.23.56.22, o",
+    "related_topics": [
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p26_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 26,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_26_img_1.png",
+    "url": "/media/computer_networks/unit1/page_26_img_1.png",
+    "width": 808,
+    "height": 722,
+    "caption": "10 rarp operation rarp packet format & encapsulation the format of the rarp packet is t...",
+    "page_context": "Figure 21.10 RARP Operation    RARP Packet Format & Encapsulation  The format of the RARP packet is the same as the ARP packet format  as displayed in Figure 21.4, except that the Operation field. It\u2019s value is  3 for RARP request message and 4 for RARP reply message.  An RARP packet is also encapsulated directly into a data link frame just  like ARP packet as displayed in Figure 21.5.  Limitation",
+    "related_topics": [
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p27_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 27,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_27_img_1.png",
+    "url": "/media/computer_networks/unit1/page_27_img_1.png",
+    "width": 828,
+    "height": 332,
+    "caption": "Figure 21.11a bootp client and server on the same network figure 21",
+    "page_context": "Figure 21.11a BOOTP client and server on the same network          Figure 21.11b BOOTP client and server on the same and different network    Figure 21.12 BOOTP data Encapsulation    BOOTP Operation  There are two cases of BOOTP operation described below:  Case 1: Client and server on same network (Figure 21.11a)",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p27_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 27,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_27_img_2.png",
+    "url": "/media/computer_networks/unit1/page_27_img_2.png",
+    "width": 938,
+    "height": 455,
+    "caption": "Figure 21.11a bootp client and server on the same network figure 21",
+    "page_context": "Figure 21.11a BOOTP client and server on the same network          Figure 21.11b BOOTP client and server on the same and different network    Figure 21.12 BOOTP data Encapsulation    BOOTP Operation  There are two cases of BOOTP operation described below:  Case 1: Client and server on same network (Figure 21.11a)",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p27_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 27,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_27_img_3.png",
+    "url": "/media/computer_networks/unit1/page_27_img_3.png",
+    "width": 520,
+    "height": 156,
+    "caption": "Figure 21.11a bootp client and server on the same network figure 21",
+    "page_context": "Figure 21.11a BOOTP client and server on the same network          Figure 21.11b BOOTP client and server on the same and different network    Figure 21.12 BOOTP data Encapsulation    BOOTP Operation  There are two cases of BOOTP operation described below:  Case 1: Client and server on same network (Figure 21.11a)",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p30_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 30,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_30_img_1.png",
+    "url": "/media/computer_networks/unit1/page_30_img_1.png",
+    "width": 573,
+    "height": 176,
+    "caption": "Figure 21.13: dhcp operation dhcp client goes through the f ur step process: 1",
+    "page_context": "Figure 21.13:  DHCP Operation DHCP client goes through the  f ur step process:  1. A DHCP client sends a broadcast packet ( DHCP Discover) to discover  DHCP servers on the LAN segment.    2. The DHCP servers receive the DHCP Discover packet and  respond with DHCP Offer packets, offering IP addressing information.    3. If the client receives the DHCP Offer packets from multiple DHCP  servers, the ",
+    "related_topics": [
+      "process",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p31_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 31,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_31_img_1.png",
+    "url": "/media/computer_networks/unit1/page_31_img_1.png",
+    "width": 1253,
+    "height": 84,
+    "caption": "Figure 21.14 shows: the first field, icmp type, defines the type of the message",
+    "page_context": "1. ICMP  IP provides unreliable and connectionless datagram delivery. It was designed  this way to make efficient use of network resources. The IP protocol is a best- effort delivery service that delivers a datagram from its original source to its  final destination. However, IP protocol has two deficiencies: lack of error  control and lack of assistance mechanisms.    \u2022 The IP protocol has no err",
+    "related_topics": [
+      "process",
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p32_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 32,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_32_img_1.png",
+    "url": "/media/computer_networks/unit1/page_32_img_1.png",
+    "width": 557,
+    "height": 114,
+    "caption": "Figure 21.14 general format of icmp messages 1",
+    "page_context": "each message type.  The data section in error messages carries information for finding the  original packet that had the error.  In ICMP query messages, the data section carries extra information  based on the type of the query.      Figure 21.14 General format of ICMP messages    1.3. ICMP Encapsulation:  ICMP itself is a network layer protocol. However it\u2019s messages are not passed  directly to d",
+    "related_topics": [
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p32_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 32,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_32_img_2.png",
+    "url": "/media/computer_networks/unit1/page_32_img_2.png",
+    "width": 664,
+    "height": 216,
+    "caption": "Figure 21.14 general format of icmp messages 1",
+    "page_context": "each message type.  The data section in error messages carries information for finding the  original packet that had the error.  In ICMP query messages, the data section carries extra information  based on the type of the query.      Figure 21.14 General format of ICMP messages    1.3. ICMP Encapsulation:  ICMP itself is a network layer protocol. However it\u2019s messages are not passed  directly to d",
+    "related_topics": [
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p32_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 32,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_32_img_3.png",
+    "url": "/media/computer_networks/unit1/page_32_img_3.png",
+    "width": 842,
+    "height": 342,
+    "caption": "Figure 21.14 general format of icmp messages 1",
+    "page_context": "each message type.  The data section in error messages carries information for finding the  original packet that had the error.  In ICMP query messages, the data section carries extra information  based on the type of the query.      Figure 21.14 General format of ICMP messages    1.3. ICMP Encapsulation:  ICMP itself is a network layer protocol. However it\u2019s messages are not passed  directly to d",
+    "related_topics": [
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:26"
+  },
+  {
+    "image_id": "computer_networks_unit1_p33_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 33,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_33_img_1.png",
+    "url": "/media/computer_networks/unit1/page_33_img_1.png",
+    "width": 708,
+    "height": 200,
+    "caption": "Figure 21.17)",
+    "page_context": "Error messages are always sent to the original source because the only  information available in the datagram about the route is the source and  destination IP addresses.  Five types of errors are handled: destination unreachable, source  quench, timeexceeded, parameter problems, and redirection (see Figure  21.17).      Figure 21.17 Error-reporting messages    a. Destination Unreachable  When a r",
+    "related_topics": [
+      "process",
+      "sql",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p34_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 34,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_34_img_1.png",
+    "url": "/media/computer_networks/unit1/page_34_img_1.png",
+    "width": 776,
+    "height": 225,
+    "caption": "Figure 21.18",
+    "page_context": "Case2: A time-exceeded message is also generated when not all  fragments that make up a message arrive at the destination host within a  certain time limit.    d. Parameter Problem  Any ambiguity in the header part of a datagram can create serious  problems as the datagram travels through the Internet. If a router or the  destination host discovers an ambiguous or missing value in any field of  th",
+    "related_topics": [
+      "sql",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p35_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 35,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_35_img_1.png",
+    "url": "/media/computer_networks/unit1/page_35_img_1.png",
+    "width": 769,
+    "height": 193,
+    "caption": "19 query messages in this type of icmp message, a node sends a icmp request message tha...",
+    "page_context": "Figure 21.19 Query messages    In this type of ICMP message, a node sends a ICMP request message  that is answered in a specific format as ICMP reply by the destination  node, depicted in Figure 21.20.    Figure 21.20 ICMP Query Message  A query message is encapsulated in an IP packet, which in turn is  encapsulated in a data link layer frame.  However, in this case, no bytes of the original IP ar",
+    "related_topics": [
+      "tree",
+      "sql",
+      "osi_model",
+      "process",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p35_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 35,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_35_img_2.png",
+    "url": "/media/computer_networks/unit1/page_35_img_2.png",
+    "width": 628,
+    "height": 157,
+    "caption": "19 query messages in this type of icmp message, a node sends a icmp request message tha...",
+    "page_context": "Figure 21.19 Query messages    In this type of ICMP message, a node sends a ICMP request message  that is answered in a specific format as ICMP reply by the destination  node, depicted in Figure 21.20.    Figure 21.20 ICMP Query Message  A query message is encapsulated in an IP packet, which in turn is  encapsulated in a data link layer frame.  However, in this case, no bytes of the original IP ar",
+    "related_topics": [
+      "tree",
+      "sql",
+      "osi_model",
+      "process",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p35_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 35,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_35_img_3.png",
+    "url": "/media/computer_networks/unit1/page_35_img_3.png",
+    "width": 513,
+    "height": 188,
+    "caption": "19 query messages in this type of icmp message, a node sends a icmp request message tha...",
+    "page_context": "Figure 21.19 Query messages    In this type of ICMP message, a node sends a ICMP request message  that is answered in a specific format as ICMP reply by the destination  node, depicted in Figure 21.20.    Figure 21.20 ICMP Query Message  A query message is encapsulated in an IP packet, which in turn is  encapsulated in a data link layer frame.  However, in this case, no bytes of the original IP ar",
+    "related_topics": [
+      "tree",
+      "sql",
+      "osi_model",
+      "process",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p36_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 36,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_36_img_1.png",
+    "url": "/media/computer_networks/unit1/page_36_img_1.png",
+    "width": 354,
+    "height": 131,
+    "caption": "22 icmp echo request and echo reply today, most systems provide a version of the ping c...",
+    "page_context": "Figure 21.22 ICMP Echo Request and Echo Reply    Today, most systems provide a version of the ping command that can  create a series (instead of just one) of echo-request and echo-reply  messages, providing statistical information. We can use the ping program  to find if a host is alive and responding.    b. Timestamp Request and Timestamp Reply  Two machines (hosts or routers) can use the timesta",
+    "related_topics": [
+      "transaction",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p37_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 37,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_37_img_1.png",
+    "url": "/media/computer_networks/unit1/page_37_img_1.png",
+    "width": 1606,
+    "height": 307,
+    "caption": "\u2022 the internet group management protocol (igmp) is a protocol that allows several devic...",
+    "page_context": "\u2022 The Internet Group Management Protocol (IGMP) is a protocol that allows several devices to  share one IP address so they can all receive the same data.  \u2022 IGMP is a network layer protocol used to set up multicasting on networks that use  the Internet Protocol version 4 (IPv4).  \u2022 Specifically, IGMP allows devices to join a multicasting group.  \u2022 Multicasting is when a group of devices all receiv",
+    "related_topics": [
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p37_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 37,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_37_img_2.png",
+    "url": "/media/computer_networks/unit1/page_37_img_2.png",
+    "width": 1293,
+    "height": 293,
+    "caption": "\u2022 the internet group management protocol (igmp) is a protocol that allows several devic...",
+    "page_context": "\u2022 The Internet Group Management Protocol (IGMP) is a protocol that allows several devices to  share one IP address so they can all receive the same data.  \u2022 IGMP is a network layer protocol used to set up multicasting on networks that use  the Internet Protocol version 4 (IPv4).  \u2022 Specifically, IGMP allows devices to join a multicasting group.  \u2022 Multicasting is when a group of devices all receiv",
+    "related_topics": [
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p38_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 38,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_38_img_1.png",
+    "url": "/media/computer_networks/unit1/page_38_img_1.png",
+    "width": 1408,
+    "height": 625,
+    "caption": "Course Visual Reference (Page 38)",
+    "page_context": "IGMP operation:",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p40_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 40,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_40_img_1.png",
+    "url": "/media/computer_networks/unit1/page_40_img_1.png",
+    "width": 1480,
+    "height": 806,
+    "caption": "Updating distance vectors: upon receiving a distance vector from a neighbor, a router u...",
+    "page_context": "3. Updating distance vectors: Upon receiving a distance vector from a neighbor, a router updates its  own table by comparing the distance to a network via its neighbor with the distance currently listed  in its own table. If the new distance is shorter, the router updates its table with the new information.  4. Calculating best path: Using the information in its distance vector table, each router ",
+    "related_topics": [
+      "process",
+      "sql",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p40_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 40,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_40_img_2.png",
+    "url": "/media/computer_networks/unit1/page_40_img_2.png",
+    "width": 1160,
+    "height": 461,
+    "caption": "Updating distance vectors: upon receiving a distance vector from a neighbor, a router u...",
+    "page_context": "3. Updating distance vectors: Upon receiving a distance vector from a neighbor, a router updates its  own table by comparing the distance to a network via its neighbor with the distance currently listed  in its own table. If the new distance is shorter, the router updates its table with the new information.  4. Calculating best path: Using the information in its distance vector table, each router ",
+    "related_topics": [
+      "process",
+      "sql",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p41_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 41,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_41_img_1.png",
+    "url": "/media/computer_networks/unit1/page_41_img_1.png",
+    "width": 1071,
+    "height": 665,
+    "caption": "Table using their neighbors table",
+    "page_context": "1. Initialization    2. Updation:  A receives distance vectors from B, C, and D.  It updates its table using their neighbors table.  A reaches B initially with a cost of 12.  After getting the neighbors tables A updates its table using Bellmans Ford Equation.  Example:",
+    "related_topics": [
+      "sql"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p41_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 41,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_41_img_2.png",
+    "url": "/media/computer_networks/unit1/page_41_img_2.png",
+    "width": 1236,
+    "height": 266,
+    "caption": "Table using their neighbors table",
+    "page_context": "1. Initialization    2. Updation:  A receives distance vectors from B, C, and D.  It updates its table using their neighbors table.  A reaches B initially with a cost of 12.  After getting the neighbors tables A updates its table using Bellmans Ford Equation.  Example:",
+    "related_topics": [
+      "sql"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p42_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 42,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_42_img_1.png",
+    "url": "/media/computer_networks/unit1/page_42_img_1.png",
+    "width": 1238,
+    "height": 268,
+    "caption": "Tables",
+    "page_context": "All routers use the same process to update their tables.  3. Final Solution    Count to Infinity Problems Two-Node Loop Instability  A problem with distance vector routing is instability, which means that a network  using this protocol can become unstable.  Consider the above figure:  It shows a system with 3 nodes: X, A and B.  \uf0b7 At the beginning, both nodes A and B know how to reach node X.  \uf0b7 B",
+    "related_topics": [
+      "tree",
+      "sql",
+      "osi_model",
+      "process",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p42_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 42,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_42_img_2.png",
+    "url": "/media/computer_networks/unit1/page_42_img_2.png",
+    "width": 1613,
+    "height": 525,
+    "caption": "Tables",
+    "page_context": "All routers use the same process to update their tables.  3. Final Solution    Count to Infinity Problems Two-Node Loop Instability  A problem with distance vector routing is instability, which means that a network  using this protocol can become unstable.  Consider the above figure:  It shows a system with 3 nodes: X, A and B.  \uf0b7 At the beginning, both nodes A and B know how to reach node X.  \uf0b7 B",
+    "related_topics": [
+      "tree",
+      "sql",
+      "osi_model",
+      "process",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p45_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 45,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_45_img_1.png",
+    "url": "/media/computer_networks/unit1/page_45_img_1.png",
+    "width": 350,
+    "height": 154,
+    "caption": "Chart of dijksta\u2019s algorithm example: consider the below graph with five nodes: a,b,c,d,e",
+    "page_context": "2. Permanent nodes  Dijkstra\u2019s algorithm finds the neighbors of a current node, makes them tentative,  examines them, and if they pass the criteria, makes them permanent.  Flow Chart of Dijksta\u2019s Algorithm    Example:  Consider the below graph with five nodes: A,B,C,D,E.  \uf0b7 Apply the Dijkstra\u2019s algorithm to node A.  \uf0b7 To find the shortest path in each step, we need the cumulative cost from the roo",
+    "related_topics": [
+      "tree",
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p45_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 45,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_45_img_2.png",
+    "url": "/media/computer_networks/unit1/page_45_img_2.png",
+    "width": 986,
+    "height": 960,
+    "caption": "Chart of dijksta\u2019s algorithm example: consider the below graph with five nodes: a,b,c,d,e",
+    "page_context": "2. Permanent nodes  Dijkstra\u2019s algorithm finds the neighbors of a current node, makes them tentative,  examines them, and if they pass the criteria, makes them permanent.  Flow Chart of Dijksta\u2019s Algorithm    Example:  Consider the below graph with five nodes: A,B,C,D,E.  \uf0b7 Apply the Dijkstra\u2019s algorithm to node A.  \uf0b7 To find the shortest path in each step, we need the cumulative cost from the roo",
+    "related_topics": [
+      "tree",
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p46_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 46,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_46_img_1.png",
+    "url": "/media/computer_networks/unit1/page_46_img_1.png",
+    "width": 277,
+    "height": 191,
+    "caption": "Step 1: we make node a the root of the tree and move it to the tentative list",
+    "page_context": "Step 1: We make node A the root of the tree and move it to the tentative list. Our  two lists are Permanent list: Empty Tentative list: A(0)  Step 2: Node A has the shortest cumulative cost from all nodes in the tentative list.  We move A to the permanent list and add all neighbors of A to the tentative list.  Our new lists are  Permanent list: A(0) Tentative list: B(5),  C(2), D(3)  Step 3: Node ",
+    "related_topics": [
+      "process",
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p46_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 46,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_46_img_2.png",
+    "url": "/media/computer_networks/unit1/page_46_img_2.png",
+    "width": 276,
+    "height": 192,
+    "caption": "Step 1: we make node a the root of the tree and move it to the tentative list",
+    "page_context": "Step 1: We make node A the root of the tree and move it to the tentative list. Our  two lists are Permanent list: Empty Tentative list: A(0)  Step 2: Node A has the shortest cumulative cost from all nodes in the tentative list.  We move A to the permanent list and add all neighbors of A to the tentative list.  Our new lists are  Permanent list: A(0) Tentative list: B(5),  C(2), D(3)  Step 3: Node ",
+    "related_topics": [
+      "process",
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p46_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 46,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_46_img_3.png",
+    "url": "/media/computer_networks/unit1/page_46_img_3.png",
+    "width": 276,
+    "height": 191,
+    "caption": "Step 1: we make node a the root of the tree and move it to the tentative list",
+    "page_context": "Step 1: We make node A the root of the tree and move it to the tentative list. Our  two lists are Permanent list: Empty Tentative list: A(0)  Step 2: Node A has the shortest cumulative cost from all nodes in the tentative list.  We move A to the permanent list and add all neighbors of A to the tentative list.  Our new lists are  Permanent list: A(0) Tentative list: B(5),  C(2), D(3)  Step 3: Node ",
+    "related_topics": [
+      "process",
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p47_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 47,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_47_img_1.png",
+    "url": "/media/computer_networks/unit1/page_47_img_1.png",
+    "width": 276,
+    "height": 173,
+    "caption": "Our new lists are: permanent list: a(0),c(2),d(3) tentative list: b(5),e(6)",
+    "page_context": "Our new lists are: Permanent List: A(0),C(2),D(3) Tentative List: B(5),E(6).  Step 5: Node B has the shortest cumulative cost of all the nodes in the tentative list.  \uf0b7 We move B to the permanent list. We need to add all unprocessed neighbors of  B to the tentative list (i.e. just node E).  \uf0b7 E(6) is already in the list with a smaller cumulative cost.  \uf0b7 The cumulative cost to node E, as the neigh",
+    "related_topics": [
+      "tree",
+      "sql",
+      "graph",
+      "osi_model",
+      "process",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p47_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 47,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_47_img_2.png",
+    "url": "/media/computer_networks/unit1/page_47_img_2.png",
+    "width": 278,
+    "height": 173,
+    "caption": "Our new lists are: permanent list: a(0),c(2),d(3) tentative list: b(5),e(6)",
+    "page_context": "Our new lists are: Permanent List: A(0),C(2),D(3) Tentative List: B(5),E(6).  Step 5: Node B has the shortest cumulative cost of all the nodes in the tentative list.  \uf0b7 We move B to the permanent list. We need to add all unprocessed neighbors of  B to the tentative list (i.e. just node E).  \uf0b7 E(6) is already in the list with a smaller cumulative cost.  \uf0b7 The cumulative cost to node E, as the neigh",
+    "related_topics": [
+      "tree",
+      "sql",
+      "graph",
+      "osi_model",
+      "process",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p47_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 47,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_47_img_3.png",
+    "url": "/media/computer_networks/unit1/page_47_img_3.png",
+    "width": 276,
+    "height": 194,
+    "caption": "Our new lists are: permanent list: a(0),c(2),d(3) tentative list: b(5),e(6)",
+    "page_context": "Our new lists are: Permanent List: A(0),C(2),D(3) Tentative List: B(5),E(6).  Step 5: Node B has the shortest cumulative cost of all the nodes in the tentative list.  \uf0b7 We move B to the permanent list. We need to add all unprocessed neighbors of  B to the tentative list (i.e. just node E).  \uf0b7 E(6) is already in the list with a smaller cumulative cost.  \uf0b7 The cumulative cost to node E, as the neigh",
+    "related_topics": [
+      "tree",
+      "sql",
+      "graph",
+      "osi_model",
+      "process",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p48_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 48,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_48_img_1.png",
+    "url": "/media/computer_networks/unit1/page_48_img_1.png",
+    "width": 521,
+    "height": 242,
+    "caption": "When a bigger network is divided into smaller networks, to maintain security, then that...",
+    "page_context": "When a bigger network is divided into smaller networks, to maintain security,  then that is known as Subnetting. So, maintenance is easier for smaller networks.  For example, if we consider a class A address, the possible number of hosts is  224 for each network, it is obvious that it is difficult to maintain such a huge  number of hosts, but it would be quite easier to maintain if we divide the n",
+    "related_topics": [
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p51_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 51,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_51_img_2.png",
+    "url": "/media/computer_networks/unit1/page_51_img_2.png",
+    "width": 667,
+    "height": 412,
+    "caption": "Printf(\"%s\\n\", buffer); printf(\"subnet mask: \"); inttoip(newsubnetmask, buffer); printf...",
+    "page_context": "printf(\"%s\\n\", buffer);     printf(\"Subnet Mask: \");   intToIp(newSubnetMask, buffer);   printf(\"%s\\n\", buffer);     printf(\"First Host: \");   intToIp(firstHost, buffer);   printf(\"%s\\n\", buffer);     printf(\"Last Host: \");   intToIp(lastHost, buffer);   printf(\"%s\\n\", buffer);   }     return 0;  }  INPUT:        OUTPUT:",
+    "related_topics": [
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p55_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 55,
+    "source": "cn_3.pdf",
+    "path": "media/computer_networks/unit1/page_55_img_1.png",
+    "url": "/media/computer_networks/unit1/page_55_img_1.png",
+    "width": 590,
+    "height": 137,
+    "caption": "Table(numnodes, distvector, nexthop); return 0; } input: check the output for the above input",
+    "page_context": "int nextHop[MAX_NODES][MAX_NODES];     printf(\"Enter the number of nodes: \");   scanf(\"%d\", &numNodes);     printf(\"Enter the cost matrix (use %d for INF):\\n\", INF);   for (int i = 0; i < numNodes; i++) {   for (int j = 0; j < numNodes; j++) {   scanf(\"%d\", &costMatrix[i][j]);   }   }     initialize(numNodes, costMatrix, distVector, nextHop);   distanceVectorRouting(numNodes, costMatrix, distVecto",
+    "related_topics": [
+      "sql",
+      "tree",
+      "routing",
+      "file_system"
+    ],
+    "extracted_at": "2026-09-26 15:02:27"
+  },
+  {
+    "image_id": "computer_networks_unit1_p1_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 1,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_1_img_2.png",
+    "url": "/media/computer_networks/unit1/page_1_img_2.png",
+    "width": 1489,
+    "height": 605,
+    "caption": "Process to process delivery a process is an application program that runs on the host",
+    "page_context": "PROCESS TO PROCESS DELIVERY  A Process is an Application program that runs on the host. At any moment several processes  may be running on the source host and destination host.  Transport Layer is responsible for delivery of a packet from one process on source host to  another process on destination host.  Two processes communicate in a client/server relationship.  Client/Server Paradigm  A Client",
+    "related_topics": [
+      "process",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:29"
+  },
+  {
+    "image_id": "computer_networks_unit1_p2_img4",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 2,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_2_img_4.png",
+    "url": "/media/computer_networks/unit1/page_2_img_4.png",
+    "width": 964,
+    "height": 197,
+    "caption": "A transport layer protocol needs a pair of socket addresses: the client socket address ...",
+    "page_context": "A transport layer protocol needs a pair of socket addresses: the client socket  address and the server socket address.      TRANSPORT LAYER PROTOCOL  There are 3 transport layer protocols are implemented:  1. UDP  2. TCP  3. SCTP  USER DATAGRAM PROTOCOL (UDP)   UDP is called a connectionless, unreliable transport protocol.   UDP is a very simple protocol using a minimum of overhead. UDP performs  ",
+    "related_topics": [
+      "process",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:29"
+  },
+  {
+    "image_id": "computer_networks_unit1_p2_img5",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 2,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_2_img_5.png",
+    "url": "/media/computer_networks/unit1/page_2_img_5.png",
+    "width": 982,
+    "height": 245,
+    "caption": "A transport layer protocol needs a pair of socket addresses: the client socket address ...",
+    "page_context": "A transport layer protocol needs a pair of socket addresses: the client socket  address and the server socket address.      TRANSPORT LAYER PROTOCOL  There are 3 transport layer protocols are implemented:  1. UDP  2. TCP  3. SCTP  USER DATAGRAM PROTOCOL (UDP)   UDP is called a connectionless, unreliable transport protocol.   UDP is a very simple protocol using a minimum of overhead. UDP performs  ",
+    "related_topics": [
+      "process",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:29"
+  },
+  {
+    "image_id": "computer_networks_unit1_p3_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 3,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_3_img_2.png",
+    "url": "/media/computer_networks/unit1/page_3_img_2.png",
+    "width": 1194,
+    "height": 546,
+    "caption": "No flow and error control 3",
+    "page_context": "2. No Flow and Error control  3. Encapsulation and Decapsulation  4. Queuing  Connectionless Services   UDP provides a connectionless service. There is no connection establishment  and no connection termination. Each user datagram sent by UDP is an  independent datagram.   The user datagrams are not numbered. Each user datagram can travel on a different path.   There is no relationship between the",
+    "related_topics": [
+      "process",
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:29"
+  },
+  {
+    "image_id": "computer_networks_unit1_p5_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 5,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_5_img_3.png",
+    "url": "/media/computer_networks/unit1/page_5_img_3.png",
+    "width": 1156,
+    "height": 450,
+    "caption": "At the sending site tcp keeps bytes in the buffer that have been sent but not yet ackno...",
+    "page_context": "At the sending site TCP keeps bytes in the buffer that have been sent but not yet  acknowledged until it receives an acknowledgment.   After the bytes in the buffer locations are acknowledged, the locations are recycled and  they are available for use by the sending process.   At the receiver site the circular buffer is divided into two areas:   One area contains empty chambers to be filled by byt",
+    "related_topics": [
+      "process",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:29"
+  },
+  {
+    "image_id": "computer_networks_unit1_p6_img4",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 6,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_6_img_4.png",
+    "url": "/media/computer_networks/unit1/page_6_img_4.png",
+    "width": 1500,
+    "height": 497,
+    "caption": "Source port address (16bit) it defines the port number of the application program in th...",
+    "page_context": "Source port address (16bit)  It defines the port number of the application program in the host that is sending the  segment.   Destination port address(16-bit)  It defines the port number of the application program in the host that is receiving the  segment.   Sequence number (32bit)  This field defines the number assigned to the first byte of data contained in this  segment. The sequence number t",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:29"
+  },
+  {
+    "image_id": "computer_networks_unit1_p9_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 9,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_9_img_3.png",
+    "url": "/media/computer_networks/unit1/page_9_img_3.png",
+    "width": 1233,
+    "height": 497,
+    "caption": "Figure that shows the data transfer after connection is established",
+    "page_context": "3. The client sends the third segment an ACK segment. It acknowledges the receipt of the  second segment with the ACK flag and acknowledgment number field. The sequence  number in this segment is the same as the one in the SYN segment.    Data Transfer Phase   After connection is established, bidirectional data transfer can take place.   The client and server can both send data and acknowledgments",
+    "related_topics": [
+      "process"
+    ],
+    "extracted_at": "2026-09-26 15:02:29"
+  },
+  {
+    "image_id": "computer_networks_unit1_p9_img4",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 9,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_9_img_4.png",
+    "url": "/media/computer_networks/unit1/page_9_img_4.png",
+    "width": 1169,
+    "height": 540,
+    "caption": "Figure that shows the data transfer after connection is established",
+    "page_context": "3. The client sends the third segment an ACK segment. It acknowledges the receipt of the  second segment with the ACK flag and acknowledgment number field. The sequence  number in this segment is the same as the one in the SYN segment.    Data Transfer Phase   After connection is established, bidirectional data transfer can take place.   The client and server can both send data and acknowledgments",
+    "related_topics": [
+      "process"
+    ],
+    "extracted_at": "2026-09-26 15:02:29"
+  },
+  {
+    "image_id": "computer_networks_unit1_p10_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 10,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_10_img_3.png",
+    "url": "/media/computer_networks/unit1/page_10_img_3.png",
+    "width": 1269,
+    "height": 556,
+    "caption": "Three way handshaking is also used to terminate the connection by following steps: 1",
+    "page_context": "Three way Handshaking is also used to terminate the connection by following steps:  1. The client TCP after receiving a close command from the client process sends the first  segment a FIN segment in which the FIN flag is set.  A FIN segment can include the last chunk of data sent by the client or it can be just a control  segment. If it is only a control segment, it consumes only one sequence num",
+    "related_topics": [
+      "process",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:29"
+  },
+  {
+    "image_id": "computer_networks_unit1_p11_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 11,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_11_img_3.png",
+    "url": "/media/computer_networks/unit1/page_11_img_3.png",
+    "width": 1269,
+    "height": 668,
+    "caption": "The client half -closes the connection by sending a fin segment",
+    "page_context": "The client half -closes the connection by sending a FIN segment. The server  accepts the half-close by sending the ACK segment.   The data transfer from the client to the server stops. The server can still send data.   When the server has sent all the processed data, it sends a FIN segment which is  acknowledged by an ACK from the client.   After half-closing of the connection, the data can travel",
+    "related_topics": [
+      "process",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:29"
+  },
+  {
+    "image_id": "computer_networks_unit1_p12_img5",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 12,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_12_img_5.png",
+    "url": "/media/computer_networks/unit1/page_12_img_5.png",
+    "width": 522,
+    "height": 261,
+    "caption": "Congestion congestion in a network may occur if the load on the network is greater than...",
+    "page_context": "CONGESTION  Congestion in a network may occur if the load on the network is greater than the capacity of  the network.  CONGESTION CONTROL  Congestion control refers to techniques and mechanisms that can either prevent congestion  before it happens or remove congestion after it has happened.  Congestion control mechanisms can be divided into two categories:  1. Open-loop congestion control(prevent",
+    "related_topics": [
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p13_img5",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 13,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_13_img_5.png",
+    "url": "/media/computer_networks/unit1/page_13_img_5.png",
+    "width": 759,
+    "height": 201,
+    "caption": "Example: in audio transmission if the policy is to discard less sensitive packets when ...",
+    "page_context": "Example: In audio transmission if the policy is to discard less sensitive packets when  congestion happens, the quality of sound is still preserved and congestion is prevented.  Admission Policy   An admission policy can prevent congestion in virtual-circuit networks.   Switches first check the resource requirement of a data flow before admitting it to the  network.   A router can deny establishin",
+    "related_topics": [
+      "tree",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p13_img6",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 13,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_13_img_6.png",
+    "url": "/media/computer_networks/unit1/page_13_img_6.png",
+    "width": 757,
+    "height": 115,
+    "caption": "Example: in audio transmission if the policy is to discard less sensitive packets when ...",
+    "page_context": "Example: In audio transmission if the policy is to discard less sensitive packets when  congestion happens, the quality of sound is still preserved and congestion is prevented.  Admission Policy   An admission policy can prevent congestion in virtual-circuit networks.   Switches first check the resource requirement of a data flow before admitting it to the  network.   A router can deny establishin",
+    "related_topics": [
+      "tree",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p16_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 16,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_16_img_1.png",
+    "url": "/media/computer_networks/unit1/page_16_img_1.png",
+    "width": 583,
+    "height": 116,
+    "caption": "Quality of service (qos) it is an internetworking issue",
+    "page_context": "QUALITY OF SERVICE (QoS)  It is an internetworking issue. There are four Flow characteristics are related to Qos.  They are: Reliability, Delay, Jitter and Bandwidth.  Reliability: Lack of reliability means that losing a packet or acknowledgment, which entails  retransmission. Electronic mail, file transfer, and Internet access have reliable transmissions.  Delay: Applications can tolerate delay i",
+    "related_topics": [
+      "tree",
+      "osi_model",
+      "process",
+      "routing",
+      "cpu_scheduling"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p17_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 17,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_17_img_1.png",
+    "url": "/media/computer_networks/unit1/page_17_img_1.png",
+    "width": 801,
+    "height": 291,
+    "caption": "\u2022 there is drawback with priority queues called starvation (i",
+    "page_context": "\u2022 There is drawback with priority queues called Starvation (i.e.) if there is a continuous data  flow in a high -priority queue, the packets in the low -priority queues will never have a  chance to be processed.  Weighted Fair Queuing  \u2022 In this technique, the packets are still assigned to different classes and admitted to  different queues.  \u2022 The queues are weighted based on the priority of the ",
+    "related_topics": [
+      "process",
+      "sql",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p17_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 17,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_17_img_2.png",
+    "url": "/media/computer_networks/unit1/page_17_img_2.png",
+    "width": 852,
+    "height": 359,
+    "caption": "\u2022 there is drawback with priority queues called starvation (i",
+    "page_context": "\u2022 There is drawback with priority queues called Starvation (i.e.) if there is a continuous data  flow in a high -priority queue, the packets in the low -priority queues will never have a  chance to be processed.  Weighted Fair Queuing  \u2022 In this technique, the packets are still assigned to different classes and admitted to  different queues.  \u2022 The queues are weighted based on the priority of the ",
+    "related_topics": [
+      "process",
+      "sql",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p18_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 18,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_18_img_1.png",
+    "url": "/media/computer_networks/unit1/page_18_img_1.png",
+    "width": 527,
+    "height": 355,
+    "caption": "Figure, the network has committed a bandwidth of 3 mbps for a host",
+    "page_context": "\u2022 In networking, a technique called leaky bucket can smooth out Bursty traffic. Bursty  chunks are stored in the bucket and sent out at an average rate.    \u2022 In the above figure, the network has committed a bandwidth of 3 Mbps for a host. The  use of the leaky bucket shapes the input traffic to make it conform to this commitment.  \u2022 The host sends a burst of data at a rate of 12 Mbps for 2 sec, fo",
+    "related_topics": [
+      "process",
+      "transaction",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p18_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 18,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_18_img_2.png",
+    "url": "/media/computer_networks/unit1/page_18_img_2.png",
+    "width": 582,
+    "height": 195,
+    "caption": "Figure, the network has committed a bandwidth of 3 mbps for a host",
+    "page_context": "\u2022 In networking, a technique called leaky bucket can smooth out Bursty traffic. Bursty  chunks are stored in the bucket and sent out at an average rate.    \u2022 In the above figure, the network has committed a bandwidth of 3 Mbps for a host. The  use of the leaky bucket shapes the input traffic to make it conform to this commitment.  \u2022 The host sends a burst of data at a rate of 12 Mbps for 2 sec, fo",
+    "related_topics": [
+      "process",
+      "transaction",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p19_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 19,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_19_img_1.png",
+    "url": "/media/computer_networks/unit1/page_19_img_1.png",
+    "width": 481,
+    "height": 279,
+    "caption": "These problems can be overcome by token bucket algorithm",
+    "page_context": "These problems can be overcome by Token bucket algorithm.  Token Bucket  \u2022 The token bucket algorithm allows idle hosts to accumulate credit for the future  in the form of tokens.  \u2022 For each tick of the clock, the system sends n tokens to the bucket.  \u2022 The system removes one token for every cell (or byte) of data sent.  Example: If n is 100 and the host is idle for 100 ticks, the bucket collects",
+    "related_topics": [
+      "process",
+      "transaction",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p20_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 20,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_20_img_1.png",
+    "url": "/media/computer_networks/unit1/page_20_img_1.png",
+    "width": 1496,
+    "height": 705,
+    "caption": "Domain name system the client/server programs can be divided into two categories: 1",
+    "page_context": "DOMAIN NAME SYSTEM    The client/server programs can be divided into two categories:  1. Programs that can be directly used by user.  2. Programs that support other application programs.  Domain Name System (DNS) is a supporting program that is used by other  programs such as E-mail.      Basic concept of DNS  The above figure shows a DNS client/server program can support an E-mail  program to fin",
+    "related_topics": [
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p21_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 21,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_21_img_1.png",
+    "url": "/media/computer_networks/unit1/page_21_img_1.png",
+    "width": 1377,
+    "height": 630,
+    "caption": "Example: assume three education institutions named one of their computers challenger",
+    "page_context": "Example:  Assume three Education institutions named one of their computers Challenger.  The three colleges have given names by the central authority such as  iitm.ac.in, berkeley.edu and smart.edu.  When these organizations add the name Challenger the names will be :  \u2022 challenger.iitm.ac.in  \u2022 challenger.berkeley.edu  \u2022 challenger.smart.edu  DOMAIN NAME SPACE  A domain name space was designed to ",
+    "related_topics": [
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p21_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 21,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_21_img_2.png",
+    "url": "/media/computer_networks/unit1/page_21_img_2.png",
+    "width": 1032,
+    "height": 245,
+    "caption": "Example: assume three education institutions named one of their computers challenger",
+    "page_context": "Example:  Assume three Education institutions named one of their computers Challenger.  The three colleges have given names by the central authority such as  iitm.ac.in, berkeley.edu and smart.edu.  When these organizations add the name Challenger the names will be :  \u2022 challenger.iitm.ac.in  \u2022 challenger.berkeley.edu  \u2022 challenger.smart.edu  DOMAIN NAME SPACE  A domain name space was designed to ",
+    "related_topics": [
+      "tree"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p22_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 22,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_22_img_1.png",
+    "url": "/media/computer_networks/unit1/page_22_img_1.png",
+    "width": 1061,
+    "height": 766,
+    "caption": "\u2022 example:challenger if a user at the \u201cfhda",
+    "page_context": "\u2022 Example:challenger  If a user at the \u201cfhda.edu.\u201d site wants to get the IP address of the challenger  computer, he or she can define the partial name \u201cchallenger\u201d.  The DNS client adds the suffix \u201catc.fhda.edu.\u201d before passing the address  to the DNS server.    Note: The DNS client normally holds a list of suffixes such as:  \u27a2 atc.fhda.edu  \u27a2 fhda.edu  \u27a2 null  These suffixes were added when the u",
+    "related_topics": [
+      "tree",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p22_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 22,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_22_img_2.png",
+    "url": "/media/computer_networks/unit1/page_22_img_2.png",
+    "width": 1160,
+    "height": 742,
+    "caption": "\u2022 example:challenger if a user at the \u201cfhda",
+    "page_context": "\u2022 Example:challenger  If a user at the \u201cfhda.edu.\u201d site wants to get the IP address of the challenger  computer, he or she can define the partial name \u201cchallenger\u201d.  The DNS client adds the suffix \u201catc.fhda.edu.\u201d before passing the address  to the DNS server.    Note: The DNS client normally holds a list of suffixes such as:  \u27a2 atc.fhda.edu  \u27a2 fhda.edu  \u27a2 null  These suffixes were added when the u",
+    "related_topics": [
+      "tree",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p23_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 23,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_23_img_1.png",
+    "url": "/media/computer_networks/unit1/page_23_img_1.png",
+    "width": 1456,
+    "height": 519,
+    "caption": "Figure : hierarchy of name servers",
+    "page_context": "name space database.  Generic domain labels are listed as:    Label Description  com Commercial organizations  org Nonprofit organizations  net Network support centers  edu Educational institutions  gov Government institutions  Country Domains  \u2022 The country domains section uses two-character  country abbreviations. Ex: in for India, us for USA.  \u2022 Second labels can be organizational, or they can ",
+    "related_topics": [
+      "sql"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p24_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 24,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_24_img_1.png",
+    "url": "/media/computer_networks/unit1/page_24_img_1.png",
+    "width": 1419,
+    "height": 336,
+    "caption": "Resolution mapping a name to an address or an address to a name is called name-address ...",
+    "page_context": "RESOLUTION  Mapping a name to an address or an address to a name is called Name-Address  Resolution.    Types of Resolution:  A recursive DNS lookup is where one DNS server communicates with several other DNS servers to  hunt down an IP address and return it to the client.  This is in contrast to an iterative DNS query, where the client communicates directly with each DNS  server involved in the l",
+    "related_topics": [
+      "sql",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p24_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 24,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_24_img_2.png",
+    "url": "/media/computer_networks/unit1/page_24_img_2.png",
+    "width": 1125,
+    "height": 688,
+    "caption": "Resolution mapping a name to an address or an address to a name is called name-address ...",
+    "page_context": "RESOLUTION  Mapping a name to an address or an address to a name is called Name-Address  Resolution.    Types of Resolution:  A recursive DNS lookup is where one DNS server communicates with several other DNS servers to  hunt down an IP address and return it to the client.  This is in contrast to an iterative DNS query, where the client communicates directly with each DNS  server involved in the l",
+    "related_topics": [
+      "sql",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p25_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 25,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_25_img_1.png",
+    "url": "/media/computer_networks/unit1/page_25_img_1.png",
+    "width": 301,
+    "height": 287,
+    "caption": "Remote logging in the internet, users may want to run application programs at a remote ...",
+    "page_context": "REMOTE LOGGING  In the Internet, users may want to run application programs at a remote site  and create results that can be transferred to their local site.  Example: Students may want to connect to their university computer lab  from their home to access application programs for doing homework  assignments or projects.  A General purpose client/server program that allows a user to log-on to a  r",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p26_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 26,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_26_img_1.png",
+    "url": "/media/computer_networks/unit1/page_26_img_1.png",
+    "width": 630,
+    "height": 317,
+    "caption": "Table by the remote computer",
+    "page_context": "invokes the desired application program or utility.  Remote Log-in  \u2022 When a user wants to access an application program or utility located on a  remote machine, the user performs remote log-in. TELNET uses client and  server programs.  \u2022 The user sends the keystrokes to the terminal driver, where the local  operating system accepts the characters but does not interpret them.  \u2022 The characters are",
+    "related_topics": [
+      "sql",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p27_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 27,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_27_img_1.png",
+    "url": "/media/computer_networks/unit1/page_27_img_1.png",
+    "width": 859,
+    "height": 263,
+    "caption": "Figure, alice and bob are two users of mail server",
+    "page_context": "ELECTRONIC MAIL  Electronic mail (E-mail) is one of the most popular Internet services. E-mail  allows a message to include text, audio, and video. There are Four Scenarios  of E-mail:  First Scenario  \u2022 In the first scenario, the sender and the receiver of the E-mail are user  application programs on the same system. They are directly connected to  a shared system.  \u2022 The administrator has create",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p27_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 27,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_27_img_2.png",
+    "url": "/media/computer_networks/unit1/page_27_img_2.png",
+    "width": 1554,
+    "height": 366,
+    "caption": "Figure, alice and bob are two users of mail server",
+    "page_context": "ELECTRONIC MAIL  Electronic mail (E-mail) is one of the most popular Internet services. E-mail  allows a message to include text, audio, and video. There are Four Scenarios  of E-mail:  First Scenario  \u2022 In the first scenario, the sender and the receiver of the E-mail are user  application programs on the same system. They are directly connected to  a shared system.  \u2022 The administrator has create",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p28_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 28,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_28_img_1.png",
+    "url": "/media/computer_networks/unit1/page_28_img_1.png",
+    "width": 1438,
+    "height": 614,
+    "caption": "\u2022 the message needs to be sent through the internet from alice's site to bob's site",
+    "page_context": "\u2022 The message needs to be sent through the Internet from Alice's site to  Bob's site. Here two Message Transfer Agents are needed: one for client  and one for server.  \u2022 Most client/server programs on the Internet, the server needs to run all  the time because it does not know when a client will ask for a connection.  \u2022 The client can be alerted by the system when there is a message in the queue t",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p29_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 29,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_29_img_1.png",
+    "url": "/media/computer_networks/unit1/page_29_img_1.png",
+    "width": 1481,
+    "height": 551,
+    "caption": "Architecture of e-mail there are three major components in the architecture of e-mail: 1",
+    "page_context": "Architecture of E-mail  There are three major components in the architecture of E-mail:  1. User Agent  2. Message Transfer Agent  3. Message Access Agent  User Agent  User Agent provides services to the user to make the process of sending and  receiving a message easier. Services provided by User agent are:    Composing Messages  A user agent helps the user to compose the E-mail message to be sen",
+    "related_topics": [
+      "process",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p29_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 29,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_29_img_2.png",
+    "url": "/media/computer_networks/unit1/page_29_img_2.png",
+    "width": 1565,
+    "height": 366,
+    "caption": "Architecture of e-mail there are three major components in the architecture of e-mail: 1",
+    "page_context": "Architecture of E-mail  There are three major components in the architecture of E-mail:  1. User Agent  2. Message Transfer Agent  3. Message Access Agent  User Agent  User Agent provides services to the user to make the process of sending and  receiving a message easier. Services provided by User agent are:    Composing Messages  A user agent helps the user to compose the E-mail message to be sen",
+    "related_topics": [
+      "process",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p30_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 30,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_30_img_1.png",
+    "url": "/media/computer_networks/unit1/page_30_img_1.png",
+    "width": 1310,
+    "height": 716,
+    "caption": "Forwarding messages it means sending a message to a third party",
+    "page_context": "Forwarding Messages  It means sending a message to a third party. A user agent allows receiver to forward  message.    Handling Mailboxes  \u2022 A user agent normally creates two mailboxes: Inbox and Outbox.  \u2022 Inbox and Outbox is a file with a special format that can be handled by user agent.  \u2022 Inbox keeps all the received E-mails until they are deleted by the user.  \u2022 Outbox keeps all the sent E-ma",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p31_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 31,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_31_img_1.png",
+    "url": "/media/computer_networks/unit1/page_31_img_1.png",
+    "width": 1313,
+    "height": 153,
+    "caption": "Simple mail transfer protocol (smtp) message transfer agent: smtp \u2022 the actual mail tra...",
+    "page_context": "SIMPLE MAIL TRANSFER PROTOCOL (SMTP)  Message Transfer Agent: SMTP  \u2022 The actual mail transfer is done through message transfer agents (MTA).  \u2022 Simple Mail Transfer Protocol defines the MTA Client and MTA server in the  internet.  \u2022 MTA Client is used to send mail and MTA Server is used  to receive a mail. SMTP is used two times:  1. Between sender and sender mail server.  2. Between sender mail ",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p31_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 31,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_31_img_2.png",
+    "url": "/media/computer_networks/unit1/page_31_img_2.png",
+    "width": 1437,
+    "height": 600,
+    "caption": "Simple mail transfer protocol (smtp) message transfer agent: smtp \u2022 the actual mail tra...",
+    "page_context": "SIMPLE MAIL TRANSFER PROTOCOL (SMTP)  Message Transfer Agent: SMTP  \u2022 The actual mail transfer is done through message transfer agents (MTA).  \u2022 Simple Mail Transfer Protocol defines the MTA Client and MTA server in the  internet.  \u2022 MTA Client is used to send mail and MTA Server is used  to receive a mail. SMTP is used two times:  1. Between sender and sender mail server.  2. Between sender mail ",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p32_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 32,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_32_img_1.png",
+    "url": "/media/computer_networks/unit1/page_32_img_1.png",
+    "width": 1363,
+    "height": 503,
+    "caption": "Figure that shows basic model of ftp that contains client and server components",
+    "page_context": "Mail Transfer Phases  The process of transferring a mail message occurs in three phases:  \u2022 Connection Establishment  \u2022 Mail Transfer  \u2022 Connection Termination  FILE TRANSFER PROTOCOL (FTP)  File Transfer Protocol (FTP) is the standard mechanism provided by TCP/IP  for copying a file from one host to another. FTP uses the services of TCP. FTP  implemented to solve below problems.  Problems with Fi",
+    "related_topics": [
+      "process",
+      "file_system",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p33_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 33,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_33_img_1.png",
+    "url": "/media/computer_networks/unit1/page_33_img_1.png",
+    "width": 1178,
+    "height": 698,
+    "caption": "World wide web (www) world wide web (www) is a repository of information linked togethe...",
+    "page_context": "WORLD WIDE WEB (WWW)  World Wide Web (WWW) is a repository of information linked together from  locations all over the world. WWW has a unique combination of flexibility,  portability, and user -friendly features that distinguish it from other services  provided by the Internet.  Architecture  The WWW is a distributed client/server service, in which a client using a  browser can access a service u",
+    "related_topics": [
+      "process",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p34_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 34,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_34_img_1.png",
+    "url": "/media/computer_networks/unit1/page_34_img_1.png",
+    "width": 1023,
+    "height": 99,
+    "caption": "The uniform resource locator (url) is a standard for specifying any kind of information...",
+    "page_context": "The Uniform Resource Locator (URL) is a standard for specifying any kind of  information on the Internet. A client that wants to access a Web page needs  the address. To facilitate the access of documents distributed throughout the  world, HTTP uses locators.  URL defines four things: Protocol, Host computer, Port, and Path.    \u2022 Protocol: It is the client/server program used to retrieve the docum",
+    "related_topics": [
+      "sql",
+      "file_system",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p35_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 35,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_35_img_1.png",
+    "url": "/media/computer_networks/unit1/page_35_img_1.png",
+    "width": 1306,
+    "height": 400,
+    "caption": "\u2022 when a client accesses the document, a copy of the document is sent and the user can ...",
+    "page_context": "\u2022 When a client accesses the document, a copy of the document is sent and  the user can then use a browsing program to display the document.  Hypertext Markup Language (HTML)  \u2022 Hypertext Markup Language (HTML) is a language for creating Web pages.  \u2022 Data for a Web page are formatted for interpretation by a browser.  \u2022 HTML allows us to embed formatting instructi ons in the file itself. The  inst",
+    "related_topics": [
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p35_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 35,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_35_img_2.png",
+    "url": "/media/computer_networks/unit1/page_35_img_2.png",
+    "width": 782,
+    "height": 494,
+    "caption": "\u2022 when a client accesses the document, a copy of the document is sent and the user can ...",
+    "page_context": "\u2022 When a client accesses the document, a copy of the document is sent and  the user can then use a browsing program to display the document.  Hypertext Markup Language (HTML)  \u2022 Hypertext Markup Language (HTML) is a language for creating Web pages.  \u2022 Data for a Web page are formatted for interpretation by a browser.  \u2022 HTML allows us to embed formatting instructi ons in the file itself. The  inst",
+    "related_topics": [
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p35_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 35,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_35_img_3.png",
+    "url": "/media/computer_networks/unit1/page_35_img_3.png",
+    "width": 1255,
+    "height": 172,
+    "caption": "\u2022 when a client accesses the document, a copy of the document is sent and the user can ...",
+    "page_context": "\u2022 When a client accesses the document, a copy of the document is sent and  the user can then use a browsing program to display the document.  Hypertext Markup Language (HTML)  \u2022 Hypertext Markup Language (HTML) is a language for creating Web pages.  \u2022 Data for a Web page are formatted for interpretation by a browser.  \u2022 HTML allows us to embed formatting instructi ons in the file itself. The  inst",
+    "related_topics": [
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p36_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 36,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_36_img_1.png",
+    "url": "/media/computer_networks/unit1/page_36_img_1.png",
+    "width": 899,
+    "height": 525,
+    "caption": "\u2022 the image tag defines the address (url) of the image to be retrieved",
+    "page_context": "\u2022 The image tag defines the address (URL) of the image to be retrieved. An  image tag is used to point to the file of a photo or image.  \u2022 It also specifies how the image can be inserted after retrieval. Image tag  contains attributes such as: SRC ,ALIGN.  \u2022 SRC (source) defines the source address  \u2022 ALIGN defines the alignment of the image  <IMG SRC=\u201d/bin/images/image1.gif\u201d ALIGN=MIDDLE>  Hyperli",
+    "related_topics": [
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p37_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 37,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_37_img_1.png",
+    "url": "/media/computer_networks/unit1/page_37_img_1.png",
+    "width": 1104,
+    "height": 493,
+    "caption": "\u2022 the cgi also defines a set of rules and terms that the programmer must follow",
+    "page_context": "\u2022 The CGI also defines a set of rules and terms that the programmer must follow.  \u2022 CGI allows programmers to use any of several languages such as C, C++,  Bourne Shell, Korn Shell, C Shell, Tcl, or Perl.  \u2022 CGI program can be used to access resources such as databases, graphical packages  etc.  Input  \u2022 The input from a browser to a server is sent by using a Form. If the  information in a form is",
+    "related_topics": [
+      "sql",
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p39_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 39,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_39_img_1.png",
+    "url": "/media/computer_networks/unit1/page_39_img_1.png",
+    "width": 1309,
+    "height": 668,
+    "caption": "Request and status lines \u2022 the first line in a request message is called a request line",
+    "page_context": "Request and Status Lines  \u2022 The first line in a request message is called a request line.  \u2022 The first line in the response message is called the status line.    Request type  This field is used in the request message. In version 1.1 of HTTP defines  several request types. The request type is categorized into methods.  Methods Action  GET Requests a document from the server  POST Sends some inform",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p39_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 39,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_39_img_2.png",
+    "url": "/media/computer_networks/unit1/page_39_img_2.png",
+    "width": 1174,
+    "height": 450,
+    "caption": "Request and status lines \u2022 the first line in a request message is called a request line",
+    "page_context": "Request and Status Lines  \u2022 The first line in a request message is called a request line.  \u2022 The first line in the response message is called the status line.    Request type  This field is used in the request message. In version 1.1 of HTTP defines  several request types. The request type is categorized into methods.  Methods Action  GET Requests a document from the server  POST Sends some inform",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p39_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 39,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_39_img_3.png",
+    "url": "/media/computer_networks/unit1/page_39_img_3.png",
+    "width": 675,
+    "height": 166,
+    "caption": "Request and status lines \u2022 the first line in a request message is called a request line",
+    "page_context": "Request and Status Lines  \u2022 The first line in a request message is called a request line.  \u2022 The first line in the response message is called the status line.    Request type  This field is used in the request message. In version 1.1 of HTTP defines  several request types. The request type is categorized into methods.  Methods Action  GET Requests a document from the server  POST Sends some inform",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:30"
+  },
+  {
+    "image_id": "computer_networks_unit1_p41_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 41,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_41_img_1.png",
+    "url": "/media/computer_networks/unit1/page_41_img_1.png",
+    "width": 1557,
+    "height": 586,
+    "caption": "Network management: snmp network management can be defined as monitoring, testing, conf...",
+    "page_context": "NETWORK MANAGEMENT: SNMP  Network Management can be defined as monitoring, testing, configuring and  troubleshooting network components to meet a set of requirements defined  by an organization.  Functions of Network Management System  Network Management System can be divided into five broad categories:  Configuration Management  \u2022 A large network is usually made up of hundreds of entities that ar",
+    "related_topics": [
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:31"
+  },
+  {
+    "image_id": "computer_networks_unit1_p43_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 43,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_43_img_1.png",
+    "url": "/media/computer_networks/unit1/page_43_img_1.png",
+    "width": 1155,
+    "height": 444,
+    "caption": "Table levels",
+    "page_context": "Example: If a LAN is designed for 100 stations at an average data rate of2  Mbps, it will not operate properly if 200 stations are connected to the  network.  \u2022 Traffic Traffic can be measured in two ways: Internally and Externally.  Internal traffic is measured by the number of packets (or bytes) traveling  inside the network.  External traffic is measured by the exchange of packets (or bytes) ou",
+    "related_topics": [
+      "sql",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:31"
+  },
+  {
+    "image_id": "computer_networks_unit1_p44_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 44,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_44_img_1.png",
+    "url": "/media/computer_networks/unit1/page_44_img_1.png",
+    "width": 1204,
+    "height": 328,
+    "caption": "Managers and agents \u2022 a manager or a management station is a host that runs the snmp cl...",
+    "page_context": "Managers and Agents  \u2022 A Manager or a management station is a host that runs the SNMP client program.  \u2022 An Agent or a Managed station is a router or a host that runs the SNMP server  program.  Management is achieved through simple interaction between a manager and an agent.  \u2022 Agent keeps performance information in a database.  \u2022 Manager has access to the values in the database.  Example: A route",
+    "related_topics": [
+      "process",
+      "tree",
+      "routing",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:31"
+  },
+  {
+    "image_id": "computer_networks_unit1_p45_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 45,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_45_img_2.png",
+    "url": "/media/computer_networks/unit1/page_45_img_2.png",
+    "width": 1395,
+    "height": 1107,
+    "caption": "\u2022 each object can be defined by using a sequence of integers separated by dots",
+    "page_context": "\u2022 Each object can be defined by using a sequence of integers separated by dots.  \u2022 Tree structure can also define an object by using a sequence of textual  names separated by dots.  \u2022 The integer-dot representation is used in SNMP. The name-dot notation  is used by people.  Example: The following shows the same object in two  different notations:  iso.org.dod.internet.mgmt.mib-2   1.3.6.1.2.1  Typ",
+    "related_topics": [
+      "tree",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:31"
+  },
+  {
+    "image_id": "computer_networks_unit1_p46_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 46,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_46_img_1.png",
+    "url": "/media/computer_networks/unit1/page_46_img_1.png",
+    "width": 1242,
+    "height": 248,
+    "caption": "Tag the tag is a 1-byte field that defines the type of data",
+    "page_context": "Tag  The tag is a 1-byte field that defines the type of data. It is composed of three subfields:  \u2022 Class (2 bits): It defines the scope of the data.  Four classes are defined: 00- universal, 01-Application wide, 10- context  specific, 11- private.  \u2022 Format subfield indicates whether the data are simple (0) or structured(1).  \u2022 Number subfield further divides simple or structured data into subgro",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:31"
+  },
+  {
+    "image_id": "computer_networks_unit1_p46_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 46,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_46_img_2.png",
+    "url": "/media/computer_networks/unit1/page_46_img_2.png",
+    "width": 1046,
+    "height": 188,
+    "caption": "Tag the tag is a 1-byte field that defines the type of data",
+    "page_context": "Tag  The tag is a 1-byte field that defines the type of data. It is composed of three subfields:  \u2022 Class (2 bits): It defines the scope of the data.  Four classes are defined: 00- universal, 01-Application wide, 10- context  specific, 11- private.  \u2022 Format subfield indicates whether the data are simple (0) or structured(1).  \u2022 Number subfield further divides simple or structured data into subgro",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:31"
+  },
+  {
+    "image_id": "computer_networks_unit1_p46_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 46,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_46_img_3.png",
+    "url": "/media/computer_networks/unit1/page_46_img_3.png",
+    "width": 1567,
+    "height": 186,
+    "caption": "Tag the tag is a 1-byte field that defines the type of data",
+    "page_context": "Tag  The tag is a 1-byte field that defines the type of data. It is composed of three subfields:  \u2022 Class (2 bits): It defines the scope of the data.  Four classes are defined: 00- universal, 01-Application wide, 10- context  specific, 11- private.  \u2022 Format subfield indicates whether the data are simple (0) or structured(1).  \u2022 Number subfield further divides simple or structured data into subgro",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:31"
+  },
+  {
+    "image_id": "computer_networks_unit1_p47_img3",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 47,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_47_img_3.png",
+    "url": "/media/computer_networks/unit1/page_47_img_3.png",
+    "width": 1471,
+    "height": 699,
+    "caption": "Tables",
+    "page_context": "interface, address translation, ip, icmp, tcp, udp, egp, transmission, and  snmp.  \u2022 These groups are under the MIB-2 object in the object identifier tree.  \u2022 Each group has defined variables and tables.  Accessing MIB Variables  Let us take UDP group to show how to access different variables. To access  any of the simple variables, we use the id of the group (1.3.6.1.2.1.7)  followed by the id of",
+    "related_topics": [
+      "tree",
+      "sql"
+    ],
+    "extracted_at": "2026-09-26 15:02:31"
+  },
+  {
+    "image_id": "computer_networks_unit1_p47_img4",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 47,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_47_img_4.png",
+    "url": "/media/computer_networks/unit1/page_47_img_4.png",
+    "width": 1682,
+    "height": 394,
+    "caption": "Tables",
+    "page_context": "interface, address translation, ip, icmp, tcp, udp, egp, transmission, and  snmp.  \u2022 These groups are under the MIB-2 object in the object identifier tree.  \u2022 Each group has defined variables and tables.  Accessing MIB Variables  Let us take UDP group to show how to access different variables. To access  any of the simple variables, we use the id of the group (1.3.6.1.2.1.7)  followed by the id of",
+    "related_topics": [
+      "tree",
+      "sql"
+    ],
+    "extracted_at": "2026-09-26 15:02:31"
+  },
+  {
+    "image_id": "computer_networks_unit1_p48_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 48,
+    "source": "cn_4.pdf",
+    "path": "media/computer_networks/unit1/page_48_img_2.png",
+    "url": "/media/computer_networks/unit1/page_48_img_2.png",
+    "width": 1098,
+    "height": 918,
+    "caption": "Table, we add the index to the above ids",
+    "page_context": "Udp Local Address   1.3.6.1.2.1.7.5.1.1  Udp Local Port   1.3.6.1.2.1.7.5.1.2  \u2022 To access a specific instance (row) of the table, we add the index to the  above ids. To access the instance of the local address for the first row, we  use the identifier augmented with the instance index:  udpLocalAddress.181.23.45.14.23   1.3.6.1.2.7.5.1.1.181.23.45.14.23  Lexicographic Ordering  \u2022 The object ident",
+    "related_topics": [
+      "sql",
+      "routing",
+      "graph"
+    ],
+    "extracted_at": "2026-09-26 15:02:31"
+  },
+  {
+    "image_id": "computer_networks_unit1_p1_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 1,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_1_img_1.png",
+    "url": "/media/computer_networks/unit1/page_1_img_1.png",
+    "width": 245,
+    "height": 321,
+    "caption": "Socket programming sockets: \u2022 a socket is one endpoint of a two-way communication link ...",
+    "page_context": "SOCKET PROGRAMMING  Sockets:  \u2022 A socket is one endpoint of a two-way communication link between two programs  running on the network.  \u2022 The socket mechanism provides a means of inter -process communication (IPC) by  establishing named contact points between which the communication takes place.  \u2022 Sockets in computer networks are used for allowing the transmission of information  between two proc",
+    "related_topics": [
+      "process",
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:33"
+  },
+  {
+    "image_id": "computer_networks_unit1_p4_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 4,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_4_img_1.png",
+    "url": "/media/computer_networks/unit1/page_4_img_1.png",
+    "width": 812,
+    "height": 267,
+    "caption": "Table the network system does not have enough buffers to accommodate outgoing data",
+    "page_context": "Socket State Meaning  opened socket() returned an unnamed socket (an unnamed  socket is one that is not bound to a local address  and port). The socket can be named explicitly with  bind or implicitly with sendto() or connect().  named A named socket is one that is bound to a local  address and a port. The socket can now send and/or  receive.  readable The network system received data and is ready",
+    "related_topics": [
+      "sql"
+    ],
+    "extracted_at": "2026-09-26 15:02:33"
+  },
+  {
+    "image_id": "computer_networks_unit1_p5_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 5,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_5_img_1.png",
+    "url": "/media/computer_networks/unit1/page_5_img_1.png",
+    "width": 789,
+    "height": 531,
+    "caption": "Stream socket states: socket state meaning opened socket() returned an unnamed socket (...",
+    "page_context": "STREAM SOCKET STATES:        Socket State Meaning  opened  socket() returned an unnamed socket (an unnamed socket is one that is not bound to a  local address and port). The socket can be named explicitly with bind() or implicitly  with conenct().  named and listening  The socket is named (bound to a local address and port) and is ready to accept  incoming connection requests.  connection pending ",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:33"
+  },
+  {
+    "image_id": "computer_networks_unit1_p11_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 11,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_11_img_1.png",
+    "url": "/media/computer_networks/unit1/page_11_img_1.png",
+    "width": 387,
+    "height": 220,
+    "caption": "Fig. 3.1 shows the default scenario",
+    "page_context": "\u2022 By default, close returns immediately.      Fig 3.1 Default operation of close    We now need to look at exactly when close on a socket returns and what the actions and  consequences are. In these cases, we assume that the client writes data to the socket and then  calls close.  Fig. 3.1 shows the default scenario. Assume that when the client\u2019s data arrives, the server  is temporarily busy, so t",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:33"
+  },
+  {
+    "image_id": "computer_networks_unit1_p11_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 11,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_11_img_2.png",
+    "url": "/media/computer_networks/unit1/page_11_img_2.png",
+    "width": 383,
+    "height": 220,
+    "caption": "Fig. 3.1 shows the default scenario",
+    "page_context": "\u2022 By default, close returns immediately.      Fig 3.1 Default operation of close    We now need to look at exactly when close on a socket returns and what the actions and  consequences are. In these cases, we assume that the client writes data to the socket and then  calls close.  Fig. 3.1 shows the default scenario. Assume that when the client\u2019s data arrives, the server  is temporarily busy, so t",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:33"
+  },
+  {
+    "image_id": "computer_networks_unit1_p12_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 12,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_12_img_1.png",
+    "url": "/media/computer_networks/unit1/page_12_img_1.png",
+    "width": 423,
+    "height": 220,
+    "caption": "Fig. 3.3 shows what can happen if the so_linger option is set to a value that is too low",
+    "page_context": "In this scenario, the client sets the SO_LINGER option, specifying some positive linger time.  When this occurs, the client\u2019s close does not return until all the client\u2019s data and its FIN have been  acknowledged by the server TCP as shown in Fig 3.2.  The server host can crash before the server application reads its remaining data, and the  client application will never know.  (c) SO_LINGER socket",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:33"
+  },
+  {
+    "image_id": "computer_networks_unit1_p12_img2",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 12,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_12_img_2.png",
+    "url": "/media/computer_networks/unit1/page_12_img_2.png",
+    "width": 392,
+    "height": 220,
+    "caption": "Fig. 3.3 shows what can happen if the so_linger option is set to a value that is too low",
+    "page_context": "In this scenario, the client sets the SO_LINGER option, specifying some positive linger time.  When this occurs, the client\u2019s close does not return until all the client\u2019s data and its FIN have been  acknowledged by the server TCP as shown in Fig 3.2.  The server host can crash before the server application reads its remaining data, and the  client application will never know.  (c) SO_LINGER socket",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:33"
+  },
+  {
+    "image_id": "computer_networks_unit1_p13_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 13,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_13_img_1.png",
+    "url": "/media/computer_networks/unit1/page_13_img_1.png",
+    "width": 944,
+    "height": 683,
+    "caption": "Fig. 3.4",
+    "page_context": "One way for the client to know that the server has read its data is to call shutdown (with  SHUT_WR) instead of close and wait for the peer to close its end of the connection as shown in  Fig. 3.4.  (e) Application ACK      Fig. 3.5 Application ACK    Another way to know that the peer application has read our data is to use an application-  level acknowledgment which requires coding in the server ",
+    "related_topics": [
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:33"
+  },
+  {
+    "image_id": "computer_networks_unit1_p20_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 20,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_20_img_1.png",
+    "url": "/media/computer_networks/unit1/page_20_img_1.png",
+    "width": 622,
+    "height": 658,
+    "caption": "O the purpose of nagle\u2019s algorithm is to reduce the number of small packets in wan",
+    "page_context": "o The purpose of Nagle\u2019s algorithm is to reduce the number of small packets in WAN.  o Small packet is any packet smaller than MSS.  o The two common generators of small packets are the Rlogin and Telnet clients, since  they send each keystroke as a separate packet.  o In a fast LAN, we normally donot notice a Nagle\u2019s algorithm because the time required  for a small packet to be acknowledged is ty",
+    "related_topics": [
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:33"
+  },
+  {
+    "image_id": "computer_networks_unit1_p21_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 21,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_21_img_1.png",
+    "url": "/media/computer_networks/unit1/page_21_img_1.png",
+    "width": 675,
+    "height": 706,
+    "caption": "7 nagle\u2019s algorithm (enabled) \u2022 the purpose of the nagle algorithm is to reduce the num...",
+    "page_context": "Fig. 3.7 Nagle\u2019s Algorithm (Enabled)    \u2022 The purpose of the Nagle algorithm is to reduce the number of small packets on a  WAN.  \u2022 The algorithm states that if a given connection has outstanding data then no  small packets will be sent on the connection in response to a user write  operation until the existing data is acknowledged.  \u2022 Two common generators of small packets are the rlogin and teln",
+    "related_topics": [
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:33"
+  },
+  {
+    "image_id": "computer_networks_unit1_p25_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 25,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_25_img_1.png",
+    "url": "/media/computer_networks/unit1/page_25_img_1.png",
+    "width": 622,
+    "height": 658,
+    "caption": "O the purpose of nagle\u2019s algorithm is to reduce the number of small packets in wan",
+    "page_context": "o The purpose of Nagle\u2019s algorithm is to reduce the number of small packets in WAN.  o Small packet is any packet smaller than MSS.  o The two common generators of small packets are the Rlogin and Telnet clients, since  they send each keystroke as a separate packet.  o In a fast LAN, we normally donot notice a Nagle\u2019s algorithm because the time required  for a small packet to be acknowledged is ty",
+    "related_topics": [
+      "routing"
+    ],
+    "extracted_at": "2026-09-26 15:02:34"
+  },
+  {
+    "image_id": "computer_networks_unit1_p26_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 26,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_26_img_1.png",
+    "url": "/media/computer_networks/unit1/page_26_img_1.png",
+    "width": 675,
+    "height": 706,
+    "caption": "Fig. 3.7 nagle\u2019s algorithm (enabled)",
+    "page_context": "Fig. 3.7 Nagle\u2019s Algorithm (Enabled)",
+    "related_topics": [],
+    "extracted_at": "2026-09-26 15:02:34"
+  },
+  {
+    "image_id": "computer_networks_unit1_p27_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 27,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_27_img_1.png",
+    "url": "/media/computer_networks/unit1/page_27_img_1.png",
+    "width": 502,
+    "height": 105,
+    "caption": "Web sockets web sockets are defined as a two-way communication between the servers and ...",
+    "page_context": "Web sockets  Web sockets are defined as a two-way communication between the servers and the clients, which  mean both the parties, communicate and exchange data at the same time.  This protocol defines a full duplex communication from the ground up. Web sockets take a step  forward in bringing desktop rich functionalities to the web browsers.  The main features of web sockets are as follows:  \u2022Web",
+    "related_topics": [
+      "sql",
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:34"
+  },
+  {
+    "image_id": "computer_networks_unit1_p28_img1",
+    "subject": "computer_networks",
+    "unit": "Unit 1",
+    "page": 28,
+    "source": "cn_5.pdf",
+    "path": "media/computer_networks/unit1/page_28_img_1.png",
+    "url": "/media/computer_networks/unit1/page_28_img_1.png",
+    "width": 600,
+    "height": 451,
+    "caption": "The following diagram describes the functionalities of web sockets \u2212 web socket connect...",
+    "page_context": "The following diagram describes the functionalities of Web Sockets \u2212    Web Socket connections are initiated via HTTP; HTTP servers typically interpret Web Socket  handshakes as an Upgrade request.  Web Sockets can both be a complementary add-on to an existing HTTP environment and can provide  the required infrastructure to add web functionality. It relies on more advanced, full duplex protocols  ",
+    "related_topics": [
+      "osi_model"
+    ],
+    "extracted_at": "2026-09-26 15:02:34"
+  }
+]

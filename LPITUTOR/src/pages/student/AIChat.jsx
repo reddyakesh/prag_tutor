@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { studentService } from '../../services/api';
+import MermaidDiagram from '../../components/MermaidDiagram';
 import { 
   Bot, 
   Send, 
@@ -18,8 +19,19 @@ import {
   Award,
   Layers,
   HelpCircle,
-  BrainCircuit
+  BrainCircuit,
+  Workflow
 } from 'lucide-react';
+
+const BACKEND_URL = `http://${window.location.hostname}:8000`;
+
+const resolveImageUrl = (urlOrPath) => {
+  if (!urlOrPath) return '';
+  if (urlOrPath.startsWith('data:')) return urlOrPath;
+  if (urlOrPath.startsWith('http://') || urlOrPath.startsWith('https://')) return urlOrPath;
+  // Relative path like /images/... or /media/... — prepend backend host
+  return `${BACKEND_URL}${urlOrPath.startsWith('/') ? '' : '/'}${urlOrPath}`;
+};
 
 export const AIChat = () => {
   const [searchParams] = useSearchParams();
@@ -63,6 +75,21 @@ export const AIChat = () => {
   useEffect(() => {
     scrollToBottom();
   }, [messages, loading]);
+
+  // Load student's learned topics from MongoDB for current subject
+  useEffect(() => {
+    const studentUser = JSON.parse(localStorage.getItem('pragtutor_user') || '{}');
+    const studentId = studentUser.id || 'STU001';
+    studentService.getHistory(studentId, subject)
+      .then(res => {
+        if (res && res.known_topics) {
+          setLearnedTopics(new Set(res.known_topics));
+        } else if (res && res.completed_topics) {
+          setLearnedTopics(new Set(res.completed_topics));
+        }
+      })
+      .catch(e => console.warn('Could not load student progress:', e));
+  }, [subject]);
 
   const handleImageSelect = (e) => {
     const files = Array.from(e.target.files || []);
@@ -142,7 +169,9 @@ export const AIChat = () => {
         missingPrereqs: res.missing_prerequisites || [],
         learningPath: res.learning_path || res.prerequisites_used || [],
         sources: res.sources || res.retrieved_content || [],
-        images: res.images || res.retrieved_images || [],
+        images: res.retrieved_images || res.images || [],
+        retrievedImages: res.retrieved_images || res.images || [],
+        generatedVisual: res.generated_visual || null,
         answer: isKbUnavailable 
           ? (res.message || "PDFs have not been uploaded by your teachers for this subject yet.") 
           : (res.answer || res.llm_response || "Explanation generated."),
@@ -391,31 +420,44 @@ export const AIChat = () => {
                     </div>
                   )}
 
-                  {/* 3.5 RETRIEVED DIAGRAMS & IMAGES CARD */}
-                  {msg.images && msg.images.length > 0 && (
+                  {/* 3.5 RETRIEVED DIAGRAMS & IMAGES CARD WITH SOURCE CITATIONS */}
+                  {msg.retrievedImages && msg.retrievedImages.length > 0 && (
                     <div className="p-4 rounded-2xl bg-purple-500/5 border border-purple-500/20 space-y-3">
                       <span className="text-xs font-bold text-purple-300 flex items-center gap-1.5">
                         <ImageIcon className="w-4 h-4 text-purple-400" />
-                        Retrieved Course Diagrams & Visual Material ({msg.images.length} Image{msg.images.length > 1 ? 's' : ''})
+                        Relevant Course Material Figures ({msg.retrievedImages.length} Image{msg.retrievedImages.length > 1 ? 's' : ''})
                       </span>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                        {msg.images.map((imgObj, idx) => (
+                        {msg.retrievedImages.map((imgObj, idx) => (
                           <div 
                             key={idx} 
-                            onClick={() => setPreviewImageModal(imgObj.url || imgObj)}
-                            className="p-2 bg-slate-900/90 rounded-xl border border-slate-800 hover:border-purple-500/40 cursor-pointer space-y-2 group transition-all"
+                            onClick={() => setPreviewImageModal(resolveImageUrl(imgObj.url || imgObj.path || imgObj))}
+                            className="p-2.5 bg-slate-900/90 rounded-xl border border-slate-800 hover:border-purple-500/40 cursor-pointer space-y-2 group transition-all"
                           >
                             <img 
-                              src={imgObj.url || imgObj} 
+                              src={resolveImageUrl(imgObj.url || imgObj.path || imgObj)} 
                               alt={imgObj.caption || "Course Diagram"} 
-                              className="w-full h-40 object-contain bg-slate-950 rounded-lg group-hover:scale-[1.02] transition-transform" 
+                              className="w-full h-44 object-contain bg-slate-950 rounded-lg group-hover:scale-[1.02] transition-transform" 
                             />
-                            <div className="text-[11px] font-semibold text-purple-200 text-center px-1 truncate">
-                              {imgObj.caption || `Diagram ${idx + 1}`}
+                            <div className="space-y-1 text-left px-1">
+                              <div className="text-[11px] font-semibold text-purple-200 line-clamp-1">
+                                {imgObj.caption || `Diagram ${idx + 1}`}
+                              </div>
+                              <div className="flex items-center justify-between text-[10px] text-slate-400 font-mono bg-slate-950 px-2 py-1 rounded border border-slate-800">
+                                <span>📄 {imgObj.source || 'Course Material'}</span>
+                                <span>Unit {imgObj.unit || '1'} • Page {imgObj.page || 1}</span>
+                              </div>
                             </div>
                           </div>
                         ))}
                       </div>
+                    </div>
+                  )}
+
+                  {/* 3.6 GENERATED EDUCATIONAL FLOWCHART / DIAGRAM */}
+                  {msg.generatedVisual && msg.generatedVisual.enabled && msg.generatedVisual.content && (
+                    <div className="space-y-2">
+                      <MermaidDiagram chart={msg.generatedVisual.content} />
                     </div>
                   )}
 

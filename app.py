@@ -173,9 +173,15 @@ class PragTutorRequestHandler(BaseHTTPRequestHandler):
         elif path in ["/api/teacher/subjects", "/api/student/subjects"]:
             self._send_json({"subjects": get_subjects()})
         elif path == "/api/student/history":
+            stu_data = get_student("STU001", "operating_systems")
             self._send_json({
                 "student_id": "STU001",
-                "recent_queries": []
+                "subject": "operating_systems",
+                "known_topics": stu_data.get("known_topics", []),
+                "completed_topics": stu_data.get("completed_topics", []),
+                "in_progress_topics": stu_data.get("in_progress_topics", []),
+                "topic_progress": stu_data.get("topic_progress", {}),
+                "recent_queries": stu_data.get("query_history", [])
             })
         elif path.startswith("/images/"):
             img_rel_path = path.lstrip("/")
@@ -338,12 +344,14 @@ class PragTutorRequestHandler(BaseHTTPRequestHandler):
             student_id = payload.get("student_id", "STU001")
             subject = payload.get("subject", "operating_systems")
             topic = payload.get("topic", "")
-            updated_stu = mark_topic_as_learned(student_id, topic)
+            updated_stu = mark_topic_as_learned(student_id, topic, subject=subject)
             return self._send_json({
                 "status": "success",
-                "message": f"Successfully marked '{topic}' as learned.",
+                "message": f"Successfully marked '{topic}' as learned in {subject}.",
                 "student_id": student_id,
-                "completed_topics": updated_stu.get("completed_topics", [])
+                "subject": subject,
+                "completed_topics": updated_stu.get("completed_topics", []),
+                "known_topics": updated_stu.get("known_topics", [])
             })
 
         valid_query_paths = ["/api/tutor", "/api/process_query", "/api/student/query", "/api/chat/answer", "/api/chat/question"]

@@ -8,6 +8,7 @@ from student_database import get_student
 # ============================================================
 # CONFIGURATION
 # ============================================================
+# Stores the default path of the course prerequisite JSON file.
 
 COURSE_TOPICS_FILE = "data/course_topics.json"
 
@@ -15,6 +16,8 @@ COURSE_TOPICS_FILE = "data/course_topics.json"
 # ============================================================
 # NORMALIZE TOPIC
 # ============================================================
+# Converts a topic into a standard format so that different
+# forms of the same topic can be compared easily.
 
 def normalize_topic(topic):
 
@@ -39,14 +42,14 @@ def normalize_topic(topic):
 # ============================================================
 # DISPLAY TOPIC NAME
 # ============================================================
+# Converts an internal topic name into a readable display name.
 
 def display_topic(topic):
 
-    # Convert internal topic name into readable text
-
     topic = topic.replace("_", " ")
 
-    # Special formatting
+    # Converts commonly used abbreviations into uppercase
+    # when displaying the topic.
     replacements = {
         "pcb": "PCB",
         "cpu": "CPU",
@@ -85,6 +88,8 @@ def display_topic(topic):
 # ============================================================
 # LOAD COURSE TOPICS
 # ============================================================
+# Loads the prerequisite information from the appropriate
+# JSON file for the selected subject.
 
 SUBJECT_ID_MAP = {
     "os": "operating_systems",
@@ -103,103 +108,281 @@ SUBJECT_ID_MAP = {
     "software_engineering": "software_engineering"
 }
 
+
+# Converts different forms of a subject name into a standard
+# subject ID used for locating the prerequisite JSON file.
+
 def normalize_subject_id(subject_id):
+
     if not subject_id:
         return "default"
+
     clean = str(subject_id).lower().strip().replace("-", "_")
     clean_space = clean.replace("_", " ")
+
     if clean in SUBJECT_ID_MAP:
         return SUBJECT_ID_MAP[clean]
+
     if clean_space in SUBJECT_ID_MAP:
         return SUBJECT_ID_MAP[clean_space]
+
     return clean.replace(" ", "_")
 
+
+# Loads the prerequisite data from the subject-specific JSON file.
 def load_course_topics(subject_id=None):
+
     norm_sub = normalize_subject_id(subject_id)
+
     print()
     print(f"Loading course prerequisite graph for subject: {norm_sub}...")
 
     raw_data = None
+
+    # If a subject is provided, try to load its prerequisite JSON file.
     if subject_id:
-        custom_prereq_file = os.path.join("data", f"prerequisites_{norm_sub}.json")
+
+        custom_prereq_file = os.path.join(
+            "data",
+            f"prerequisites_{norm_sub}.json"
+        )
+
+        # If the first path does not exist, try using the directory
+        # where this Python file is located.
         if not os.path.exists(custom_prereq_file):
-            base_dir = os.path.dirname(os.path.abspath(__file__))
-            custom_prereq_file = os.path.join(base_dir, "data", f"prerequisites_{norm_sub}.json")
 
+            base_dir = os.path.dirname(
+                os.path.abspath(__file__)
+            )
+
+            custom_prereq_file = os.path.join(
+                base_dir,
+                "data",
+                f"prerequisites_{norm_sub}.json"
+            )
+
+        # Read the prerequisite JSON file.
         if os.path.exists(custom_prereq_file):
-            try:
-                with open(custom_prereq_file, "r", encoding="utf-8") as file:
-                    raw_data = json.load(file)
-            except Exception as e:
-                print(f"Error loading custom prerequisite file {custom_prereq_file}: {e}")
 
-    # Only fallback to default COURSE_TOPICS_FILE if no subject_id is specified or subject is operating_systems/default
-    if not raw_data and (not subject_id or norm_sub in ["default", "operating_systems"]):
-        base_dir = os.path.dirname(os.path.abspath(__file__))
-        topics_path = COURSE_TOPICS_FILE if os.path.exists(COURSE_TOPICS_FILE) else os.path.join(base_dir, COURSE_TOPICS_FILE)
+            try:
+
+                with open(
+                    custom_prereq_file,
+                    "r",
+                    encoding="utf-8"
+                ) as file:
+
+                    raw_data = json.load(file)
+
+            except Exception as e:
+
+                print(
+                    f"Error loading custom prerequisite file "
+                    f"{custom_prereq_file}: {e}"
+                )
+
+    # If no custom prerequisite file was loaded,
+    # use the default course topics file.
+    if not raw_data and (
+        not subject_id
+        or norm_sub in ["default", "operating_systems"]
+    ):
+
+        base_dir = os.path.dirname(
+            os.path.abspath(__file__)
+        )
+
+        topics_path = (
+            COURSE_TOPICS_FILE
+            if os.path.exists(COURSE_TOPICS_FILE)
+            else os.path.join(
+                base_dir,
+                COURSE_TOPICS_FILE
+            )
+        )
+
+        # Read the default course prerequisite JSON file.
         if os.path.exists(topics_path):
+
             try:
-                with open(topics_path, "r", encoding="utf-8") as file:
+
+                with open(
+                    topics_path,
+                    "r",
+                    encoding="utf-8"
+                ) as file:
+
                     raw_data = json.load(file)
+
             except Exception as e:
-                print(f"Error loading {topics_path}: {e}")
 
+                print(
+                    f"Error loading {topics_path}: {e}"
+                )
+
+    # If no prerequisite data was found, return an empty course.
     if not raw_data:
-        return {"course": subject_id or "Default", "units": {}}
 
+        return {
+            "course": subject_id or "Default",
+            "units": {}
+        }
+
+    # If the JSON already has the expected "units" structure,
+    # return it directly.
     if isinstance(raw_data, dict) and "units" in raw_data:
+
         return raw_data
 
     topics_map = {}
 
+    # Converts different possible JSON formats into one
+    # common topic-prerequisite structure.
     if isinstance(raw_data, dict):
-        if "topic_prerequisites" in raw_data and isinstance(raw_data["topic_prerequisites"], dict):
-            for t_name, t_val in raw_data["topic_prerequisites"].items():
+
+        # Read topic_prerequisites if available.
+        if (
+            "topic_prerequisites" in raw_data
+            and isinstance(
+                raw_data["topic_prerequisites"],
+                dict
+            )
+        ):
+
+            for t_name, t_val in raw_data[
+                "topic_prerequisites"
+            ].items():
+
                 topics_map[t_name] = t_val
 
+        # Read prerequisites if available.
         if "prerequisites" in raw_data:
+
             p_data = raw_data["prerequisites"]
+
+            # Handle prerequisites stored as a dictionary.
             if isinstance(p_data, dict):
+
                 for t_name, t_val in p_data.items():
+
                     if t_name not in topics_map:
+
                         topics_map[t_name] = t_val
+
+            # Handle prerequisites stored as a list.
             elif isinstance(p_data, list):
+
                 for item in p_data:
+
                     if isinstance(item, dict):
-                        t_name = item.get("topic") or item.get("name")
-                        if t_name and t_name not in topics_map:
-                            p_list = item.get("prerequisites") or item.get("prereqs") or []
+
+                        t_name = (
+                            item.get("topic")
+                            or item.get("name")
+                        )
+
+                        if (
+                            t_name
+                            and t_name not in topics_map
+                        ):
+
+                            p_list = (
+                                item.get("prerequisites")
+                                or item.get("prereqs")
+                                or []
+                            )
+
                             topics_map[t_name] = p_list
 
-        if "topics" in raw_data and isinstance(raw_data["topics"], dict):
+        # Read topics if available.
+        if (
+            "topics" in raw_data
+            and isinstance(
+                raw_data["topics"],
+                dict
+            )
+        ):
+
             for t_name, t_val in raw_data["topics"].items():
+
                 if t_name not in topics_map:
+
                     if isinstance(t_val, dict):
-                        topics_map[t_name] = t_val.get("prerequisites", [])
+
+                        topics_map[t_name] = (
+                            t_val.get(
+                                "prerequisites",
+                                []
+                            )
+                        )
+
                     elif isinstance(t_val, list):
+
                         topics_map[t_name] = t_val
 
+        # Handles another possible JSON structure where
+        # topics are directly stored as keys.
         if not topics_map:
+
             for key, val in raw_data.items():
-                if key not in ["subject", "course", "source_basis", "topic_prerequisites", "prerequisites", "topics", "units", "version"]:
+
+                if key not in [
+                    "subject",
+                    "course",
+                    "source_basis",
+                    "topic_prerequisites",
+                    "prerequisites",
+                    "topics",
+                    "units",
+                    "version"
+                ]:
+
                     if isinstance(val, list):
+
                         topics_map[key] = val
+
                     elif isinstance(val, dict):
-                        topics_map[key] = val.get("prerequisites", [])
 
+                        topics_map[key] = (
+                            val.get(
+                                "prerequisites",
+                                []
+                            )
+                        )
+
+    # Converts all loaded prerequisite information into
+    # one consistent format.
     formatted_topics = {}
-    for top_name, prereqs in topics_map.items():
-        clean_prereqs = []
-        if isinstance(prereqs, list):
-            for p in prereqs:
-                if isinstance(p, str):
-                    clean_prereqs.append(p)
-                elif isinstance(p, dict):
-                    p_str = p.get("topic") or p.get("name")
-                    if p_str:
-                        clean_prereqs.append(p_str)
-        formatted_topics[top_name] = {"prerequisites": clean_prereqs}
 
+    for top_name, prereqs in topics_map.items():
+
+        clean_prereqs = []
+
+        if isinstance(prereqs, list):
+
+            for p in prereqs:
+
+                if isinstance(p, str):
+
+                    clean_prereqs.append(p)
+
+                elif isinstance(p, dict):
+
+                    p_str = (
+                        p.get("topic")
+                        or p.get("name")
+                    )
+
+                    if p_str:
+
+                        clean_prereqs.append(p_str)
+
+        formatted_topics[top_name] = {
+            "prerequisites": clean_prereqs
+        }
+
+    # Return the course data in a common structure
+    # that the rest of the prerequisite engine can use.
     return {
         "course": subject_id or "Default",
         "units": {
@@ -214,6 +397,8 @@ def load_course_topics(subject_id=None):
 # ============================================================
 # BUILD COMPLETE GRAPH
 # ============================================================
+# Converts the loaded course data into a prerequisite graph.
+# Each topic is connected to its prerequisite topics.
 
 def build_graph(course_data):
 
@@ -250,6 +435,8 @@ def build_graph(course_data):
 # ============================================================
 # CREATE NORMALIZED TOPIC LOOKUP
 # ============================================================
+# Creates a lookup that maps normalized topic names
+# to their original/canonical topic names.
 
 def create_topic_lookup(graph):
 
@@ -269,38 +456,45 @@ def create_topic_lookup(graph):
 # ============================================================
 # FIND CANONICAL TOPIC
 # ============================================================
+# Identifies which topic in the prerequisite graph
+# corresponds to the student's requested topic.
 
-STOP_WORDS = {"a", "an", "the", "and", "or", "of", "in", "to", "for", "with", "on", "at", "by", "is", "what", "how", "why"}
+STOP_WORDS = {
+    "a", "an", "the", "and", "or", "of", "in",
+    "to", "for", "with", "on", "at", "by",
+    "is", "what", "how", "why"
+}
+
 
 def find_canonical_topic(
     user_topic,
     graph,
     topic_lookup
 ):
+
     if not user_topic or not graph or not topic_lookup:
+
         return None
 
     normalized = normalize_topic(
         user_topic
     )
 
-    # --------------------------------------------------------
-    # Exact normalized match
-    # --------------------------------------------------------
-
+    # First try an exact normalized topic match.
     if normalized in topic_lookup:
 
         return topic_lookup[
             normalized
         ]
 
-    # --------------------------------------------------------
-    # Partial substring matching
-    # --------------------------------------------------------
-
+    # If exact matching fails, try partial matching.
     for normalized_topic, canonical_topic in topic_lookup.items():
 
-        if len(normalized) >= 3 and len(normalized_topic) >= 3:
+        if (
+            len(normalized) >= 3
+            and len(normalized_topic) >= 3
+        ):
+
             if (
                 normalized in normalized_topic
                 or
@@ -309,26 +503,64 @@ def find_canonical_topic(
 
                 return canonical_topic
 
-    # --------------------------------------------------------
-    # High-precision word overlap matching
-    # --------------------------------------------------------
+    # If partial matching fails, compare the words
+    # in the student's query with the words in each topic.
+    raw_user_words = [
+        w
+        for w in re.findall(
+            r'\w+',
+            user_topic.lower()
+        )
+        if w not in STOP_WORDS
+    ]
 
-    raw_user_words = [w for w in re.findall(r'\w+', user_topic.lower()) if w not in STOP_WORDS]
     if not raw_user_words:
+
         return None
+
     user_words = set(raw_user_words)
 
     best_match = None
     best_score = 0.0
 
     for norm_t, canonical_topic in topic_lookup.items():
-        cand_words = set([w for w in re.findall(r'\w+', canonical_topic.lower()) if w not in STOP_WORDS])
+
+        cand_words = set([
+            w
+            for w in re.findall(
+                r'\w+',
+                canonical_topic.lower()
+            )
+            if w not in STOP_WORDS
+        ])
+
         if not cand_words:
+
             continue
-        overlap = len(user_words.intersection(cand_words))
+
+        overlap = len(
+            user_words.intersection(
+                cand_words
+            )
+        )
+
         if overlap > 0:
-            coverage = overlap / max(len(user_words), len(cand_words))
-            if coverage > best_score and coverage >= 0.5:
+
+            coverage = (
+                overlap
+                /
+                max(
+                    len(user_words),
+                    len(cand_words)
+                )
+            )
+
+            if (
+                coverage > best_score
+                and
+                coverage >= 0.5
+            ):
+
                 best_score = coverage
                 best_match = canonical_topic
 
@@ -338,6 +570,7 @@ def find_canonical_topic(
 # ============================================================
 # GET DIRECT PREREQUISITES
 # ============================================================
+# Returns the immediate prerequisites of a given topic.
 
 def get_direct_prerequisites(
     topic,
@@ -359,6 +592,8 @@ def get_direct_prerequisites(
 # ============================================================
 # GET ALL PREREQUISITES
 # ============================================================
+# Recursively finds all prerequisites of a topic,
+# including prerequisites of its prerequisites.
 
 def get_all_prerequisites(
     topic,
@@ -369,6 +604,8 @@ def get_all_prerequisites(
 
     result = []
 
+    # Recursive function used to traverse the
+    # prerequisite graph.
     def dfs(current_topic):
 
         if current_topic in visited:
@@ -386,12 +623,12 @@ def get_all_prerequisites(
 
         for prerequisite in prerequisites:
 
-            # First find its prerequisites
+            # Find prerequisites of this prerequisite first.
             dfs(
                 prerequisite
             )
 
-            # Then add the prerequisite itself
+            # Then add the prerequisite itself.
             if prerequisite not in result:
 
                 result.append(
@@ -406,6 +643,8 @@ def get_all_prerequisites(
 # ============================================================
 # GET STUDENT COMPLETED TOPICS
 # ============================================================
+# Retrieves the topics that the student has completed
+# from the student database and normalizes them.
 
 def get_completed_topics(
     student
@@ -431,6 +670,11 @@ def get_completed_topics(
 # MAP NORMALIZED COMPLETED TOPICS
 # TO CANONICAL TOPICS
 # ============================================================
+# Converts the student's completed topics into the same
+# canonical topic names used by the prerequisite graph.
+#
+# It also infers prerequisite topics as known if the student
+# has already completed a topic that requires them.
 
 def get_known_topics(
     student,
@@ -440,10 +684,7 @@ def get_known_topics(
 
     known_topics = set()
 
-    # ========================================================
-    # STEP 1: Explicitly completed topics
-    # ========================================================
-
+    # STEP 1: Get explicitly completed topics.
     raw_topics = student.get(
         "completed_topics",
         []
@@ -465,16 +706,11 @@ def get_known_topics(
                 canonical_topic
             )
 
-    # ========================================================
-    # STEP 2: Infer prerequisites
-    #
-    # If the student completed a topic,
-    # we assume its prerequisites are known.
-    # ========================================================
-
+    # STEP 2: Infer prerequisites of completed topics.
     def add_prerequisites(topic):
 
         if topic not in graph:
+
             return
 
         prerequisites = graph[
@@ -492,15 +728,13 @@ def get_known_topics(
                     prerequisite
                 )
 
-                # Recursively infer prerequisites
+                # Recursively infer prerequisites.
                 add_prerequisites(
                     prerequisite
                 )
 
-    # ========================================================
-    # Apply inference to every completed topic
-    # ========================================================
-
+    # Apply prerequisite inference to the topics
+    # that the student has explicitly completed.
     completed_snapshot = list(
         known_topics
     )
@@ -513,6 +747,8 @@ def get_known_topics(
 
     return known_topics
 
+    # The code below this return statement is unreachable
+    # and therefore does not execute.
     completed_topics = set()
 
     raw_topics = student.get(
@@ -536,9 +772,6 @@ def get_known_topics(
 
         else:
 
-            # Keep the original topic if it isn't
-            # present in our graph
-
             completed_topics.add(
                 topic
             )
@@ -549,6 +782,8 @@ def get_known_topics(
 # ============================================================
 # FIND MISSING PREREQUISITES
 # ============================================================
+# Main function that determines which prerequisites
+# the student is missing for the requested topic.
 
 def find_missing_prerequisites(
     student_id,
@@ -556,33 +791,45 @@ def find_missing_prerequisites(
     subject_id=None
 ):
 
-    # --------------------------------------------------------
-    # Load course graph
-    # --------------------------------------------------------
+    # Load the prerequisite/course data.
+    course_data = load_course_topics(
+        subject_id
+    )
 
-    course_data = load_course_topics(subject_id)
-
+    # Build the prerequisite graph.
     graph = build_graph(
         course_data
     )
 
+    # Create normalized topic lookup.
     topic_lookup = create_topic_lookup(
         graph
     )
 
-    # --------------------------------------------------------
-    # Find canonical topic
-    # --------------------------------------------------------
-
+    # Find the actual canonical topic corresponding
+    # to the student's requested topic.
     canonical_topic = find_canonical_topic(
         target_topic,
         graph,
         topic_lookup
     )
 
+    # If the topic cannot be identified,
+    # return an empty prerequisite result.
     if canonical_topic is None:
-        student = get_student(student_id) or {}
-        comp_topics = set(student.get("completed_topics", []))
+
+        student = get_student(
+            student_id,
+            subject=subject_id
+        ) or {}
+
+        comp_topics = set(
+            student.get(
+                "completed_topics",
+                []
+            )
+        )
+
         return {
             "target_topic": target_topic,
             "all_prerequisites": set(),
@@ -591,12 +838,10 @@ def find_missing_prerequisites(
             "graph": graph
         }
 
-    # --------------------------------------------------------
-    # Get student
-    # --------------------------------------------------------
-
+    # Get the student's information from MongoDB.
     student = get_student(
-        student_id
+        student_id,
+        subject=subject_id
     )
 
     if student is None:
@@ -606,29 +851,21 @@ def find_missing_prerequisites(
             "in MongoDB."
         )
 
-    # --------------------------------------------------------
-    # Completed topics
-    # --------------------------------------------------------
-
+    # Determine which topics the student already knows.
     known_topics = get_known_topics(
-    student,
-    graph,
-    topic_lookup
+        student,
+        graph,
+        topic_lookup
     )
 
-    # --------------------------------------------------------
-    # Get all prerequisites
-    # --------------------------------------------------------
-
+    # Find every prerequisite required for the target topic.
     all_prerequisites = get_all_prerequisites(
         canonical_topic,
         graph
     )
 
-    # --------------------------------------------------------
-    # Find missing prerequisites
-    # --------------------------------------------------------
-
+    # Compare required prerequisites with the student's
+    # known topics to find what is missing.
     missing_prerequisites = []
 
     for prerequisite in all_prerequisites:
@@ -639,10 +876,7 @@ def find_missing_prerequisites(
                 prerequisite
             )
 
-    # --------------------------------------------------------
-    # Return result
-    # --------------------------------------------------------
-
+    # Return the complete prerequisite analysis.
     return {
 
         "target_topic":
@@ -665,6 +899,8 @@ def find_missing_prerequisites(
 # ============================================================
 # GENERATE LEARNING PATH
 # ============================================================
+# Creates the order in which the student should learn
+# the missing prerequisites before learning the target topic.
 
 def generate_learning_path(
     target_topic,
@@ -676,10 +912,7 @@ def generate_learning_path(
 
     visited = set()
 
-    # --------------------------------------------------------
-    # Add prerequisites in prerequisite-first order
-    # --------------------------------------------------------
-
+    # Adds topics recursively in prerequisite-first order.
     def add_topic(topic):
 
         if topic in visited:
@@ -690,6 +923,7 @@ def generate_learning_path(
             topic
         )
 
+        # First add any missing prerequisites of this topic.
         for prerequisite in graph.get(
             topic,
             {}
@@ -704,6 +938,7 @@ def generate_learning_path(
                     prerequisite
                 )
 
+        # Add the topic after its prerequisites.
         if (
             topic in missing_prerequisites
             and
@@ -714,20 +949,14 @@ def generate_learning_path(
                 topic
             )
 
-    # --------------------------------------------------------
-    # Process every missing prerequisite
-    # --------------------------------------------------------
-
+    # Process every missing prerequisite.
     for topic in missing_prerequisites:
 
         add_topic(
             topic
         )
 
-    # --------------------------------------------------------
-    # Target topic comes last
-    # --------------------------------------------------------
-
+    # The target topic is placed at the end.
     if target_topic not in learning_path:
 
         learning_path.append(
@@ -740,6 +969,8 @@ def generate_learning_path(
 # ============================================================
 # DISPLAY RESULT
 # ============================================================
+# Displays the prerequisite analysis and recommended
+# learning path in the terminal.
 
 def display_result(
     result
@@ -750,20 +981,14 @@ def display_result(
     print("PRAGTUTOR - PREREQUISITE ANALYSIS")
     print("=" * 70)
 
-    # --------------------------------------------------------
-    # Target
-    # --------------------------------------------------------
-
+    # Display the target topic.
     print()
     print("Target Topic:")
     print(
         f"  {display_topic(result['target_topic'])}"
     )
 
-    # --------------------------------------------------------
-    # All prerequisites
-    # --------------------------------------------------------
-
+    # Display all prerequisites required by the target topic.
     print()
     print("All Required Prerequisites:")
 
@@ -785,10 +1010,7 @@ def display_result(
             "  None"
         )
 
-    # --------------------------------------------------------
-    # Completed topics
-    # --------------------------------------------------------
-
+    # Display the topics already known by the student.
     print()
     print("Student Completed:")
 
@@ -812,10 +1034,7 @@ def display_result(
             "  None"
         )
 
-    # --------------------------------------------------------
-    # Missing prerequisites
-    # --------------------------------------------------------
-
+    # Display the prerequisites that the student is missing.
     print()
     print("Missing Prerequisites:")
 
@@ -837,10 +1056,7 @@ def display_result(
             "  ✓ No missing prerequisites"
         )
 
-    # --------------------------------------------------------
-    # Learning path
-    # --------------------------------------------------------
-
+    # Generate and display the recommended learning path.
     learning_path = generate_learning_path(
 
         result[
@@ -875,6 +1091,7 @@ def display_result(
 # ============================================================
 # MAIN
 # ============================================================
+# Runs the prerequisite engine manually from the terminal.
 
 def main():
 
@@ -883,22 +1100,17 @@ def main():
     print("PRAGTUTOR - PREREQUISITE ENGINE")
     print("=" * 70)
 
-    # --------------------------------------------------------
-    # Student
-    # --------------------------------------------------------
-
+    # Student whose prerequisite knowledge will be checked.
     student_id = "STU001"
 
-    # --------------------------------------------------------
-    # User query/topic
-    # --------------------------------------------------------
-
+    # Ask the user for the topic they want to learn.
     target_topic = input(
         "\nEnter target topic: "
     )
 
     try:
 
+        # Perform prerequisite analysis.
         result = find_missing_prerequisites(
 
             student_id,
@@ -907,6 +1119,7 @@ def main():
 
         )
 
+        # Display the analysis result.
         display_result(
             result
         )
@@ -922,6 +1135,7 @@ def main():
 # ============================================================
 # ENTRY POINT
 # ============================================================
+# Runs main() only when this file is executed directly.
 
 if __name__ == "__main__":
 

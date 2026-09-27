@@ -34,6 +34,7 @@ export const AdminDashboard = () => {
       system_health: "100% Operational"
     },
     teachers: [],
+    students: [],
     uploaded_pdfs: [],
     knowledge_bases: [],
     recent_activity: []
@@ -59,6 +60,7 @@ export const AdminDashboard = () => {
             system_health: "100% Operational"
           },
           teachers: res.teachers || [],
+          students: res.students || [],
           uploaded_pdfs: res.uploaded_pdfs || [],
           knowledge_bases: res.knowledge_bases || [],
           recent_activity: res.recent_activity || []
@@ -144,6 +146,14 @@ export const AdminDashboard = () => {
     (t.name || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
     (t.email || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
     (t.department || '').toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  const studentsList = data.students || [];
+  const filteredStudents = studentsList.filter(s => 
+    (s.name || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
+    (s.email || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
+    (s.id || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
+    (s.student_id || '').toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   const metrics = data.metrics || {};
@@ -352,6 +362,77 @@ export const AdminDashboard = () => {
         )}
       </div>
 
+      {/* 2.5 REGISTERED STUDENTS DIRECTORY (MONGODB) */}
+      <div className="glass-card rounded-2xl border border-slate-800 overflow-hidden space-y-0">
+        <div className="p-6 border-b border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <h2 className="text-lg font-bold text-white flex items-center gap-2">
+              <GraduationCap className="w-5 h-5 text-blue-400" />
+              Registered Students Directory & Status
+            </h2>
+            <p className="text-xs text-slate-400">View registered students, enrolled subjects, and active status synchronized from MongoDB.</p>
+          </div>
+          <span className="text-xs font-mono text-blue-300 bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full">
+            {studentsList.length} Students Registered
+          </span>
+        </div>
+
+        {filteredStudents.length === 0 ? (
+          <div className="p-8 text-center space-y-2">
+            <GraduationCap className="w-8 h-8 text-slate-600 mx-auto" />
+            <div className="text-xs font-semibold text-slate-400">No Students Found</div>
+          </div>
+        ) : (
+          <div className="overflow-x-auto">
+            <table className="w-full text-left text-xs text-slate-300">
+              <thead className="bg-slate-900/90 font-semibold uppercase text-slate-400 border-b border-slate-800">
+                <tr>
+                  <th className="py-3 px-6">Student</th>
+                  <th className="py-3 px-6">Student ID</th>
+                  <th className="py-3 px-6">Selected Subjects</th>
+                  <th className="py-3 px-6">Joined Date</th>
+                  <th className="py-3 px-6">Status</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-800/60">
+                {filteredStudents.map((s) => (
+                  <tr key={s.id || s.student_id || s.email} className="hover:bg-slate-800/30 transition-colors">
+                    <td className="py-3 px-6">
+                      <div className="font-bold text-white">{s.name}</div>
+                      <div className="text-[11px] text-slate-400">{s.email}</div>
+                    </td>
+                    <td className="py-3 px-6 font-mono text-blue-300 font-bold">
+                      {s.student_id || s.id}
+                    </td>
+                    <td className="py-3 px-6">
+                      <div className="flex flex-wrap gap-1">
+                        {(s.selected_subjects || s.subjects || []).length > 0 ? (
+                          (s.selected_subjects || s.subjects).map((sub, i) => (
+                            <span key={i} className="px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700 text-[10px] font-mono">
+                              {sub.replace('_', ' ')}
+                            </span>
+                          ))
+                        ) : (
+                          <span className="text-[10px] text-slate-500 italic">All Available</span>
+                        )}
+                      </div>
+                    </td>
+                    <td className="py-3 px-6 text-slate-400 font-mono">
+                      {s.joined_date || s.created_at || "Recent"}
+                    </td>
+                    <td className="py-3 px-6">
+                      <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                        <Check className="w-3 h-3" /> {(s.account_status || s.status || 'ACTIVE').toUpperCase()}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
+
       {/* 3. KNOWLEDGE-BASE PREPARATION & CHROMADB MONITOR */}
       <div className="glass-card rounded-2xl border border-slate-800 p-6 space-y-4">
         <div className="flex items-center justify-between">
@@ -381,8 +462,9 @@ export const AdminDashboard = () => {
                   {kb.collection_name}
                 </div>
                 <div className="flex justify-between text-xs text-slate-300">
-                  <span>Course PDFs: <strong className="text-white">{kb.pdf_count} files</strong></span>
-                  <span>Vector Chunks: <strong className="text-emerald-400 font-mono">{kb.vector_chunks}</strong></span>
+                  <span>PDFs: <strong className="text-white">{kb.pdf_count}</strong></span>
+                  <span>Chunks: <strong className="text-emerald-400 font-mono">{kb.vector_chunks}</strong></span>
+                  <span>Figures: <strong className="text-purple-400 font-mono">{kb.extracted_images || 0}</strong></span>
                 </div>
               </div>
 

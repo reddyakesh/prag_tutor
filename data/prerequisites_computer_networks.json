@@ -1,0 +1,521 @@
+{
+  "subject": "Computer Networks",
+  "prerequisites": {
+    "computer_networks": [],
+    "data_communication": [
+      "computer_networks"
+    ],
+    "network_components": [
+      "data_communication"
+    ],
+    "protocols_and_standards": [
+      "data_communication"
+    ],
+    "network_types": [
+      "network_components"
+    ],
+    "lan": [
+      "network_types"
+    ],
+    "man": [
+      "network_types"
+    ],
+    "wan": [
+      "network_types"
+    ],
+    "network_topologies": [
+      "network_types"
+    ],
+    "bus_topology": [
+      "network_topologies"
+    ],
+    "star_topology": [
+      "network_topologies"
+    ],
+    "ring_topology": [
+      "network_topologies"
+    ],
+    "mesh_topology": [
+      "network_topologies"
+    ],
+    "point_to_point_connection": [
+      "network_components"
+    ],
+    "multipoint_connection": [
+      "network_components"
+    ],
+    "simplex_half_duplex_full_duplex": [
+      "data_communication"
+    ],
+    "transmission_media": [
+      "data_communication"
+    ],
+    "guided_media": [
+      "transmission_media"
+    ],
+    "unguided_media": [
+      "transmission_media"
+    ],
+    "osi_model": [
+      "protocols_and_standards"
+    ],
+    "physical_layer": [
+      "osi_model"
+    ],
+    "data_link_layer": [
+      "osi_model",
+      "physical_layer"
+    ],
+    "network_layer": [
+      "osi_model",
+      "data_link_layer"
+    ],
+    "transport_layer": [
+      "osi_model",
+      "network_layer"
+    ],
+    "session_layer": [
+      "osi_model",
+      "transport_layer"
+    ],
+    "presentation_layer": [
+      "osi_model",
+      "session_layer"
+    ],
+    "application_layer": [
+      "osi_model",
+      "presentation_layer"
+    ],
+    "tcp_ip_model": [
+      "osi_model",
+      "network_layer",
+      "transport_layer"
+    ],
+    "framing": [
+      "data_link_layer"
+    ],
+    "character_stuffing": [
+      "framing"
+    ],
+    "bit_stuffing": [
+      "framing"
+    ],
+    "physical_addressing": [
+      "data_link_layer"
+    ],
+    "data_link_flow_control": [
+      "data_link_layer"
+    ],
+    "data_link_error_control": [
+      "data_link_layer"
+    ],
+    "checksum": [
+      "data_link_error_control"
+    ],
+    "crc": [
+      "data_link_error_control"
+    ],
+    "media_access_control": [
+      "data_link_layer"
+    ],
+    "logical_addressing": [
+      "network_layer",
+      "physical_addressing"
+    ],
+    "ipv4": [
+      "logical_addressing"
+    ],
+    "ipv6": [
+      "logical_addressing"
+    ],
+    "ipv4_address_space": [
+      "ipv4"
+    ],
+    "binary_ip_notation": [
+      "ipv4"
+    ],
+    "dotted_decimal_notation": [
+      "ipv4"
+    ],
+    "classful_addressing": [
+      "ipv4_address_space"
+    ],
+    "class_a": [
+      "classful_addressing"
+    ],
+    "class_b": [
+      "classful_addressing"
+    ],
+    "class_c": [
+      "classful_addressing"
+    ],
+    "class_d": [
+      "classful_addressing"
+    ],
+    "class_e": [
+      "classful_addressing"
+    ],
+    "netid_hostid": [
+      "classful_addressing"
+    ],
+    "default_mask": [
+      "netid_hostid"
+    ],
+    "classless_addressing": [
+      "ipv4",
+      "default_mask"
+    ],
+    "cidr": [
+      "classless_addressing"
+    ],
+    "subnetting": [
+      "cidr",
+      "classless_addressing"
+    ],
+    "supernetting": [
+      "cidr",
+      "classless_addressing"
+    ],
+    "network_address": [
+      "cidr"
+    ],
+    "host_address": [
+      "cidr"
+    ],
+    "private_ip": [
+      "ipv4"
+    ],
+    "public_ip": [
+      "ipv4"
+    ],
+    "nat": [
+      "ipv4",
+      "private_ip",
+      "public_ip"
+    ],
+    "mtu": [
+      "network_layer"
+    ],
+    "address_mapping": [
+      "logical_addressing",
+      "physical_addressing"
+    ],
+    "arp": [
+      "address_mapping",
+      "ipv4"
+    ],
+    "rarp": [
+      "address_mapping",
+      "ipv4"
+    ],
+    "bootp": [
+      "rarp",
+      "address_mapping"
+    ],
+    "dhcp": [
+      "bootp",
+      "ipv4",
+      "client_server_model"
+    ],
+    "icmp": [
+      "ipv4",
+      "network_layer"
+    ],
+    "igmp": [
+      "ipv4",
+      "network_layer"
+    ],
+    "routing": [
+      "network_layer",
+      "logical_addressing"
+    ],
+    "distance_vector_routing": [
+      "routing"
+    ],
+    "count_to_infinity": [
+      "distance_vector_routing"
+    ],
+    "link_state_routing": [
+      "routing"
+    ],
+    "shortest_path": [
+      "link_state_routing"
+    ],
+    "routing_table": [
+      "routing",
+      "shortest_path"
+    ],
+    "process_to_process_delivery": [
+      "transport_layer",
+      "network_layer"
+    ],
+    "client_server_model": [
+      "process_to_process_delivery"
+    ],
+    "port_number": [
+      "process_to_process_delivery"
+    ],
+    "socket_address": [
+      "ipv4",
+      "port_number"
+    ],
+    "udp": [
+      "transport_layer",
+      "port_number"
+    ],
+    "udp_connectionless_service": [
+      "udp"
+    ],
+    "udp_checksum": [
+      "udp"
+    ],
+    "udp_queuing": [
+      "udp",
+      "port_number"
+    ],
+    "tcp": [
+      "transport_layer",
+      "port_number"
+    ],
+    "tcp_segment": [
+      "tcp"
+    ],
+    "tcp_sequence_number": [
+      "tcp_segment"
+    ],
+    "tcp_acknowledgment": [
+      "tcp_sequence_number"
+    ],
+    "tcp_flow_control": [
+      "tcp",
+      "tcp_acknowledgment"
+    ],
+    "tcp_reliability": [
+      "tcp",
+      "tcp_acknowledgment"
+    ],
+    "tcp_three_way_handshake": [
+      "tcp",
+      "tcp_sequence_number",
+      "tcp_acknowledgment"
+    ],
+    "tcp_connection_establishment": [
+      "tcp_three_way_handshake"
+    ],
+    "tcp_data_transfer": [
+      "tcp_connection_establishment",
+      "tcp_flow_control"
+    ],
+    "tcp_connection_termination": [
+      "tcp_data_transfer"
+    ],
+    "tcp_four_way_handshake": [
+      "tcp_connection_termination"
+    ],
+    "congestion": [
+      "tcp",
+      "network_layer"
+    ],
+    "congestion_control": [
+      "congestion"
+    ],
+    "open_loop_congestion_control": [
+      "congestion_control"
+    ],
+    "closed_loop_congestion_control": [
+      "congestion_control"
+    ],
+    "quality_of_service": [
+      "network_layer",
+      "transport_layer"
+    ],
+    "qos_scheduling": [
+      "quality_of_service"
+    ],
+    "fifo_scheduling": [
+      "qos_scheduling"
+    ],
+    "priority_queuing": [
+      "qos_scheduling"
+    ],
+    "weighted_fair_queuing": [
+      "qos_scheduling"
+    ],
+    "traffic_shaping": [
+      "quality_of_service"
+    ],
+    "leaky_bucket": [
+      "traffic_shaping"
+    ],
+    "token_bucket": [
+      "traffic_shaping"
+    ],
+    "admission_control": [
+      "quality_of_service"
+    ],
+    "resource_reservation": [
+      "quality_of_service"
+    ],
+    "domain_name_system": [
+      "application_layer",
+      "client_server_model"
+    ],
+    "namespace": [
+      "domain_name_system"
+    ],
+    "domain_name_space": [
+      "namespace"
+    ],
+    "fqdn": [
+      "domain_name_space"
+    ],
+    "pqdn": [
+      "domain_name_space"
+    ],
+    "dns_resolution": [
+      "domain_name_system",
+      "udp",
+      "ipv4"
+    ],
+    "remote_logging": [
+      "application_layer",
+      "client_server_model"
+    ],
+    "telnet": [
+      "remote_logging",
+      "tcp",
+      "port_number"
+    ],
+    "network_virtual_terminal": [
+      "telnet"
+    ],
+    "electronic_mail": [
+      "application_layer",
+      "client_server_model"
+    ],
+    "email_architecture": [
+      "electronic_mail"
+    ],
+    "user_agent": [
+      "email_architecture"
+    ],
+    "message_transfer_agent": [
+      "email_architecture"
+    ],
+    "message_access_agent": [
+      "email_architecture"
+    ],
+    "mime": [
+      "electronic_mail"
+    ],
+    "smtp": [
+      "electronic_mail",
+      "tcp"
+    ],
+    "file_transfer_protocol": [
+      "application_layer",
+      "client_server_model",
+      "tcp"
+    ],
+    "ftp": [
+      "file_transfer_protocol"
+    ],
+    "world_wide_web": [
+      "application_layer",
+      "client_server_model"
+    ],
+    "url": [
+      "world_wide_web"
+    ],
+    "http": [
+      "world_wide_web",
+      "tcp",
+      "url"
+    ],
+    "http_request": [
+      "http"
+    ],
+    "http_response": [
+      "http"
+    ],
+    "cookies": [
+      "http",
+      "world_wide_web"
+    ],
+    "html": [
+      "world_wide_web"
+    ],
+    "cgi": [
+      "html",
+      "http"
+    ],
+    "javascript": [
+      "html",
+      "http"
+    ],
+    "network_management": [
+      "application_layer",
+      "client_server_model"
+    ],
+    "snmp": [
+      "network_management",
+      "udp"
+    ],
+    "snmp_manager_agent": [
+      "snmp"
+    ],
+    "mib": [
+      "snmp",
+      "snmp_manager_agent"
+    ],
+    "socket_programming": [
+      "network_layer",
+      "transport_layer",
+      "port_number",
+      "socket_address"
+    ],
+    "socket": [
+      "socket_programming"
+    ],
+    "datagram_socket": [
+      "socket",
+      "udp"
+    ],
+    "stream_socket": [
+      "socket",
+      "tcp"
+    ],
+    "socket_create": [
+      "socket"
+    ],
+    "socket_bind": [
+      "socket_create",
+      "socket_address"
+    ],
+    "socket_listen": [
+      "socket_bind",
+      "stream_socket"
+    ],
+    "socket_connect": [
+      "socket_create",
+      "stream_socket",
+      "socket_address"
+    ],
+    "socket_accept": [
+      "socket_listen",
+      "socket_connect"
+    ],
+    "socket_send": [
+      "socket_connect",
+      "socket_accept"
+    ],
+    "socket_receive": [
+      "socket_connect",
+      "socket_accept"
+    ],
+    "socket_close": [
+      "socket_send",
+      "socket_receive"
+    ]
+  }
+}

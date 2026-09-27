@@ -1,29 +1,51 @@
 {
   "operating_systems": [
     {
-      "filename": "reddy.pdf",
+      "filename": "os_1.pdf",
       "size_bytes": 4094506,
-      "uploaded_at": "2026-09-22 14:25"
+      "uploaded_at": "2026-09-23 00:04"
     },
     {
-      "filename": "reddy2.pdf",
+      "filename": "os_2.pdf",
       "size_bytes": 10250862,
-      "uploaded_at": "2026-09-22 14:25"
+      "uploaded_at": "2026-09-23 00:04"
     },
     {
-      "filename": "reddy3.pdf",
+      "filename": "os_3.pdf",
       "size_bytes": 6579225,
-      "uploaded_at": "2026-09-22 14:25"
+      "uploaded_at": "2026-09-23 00:04"
     },
     {
-      "filename": "reddy4.pdf",
+      "filename": "os_4.pdf",
       "size_bytes": 1987115,
-      "uploaded_at": "2026-09-22 14:25"
+      "uploaded_at": "2026-09-23 00:04"
     },
     {
-      "filename": "reddy5.pdf",
+      "filename": "os_5.pdf",
       "size_bytes": 3352603,
-      "uploaded_at": "2026-09-22 14:25"
+      "uploaded_at": "2026-09-23 00:04"
+    }
+  ],
+  "computer_networks": [
+    {
+      "filename": "cn_1.pdf",
+      "size_bytes": 2942193,
+      "uploaded_at": "2026-09-26 14:45"
+    },
+    {
+      "filename": "cn_3.pdf",
+      "size_bytes": 3444177,
+      "uploaded_at": "2026-09-26 14:45"
+    },
+    {
+      "filename": "cn_4.pdf",
+      "size_bytes": 2469713,
+      "uploaded_at": "2026-09-26 14:45"
+    },
+    {
+      "filename": "cn_5.pdf",
+      "size_bytes": 1061726,
+      "uploaded_at": "2026-09-26 14:45"
     }
   ]
 }

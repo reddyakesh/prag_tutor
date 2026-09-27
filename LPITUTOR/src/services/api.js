@@ -124,8 +124,8 @@ export const studentService = {
     });
     return res.data;
   },
-  getHistory: async (studentId = 'STU001') => {
-    const res = await api.get(`/student/history?student_id=${studentId}`);
+  getHistory: async (studentId = 'STU001', subject = 'operating_systems') => {
+    const res = await api.get(`/student/history?student_id=${studentId}&subject=${subject}`);
     return res.data;
   },
   markLearned: async (studentId = 'STU001', subject = 'operating_systems', topic = '') => {

@@ -32,6 +32,8 @@ export const StudentDashboard = () => {
     { query: "Explain CPU scheduling algorithms", topic: "cpu_scheduling", timestamp: "Yesterday" }
   ]);
 
+  const [selectedSubject, setSelectedSubject] = useState('operating_systems');
+
   useEffect(() => {
     studentService.getSubjects()
       .then(res => {
@@ -41,16 +43,18 @@ export const StudentDashboard = () => {
         }
       })
       .catch(err => console.warn('Using fallback subjects', err));
+  }, []);
 
-    studentService.getHistory(user?.id || 'STU001')
+  useEffect(() => {
+    studentService.getHistory(user?.id || 'STU001', selectedSubject)
       .then(res => {
         if (res) {
-          if (res.recent_queries && res.recent_queries.length > 0) setHistory(res.recent_queries);
-          if (res.completed_topics) setCompletedTopics(res.completed_topics);
+          if (res.recent_queries) setHistory(res.recent_queries);
+          setCompletedTopics(res.known_topics || res.completed_topics || []);
         }
       })
       .catch(err => console.warn('Using fallback history', err));
-  }, [user]);
+  }, [user, selectedSubject]);
 
   const openTutorForSubject = (subjectId) => {
     navigate(`/student/chat?subject=${subjectId}`);
@@ -75,29 +79,48 @@ export const StudentDashboard = () => {
           
           <div className="pt-2 flex flex-wrap gap-3">
             <button
-              onClick={() => openTutorForSubject('operating_systems')}
+              onClick={() => openTutorForSubject(selectedSubject)}
               className="px-5 py-3 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold text-xs shadow-lg shadow-blue-500/25 flex items-center gap-2 group transition-all"
             >
-              <Bot className="w-4 h-4" /> Launch PragTutor AI Chat
+              <Bot className="w-4 h-4" /> Launch PragTutor AI Chat ({selectedSubject.replace('_', ' ').toUpperCase()})
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
         </div>
       </div>
 
-      {/* Student Known Topics Badge / Section */}
-      <div className="glass-card rounded-2xl border border-slate-800 p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center">
-            <CheckCircle2 className="w-5 h-5" />
+      {/* Student Known Topics Badge / Section with Subject Filter */}
+      <div className="glass-card rounded-2xl border border-slate-800 p-5 space-y-4">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center">
+              <CheckCircle2 className="w-5 h-5" />
+            </div>
+            <div>
+              <h3 className="text-sm font-bold text-white">Student Known Topics (MongoDB Progress)</h3>
+              <p className="text-xs text-slate-400">Mastered prerequisites & learned concepts for {selectedSubject.replace('_', ' ')}</p>
+            </div>
           </div>
-          <div>
-            <h3 className="text-sm font-bold text-white">Student Known Topics</h3>
-            <p className="text-xs text-slate-400">Mastered prerequisites & confirmed learned concepts</p>
+
+          {/* Subject Switcher */}
+          <div className="flex flex-wrap gap-1.5 bg-slate-900/90 p-1.5 rounded-xl border border-slate-800">
+            {subjects.map((s) => (
+              <button
+                key={s.id}
+                onClick={() => setSelectedSubject(s.id)}
+                className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all ${
+                  selectedSubject === s.id
+                    ? 'bg-blue-600 text-white shadow-sm'
+                    : 'text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                {s.name}
+              </button>
+            ))}
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 pt-2 border-t border-slate-800/60">
           {completedTopics.length > 0 ? (
             completedTopics.map((topic, idx) => (
               <span key={idx} className="px-3 py-1 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-semibold">
@@ -106,7 +129,7 @@ export const StudentDashboard = () => {
             ))
           ) : (
             <span className="px-3.5 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-amber-300/80 text-xs font-mono font-medium">
-              Student Known Topics: None
+              Student Known Topics in {selectedSubject.replace('_', ' ')}: None (Ready to begin learning)
             </span>
           )}
         </div>

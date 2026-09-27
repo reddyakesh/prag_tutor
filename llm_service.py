@@ -189,70 +189,31 @@ def generate_gemini_response(
 ) -> str:
     model_name = os.environ.get("GEMINI_MODEL", os.environ.get("LLM_MODEL", DEFAULT_GEMINI_MODEL))
 
-    # 1. Try google-genai (newer SDK)
-    try:
-        from google import genai
-        client = genai.Client(api_key=api_key)
-        contents = [prompt]
-        if multimodal_context and multimodal_context.get("has_images"):
-            for img_detail in multimodal_context.get("image_details", []):
-                data_uri = img_detail.get("full_data_uri") or img_detail.get("data_uri", "")
-                if data_uri and "base64," in data_uri:
-                    b64_data = data_uri.split("base64,")[1].strip()
-                    missing_padding = len(b64_data) % 4
-                    if missing_padding:
-                        b64_data += "=" * (4 - missing_padding)
-                    image_bytes = base64.b64decode(b64_data)
-                    contents.append(genai.types.Part.from_bytes(data=image_bytes, mime_type="image/png"))
-
-        response = client.models.generate_content(
-            model=model_name,
-            contents=contents
-        )
-        return response.text
-    except ImportError:
-        pass
-    except Exception as err:
-        pass
-
-    # 2. Try google.generativeai (classic SDK)
-    try:
-        import google.generativeai as genai
-        from PIL import Image
-
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel(model_name)
-        contents = [prompt]
-
-        if multimodal_context and multimodal_context.get("has_images"):
-            for img_detail in multimodal_context.get("image_details", []):
-                data_uri = img_detail.get("full_data_uri") or img_detail.get("data_uri", "")
-                if data_uri and "base64," in data_uri:
-                    try:
-                        b64_data = data_uri.split("base64,")[1].strip()
-                        missing_padding = len(b64_data) % 4
-                        if missing_padding:
-                            b64_data += "=" * (4 - missing_padding)
-                        image_bytes = base64.b64decode(b64_data)
-                        pil_img = Image.open(io.BytesIO(image_bytes))
-                        contents.append(pil_img)
-                    except Exception as img_err:
-                        print(f"Warning: Failed to parse image for Gemini SDK: {img_err}")
-
-        response = model.generate_content(contents)
-        return response.text
-    except ImportError:
-        pass
-    except Exception as err:
-        pass
-
-    # 3. Fallback to urllib direct REST API call
-    return generate_gemini_via_rest(
+    # Fast REST generator using urllib with timeouts and model fallback
+    res = generate_gemini_via_rest(
         prompt=prompt,
         multimodal_context=multimodal_context,
         api_key=api_key,
         model_name=model_name
     )
+    if res and not res.startswith("[Gemini LLM Error"):
+        return res
+
+    # SDK Try fallback
+    try:
+        from google import genai
+        client = genai.Client(api_key=api_key)
+        contents = [prompt]
+        response = client.models.generate_content(
+            model=model_name,
+            contents=contents
+        )
+        if response.text:
+            return response.text
+    except Exception:
+        pass
+
+    return res or "[Gemini API]: Unable to connect to Gemini API service."
 
 
 # ============================================================

@@ -19,7 +19,15 @@ os.chdir(ROOT_DIR)
 
 # Import existing working backend logic (DO NOT REWRITE)
 import pragtutor_backend
-from student_database import get_student
+from student_database import (
+    get_student, 
+    mark_topic_as_learned, 
+    get_student_progress,
+    teachers_col, 
+    students_col, 
+    progress_col,
+    IS_MONGO_CONNECTED
+)
 
 app = FastAPI(title="PragTutor API Adapter", version="2.0.0")
 
@@ -37,6 +45,11 @@ IMAGES_DIR = os.path.join(ROOT_DIR, "images")
 if not os.path.exists(IMAGES_DIR):
     os.makedirs(IMAGES_DIR, exist_ok=True)
 app.mount("/images", StaticFiles(directory=IMAGES_DIR), name="images")
+
+MEDIA_DIR = os.path.join(ROOT_DIR, "media")
+if not os.path.exists(MEDIA_DIR):
+    os.makedirs(MEDIA_DIR, exist_ok=True)
+app.mount("/media", StaticFiles(directory=MEDIA_DIR), name="media")
 
 DATA_DIR = os.path.join(ROOT_DIR, "data")
 SUBJECTS_FILE = os.path.join(DATA_DIR, "subjects.json")
@@ -85,13 +98,49 @@ def normalize_subject_id(sub: str) -> str:
 
 def load_users():
     global USERS_DB, TEACHERS_DB, STUDENTS_DB
-    if os.path.exists(USERS_FILE):
+    USERS_DB = {}
+    TEACHERS_DB = []
+    STUDENTS_DB = []
+
+    # 1. Load from MongoDB if available
+    from student_database import IS_MONGO_CONNECTED, teachers_col, students_col
+    loaded_from_mongo = False
+    if IS_MONGO_CONNECTED and teachers_col is not None and students_col is not None:
+        try:
+            m_teachers = list(teachers_col.find({}))
+            m_students = list(students_col.find({}))
+            for t in m_teachers:
+                t.pop("_id", None)
+                TEACHERS_DB.append(t)
+                t_email = t.get("email") or t.get("id") or t.get("teacher_id")
+                if t_email:
+                    USERS_DB[t_email] = t
+            for s in m_students:
+                s.pop("_id", None)
+                STUDENTS_DB.append(s)
+                s_email = s.get("email") or s.get("id") or s.get("student_id")
+                if s_email:
+                    USERS_DB[s_email] = s
+            if m_teachers or m_students:
+                loaded_from_mongo = True
+        except Exception as e:
+            print(f"Notice: Loading users from MongoDB: {e}")
+
+    # 2. If MongoDB is empty or disconnected, load from users.json and sync into MongoDB
+    if not loaded_from_mongo and os.path.exists(USERS_FILE):
         try:
             with open(USERS_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 USERS_DB = data.get("users", {})
                 TEACHERS_DB = data.get("teachers", [])
                 STUDENTS_DB = data.get("students", [])
+
+                # Sync users.json into MongoDB
+                if IS_MONGO_CONNECTED and teachers_col is not None and students_col is not None:
+                    for t in TEACHERS_DB:
+                        teachers_col.update_one({"email": t["email"]}, {"$set": t}, upsert=True)
+                    for s in STUDENTS_DB:
+                        students_col.update_one({"email": s["email"]}, {"$set": s}, upsert=True)
                 return
         except Exception as e:
             print(f"Error loading users.json: {e}")
@@ -99,6 +148,18 @@ def load_users():
 
 def save_users():
     os.makedirs(DATA_DIR, exist_ok=True)
+    # Save to MongoDB
+    from student_database import IS_MONGO_CONNECTED, teachers_col, students_col
+    if IS_MONGO_CONNECTED and teachers_col is not None and students_col is not None:
+        try:
+            for t in TEACHERS_DB:
+                teachers_col.update_one({"email": t["email"]}, {"$set": t}, upsert=True)
+            for s in STUDENTS_DB:
+                students_col.update_one({"email": s["email"]}, {"$set": s}, upsert=True)
+        except Exception as e:
+            print(f"Error persisting users to MongoDB: {e}")
+
+    # Also persist to users.json file as backup
     try:
         with open(USERS_FILE, "w", encoding="utf-8") as f:
             json.dump({
@@ -219,6 +280,9 @@ def get_knowledge_base_monitors():
 
         pdf_count = len([p for p in uploaded_pdfs if p["subject_id"] == sub_id])
         
+        from visual_processor import load_visual_metadata
+        img_count = len(load_visual_metadata(sub_id))
+
         b_info = BUILD_STATUSES.get(sub_id, {})
         status = b_info.get("status")
         if not status:
@@ -226,7 +290,7 @@ def get_knowledge_base_monitors():
         
         stage = b_info.get("stage")
         if not stage:
-            stage = "ChromaDB Collection Indexed & Ready" if vector_count > 0 else "No Knowledge Base Created"
+            stage = "ChromaDB Collection & Visuals Ready" if vector_count > 0 else "No Knowledge Base Created"
 
         kb_monitors.append({
             "subject_id": sub_id,
@@ -234,6 +298,7 @@ def get_knowledge_base_monitors():
             "collection_name": col_name,
             "pdf_count": pdf_count,
             "vector_chunks": vector_count,
+            "extracted_images": img_count,
             "status": status,
             "stage": stage
         })
@@ -391,6 +456,8 @@ def verify_otp_register(req: OTPVerifyRequest):
 
     user_obj = {
         "id": user_id,
+        "teacher_id": user_id if role == "teacher" else None,
+        "student_id": user_id if role == "student" else None,
         "name": name,
         "email": email,
         "password": req.password,
@@ -398,8 +465,11 @@ def verify_otp_register(req: OTPVerifyRequest):
         "department": dept,
         "subjects": assigned_subs,
         "assigned_subjects": assigned_subs,
+        "selected_subjects": assigned_subs if role == "student" else [],
         "access_granted": True,
         "status": "active",
+        "account_status": "active",
+        "created_at": time.strftime("%Y-%m-%d %H:%M:%S"),
         "joined_date": time.strftime("%Y-%m-%d")
     }
 
@@ -407,8 +477,24 @@ def verify_otp_register(req: OTPVerifyRequest):
 
     if role == "teacher":
         TEACHERS_DB.append(user_obj)
+        if IS_MONGO_CONNECTED and teachers_col is not None:
+            try:
+                teachers_col.update_one({"email": email}, {"$set": user_obj}, upsert=True)
+            except Exception as e:
+                print(f"Error saving teacher to MongoDB: {e}")
     else:
         STUDENTS_DB.append(user_obj)
+        if IS_MONGO_CONNECTED and students_col is not None:
+            try:
+                students_col.update_one({"email": email}, {"$set": user_obj}, upsert=True)
+            except Exception as e:
+                print(f"Error saving student to MongoDB: {e}")
+
+        # Initialize student_progress for student's subjects (or operating_systems by default)
+        from student_database import get_student_progress
+        target_subs = assigned_subs if assigned_subs else ["operating_systems"]
+        for sub_item in target_subs:
+            get_student_progress(user_id, sub_item)
 
     save_users()
     del PENDING_OTPS[email]
@@ -536,6 +622,7 @@ def get_admin_dashboard():
         },
         "subjects": subjects,
         "teachers": TEACHERS_DB,
+        "students": STUDENTS_DB,
         "uploaded_pdfs": uploaded_pdfs,
         "knowledge_bases": kb_monitors,
         "recent_activity": ACTIVITY_LOGS[:10]
@@ -544,6 +631,10 @@ def get_admin_dashboard():
 @app.get("/api/admin/teachers")
 def get_admin_teachers():
     return {"teachers": TEACHERS_DB}
+
+@app.get("/api/admin/students")
+def get_admin_students():
+    return {"students": STUDENTS_DB}
 
 @app.patch("/api/admin/teachers/{teacher_id}/access")
 def toggle_teacher_access(teacher_id: str, update: TeacherAccessUpdate):
@@ -560,6 +651,7 @@ def toggle_teacher_access(teacher_id: str, update: TeacherAccessUpdate):
                 "role": "ADMIN",
                 "action": f"Admin {action} teacher {t['name']}"
             })
+            save_users()
             return {"status": "success", "teacher": t}
     raise HTTPException(status_code=404, detail="Teacher not found")
 
@@ -568,8 +660,11 @@ def toggle_teacher_status(teacher_id: str, update: TeacherStatusUpdate):
     for t in TEACHERS_DB:
         if t["id"] == teacher_id:
             t["status"] = update.status
+            t["account_status"] = update.status
             if t["email"] in USERS_DB:
                 USERS_DB[t["email"]]["status"] = update.status
+                USERS_DB[t["email"]]["account_status"] = update.status
+            save_users()
             ACTIVITY_LOGS.insert(0, {
                 "id": len(ACTIVITY_LOGS) + 1,
                 "timestamp": time.strftime("%Y-%m-%d %H:%M"),
@@ -1055,7 +1150,7 @@ class MarkLearnedRequest(BaseModel):
 @app.post("/api/student/complete_topic")
 def mark_student_topic_learned(req: MarkLearnedRequest):
     from student_database import mark_topic_as_learned
-    updated_student = mark_topic_as_learned(req.student_id, req.topic)
+    updated_student = mark_topic_as_learned(req.student_id, req.topic, subject=req.subject)
     
     ACTIVITY_LOGS.insert(0, {
         "id": len(ACTIVITY_LOGS) + 1,
@@ -1067,9 +1162,11 @@ def mark_student_topic_learned(req: MarkLearnedRequest):
 
     return {
         "status": "success",
-        "message": f"Successfully marked '{req.topic}' as learned.",
+        "message": f"Successfully marked '{req.topic}' as learned in {req.subject}.",
         "student_id": req.student_id,
-        "completed_topics": updated_student.get("completed_topics", [])
+        "subject": req.subject,
+        "completed_topics": updated_student.get("completed_topics", []),
+        "known_topics": updated_student.get("known_topics", [])
     }
 
 @app.get("/api/student/subjects")
@@ -1140,17 +1237,23 @@ def chat_answer(req: QueryRequest):
         "learning_path": result.get("learning_path", []),
         "sources": result.get("retrieved_content") or [],
         "images": result.get("retrieved_images") or [],
+        "retrieved_images": result.get("retrieved_images") or [],
+        "generated_visual": result.get("generated_visual"),
         "status": result.get("status", "success"),
         "message": result.get("message")
     }
 
 @app.get("/api/student/history")
-def get_student_history(student_id: str = "STU001"):
-    data = get_student(student_id)
+def get_student_history(student_id: str = "STU001", subject: Optional[str] = "operating_systems"):
+    data = get_student(student_id, subject=subject)
     return {
         "student_id": student_id,
+        "subject": subject,
+        "known_topics": data.get("known_topics", []),
         "completed_topics": data.get("completed_topics", []),
-        "recent_queries": []
+        "in_progress_topics": data.get("in_progress_topics", []),
+        "topic_progress": data.get("topic_progress", {}),
+        "recent_queries": data.get("query_history", [])
     }
 
 if __name__ == "__main__":
