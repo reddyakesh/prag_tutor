@@ -211,6 +211,7 @@ def prepare_knowledge_base(subject_id: str = "operating_systems", status_callbac
         filename = os.path.basename(pdf_path)
         unit_name = get_unit_name(filename)
         pages = extract_pdf_pages(pdf_path)
+        #creating chunks
         chunks = create_chunks(pages, unit_name, filename)
         all_chunks.extend(chunks)
 
